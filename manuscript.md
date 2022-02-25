@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: Dissertation
 keywords:
 - markdown
 - publishing
@@ -7,18 +7,17 @@ keywords:
 lang: en-US
 date-meta: '2022-02-25'
 author-meta:
-- John Doe
-- Jane Roe
+- Michael
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Dissertation" />
+  <meta name="citation_title" content="Dissertation" />
+  <meta property="og:title" content="Dissertation" />
+  <meta property="twitter:title" content="Dissertation" />
   <meta name="dc.date" content="2022-02-25" />
   <meta name="citation_publication_date" content="2022-02-25" />
   <meta name="dc.language" content="en-US" />
@@ -27,23 +26,19 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Michael" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://scherzerthesis.github.io/thesis/" />
   <meta property="og:url" content="https://scherzerthesis.github.io/thesis/" />
   <meta property="twitter:url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/9a22fab4497f80f501ea361d028f26888ad9d5a0/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/9a22fab4497f80f501ea361d028f26888ad9d5a0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/9a22fab4497f80f501ea361d028f26888ad9d5a0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/749b0f8cd188aca275c6b5ab87ddd8ec49e5225e/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/749b0f8cd188aca275c6b5ab87ddd8ec49e5225e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/749b0f8cd188aca275c6b5ab87ddd8ec49e5225e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/9a22fab4497f80f501ea361d028f26888ad9d5a0/))
+([permalink](https://scherzerthesis.github.io/thesis/v/749b0f8cd188aca275c6b5ab87ddd8ec49e5225e/))
 was automatically generated
-from [scherzerthesis/thesis@9a22fab](https://github.com/scherzerthesis/thesis/tree/9a22fab4497f80f501ea361d028f26888ad9d5a0)
+from [scherzerthesis/thesis@749b0f8](https://github.com/scherzerthesis/thesis/tree/749b0f8cd188aca275c6b5ab87ddd8ec49e5225e)
 on February 25, 2022.
 </em></small>
 
@@ -75,7 +70,7 @@ on February 25, 2022.
 
 
 
-+ **John Doe**<br>
++ **Michael**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
@@ -87,18 +82,24 @@ on February 25, 2022.
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
-  </small>
+
+
+## Chapter One {.page_break_before}
 
 
 
-## Abstract {.page_break_before}
+
+## Chapter Two {.page_break_before}
+
+
+
+
+## Chapter Three {.page_break_before}
+
+
+
+
+## Chapter Four {.page_break_before}
 
 
 
