@@ -256,6 +256,17 @@ content/02.tubaseq.md:22:CRISPR
 content/02.tubaseq.md:22:immunohistochemistry
 content/02.tubaseq.md:22:immunohistochemistry
 content/02.tubaseq.md:22:RNAs
+content/02.tubaseq.md:24:BRAF
+content/02.tubaseq.md:24:BRAF
+content/02.tubaseq.md:24:Cre
+content/02.tubaseq.md:24:Cre
+content/02.tubaseq.md:24:Cre
+content/02.tubaseq.md:24:Heterozygous
+content/02.tubaseq.md:24:homozygous
+content/02.tubaseq.md:24:Hotspot
+content/02.tubaseq.md:24:Recombinase
+content/02.tubaseq.md:24:tumorigenesis
+content/02.tubaseq.md:24:wildtype
 content/03.p53.md:5:adenocarcinomas
 content/03.p53.md:5:ARF
 content/03.p53.md:5:BRAF
