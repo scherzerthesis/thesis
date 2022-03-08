@@ -13,7 +13,7 @@ BRAF
 BRAFi
 CAAX
 Carboplatin
-CAS
+Cas
 catenin
 CDKN
 cDNA
@@ -32,16 +32,16 @@ Dankort
 decameric
 dedifferentiated
 dedifferentiation
-differentially
+Differentially
 DMBA
 DMP
 doublings
 dysregulation
-ectopic
+Ectopic
 EGF
 EGFR
 endoing
-ERK
+erk
 fide
 flfl
 fluorophore
@@ -67,7 +67,7 @@ HMGA
 homologue
 homologues
 homozygous
-Hotspot
+hotspot
 hotspots
 Hyperactivation
 IHC
@@ -136,7 +136,7 @@ preclinical
 proliferative
 proto
 radiograph
-ras
+RAS
 Rbm
 rcode
 recombinase
@@ -174,7 +174,7 @@ transcriptomes
 transcriptomic
 transformative
 TRK
-Trp
+trp
 tumorigenesis
 tumorigenic
 Tyrosine
@@ -184,6 +184,6 @@ vitro
 vivo
 wildtype
 Winslow
-wnt
+WNT
 XXXX
 XXXXXXXX
