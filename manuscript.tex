@@ -1,8 +1,8 @@
 This manuscript
-(\href{https://scherzerthesis.github.io/thesis/v/852523248b1b0d8eaf8ca6a0e57ff961b5320e2e/}{permalink})
+(\href{https://scherzerthesis.github.io/thesis/v/6d999790895a2c1e1221abb5b70c9b11f5d4b2e5/}{permalink})
 was automatically generated
-from \href{https://github.com/scherzerthesis/thesis/tree/852523248b1b0d8eaf8ca6a0e57ff961b5320e2e}{scherzerthesis/thesis@8525232}
-on March 7, 2022.
+from \href{https://github.com/scherzerthesis/thesis/tree/6d999790895a2c1e1221abb5b70c9b11f5d4b2e5}{scherzerthesis/thesis@6d99979}
+on March 8, 2022.
 
 \hypertarget{authors}{%
 \subsection{Authors}\label{authors}}
@@ -97,6 +97,9 @@ The cellular mechanisms that GOF P53 are involved in are also well-characterized
 \hypertarget{chapter-two}{%
 \subsection{Chapter Two}\label{chapter-two}}
 
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
 \textbf{Quantitative tumor burden and small library screen using TUBA-SEQ}
 
 Genetic sequencing has allowed for the unbiased identification of genes that are mutated in human cancer. The wealth of knowledge gained from such large-scale sequencing endeavors has revealed actionable mutations that can be targeted with small molecules. However, in highly mutated cancers, such as melanoma and lung cancer, recurrent mutations are not necessarily predictive of biological importance. To better understand the importance of candidate tumor suppressors or oncogenes, researchers exploit tumor cell lines and GEMMs to identify bona-fide genetic drivers of cancer. However, these systems are suboptimal, as they are either not physiologically relevant (tissue culture) or are not scalable to determine the effect of many mutations (GEMMs).
@@ -105,7 +108,8 @@ Recently, Monte Winslow and his lab at Stanford University has developed \textbf
 
 The initiation of lung tumors with pools of barcoded Lenti-sgRNA/Cre viral vectors 96 enables the generation of many tumors of different genotypes in parallel. All neoplastic cells 97 within each clonal tumor have the same two-component barcode, in which an sgID region 98 identifies the sgRNA and a random barcode (BC) is unique to each tumor. Thus, high-throughput 99 sequencing of the sgID-BC region from bulk tumor-bearing lungs can quantify the number of 100 neoplastic cells in each tumor of each genotype(28). Previous Tuba-seq studies quantify tumor 101 suppressor effects and their interaction with other tumor suppressor genes, focusing only on 102 comparisons within mice(28-30). Comparisons of tumor distributions across mice are more 103 challenging and required improvements in accuracy as well as new analytical methods. Winslow 2021
 
-Results
+\hypertarget{results}{%
+\section{Results}\label{results}}
 
 \textbf{TUBA-SEQ to uncover the contribution of tumor suppressor loss on BRAF (V600E) lung tumors}
 
@@ -115,13 +119,56 @@ In determine the size of BRAF (V600E) tumors and the contribution of 11 tumor su
 
 Gross histologic images of experimental lungs are show an increase in tumor burden with both time (Figure xxx) and CAS9 status (figure xxx). Therefore, based on macroscopic inspection, at least one tumor suppressor appeared to cooperate with BRAF (V600E) to increase tumor burden. In order to determine the fitness landscape of any one particular tumor suppressor, we calculated the relative number of tumor cells in a given tumor using the TUBA-SEQ genomics pipeline. After 8 weeks post tumor initiation there no statistically significant contribution of tumor suppressor loss. SETD2 loss was trending towards statistical significance. However, 16 weeks post initiation revealed both SETD2 loss and APC loss cooperated with BRAF (V600E) to form larger, more malignant tumors. APC loss was a suspected hit as we have previously shown that activation of Wnt-beta-catenin signaling promoted BRAF(V600E) tumorigenesis. As APC loss is predicted to increase the activity of Beta-catenin signaling, this result was unsurprising to us. However, loss of SETD2 was a novel finding in the context of BRAF (V600E) lung tumorigenesis.
 
-Given our findings of SETD2 loss increased tumor burden concurrent with BRAF(V600E) we next validated SETD2 in a new cohort of mice with single-guide RNAs targeting SETD2. Indeed, loss of SETD2 increased tumor burden from 5\% to over 30\% in some animals. Since SETD2 antibodies are unreliable in both western blots and immunohistochemistry we used H3K36me3 as a surrogate marker for SETD2 activity by immunohistochemistry. Whereas 90\% of nuclei in BRAF (V600E) only tumors were H3K36me3, more than 60\% tumors of mice infected with SETD2 CRISPR virus were negative for H3K36me3. Furthermore, when classified by H3K36me3-positive or -negative, there is even stronger evidence that SETD2 loss leads to larger tumor formation.
+Given our findings of SETD2 loss increased tumor burden concurrent with BRAF(V600E) we next validated SETD2 in a new cohort of mice with single-guide RNAs targeting SETD2. Indeed, loss of SETD2 increased tumor burden from 5\% to over 30\% in some animals. Since SETD2 antibodies are unreliable in both western blots and immunohistochemistry we used H3K36me3 as a surrogate marker for SETD2 activity by immunohistochemistry. Whereas 90\% of nuclei in BRAF (V600E) only tumors were H3K36me3, more than 60\% tumors of mice infected with SETD2 CRISPR virus were negative for H3K36me3. Furthermore, when classified by H3K36me3-positive or -negative, there is even stronger evidence that SETD2 loss leads to larger tumor formation
+
+\hypertarget{discussion}{%
+\section{Discussion}\label{discussion}}
 
 \begin{figure}
 \hypertarget{fig:06}{%
 \centering
-\includegraphics[width=0.75\textwidth,height=\textheight]{images/tubaseq_figure1.svg}
-\caption{\textbf{Differential BRAF\textsuperscript{V600E} lung tumorigenesis imparted by p53-Hotspot mutants.} \textbf{(A)} Genetically-engineered alleles of \emph{Braf\textsuperscript{v600E}} and \textsuperscript{Trp53} before and after Cre-Recombinase. \textbf{(B)} Tumor burden and \emph{(C)}** Tumor size of BRAF(V600E) plus Trp53-wildtype, null, or mutant alleles 14 weeks post Cre-mediated recombination. \emph{(D)} Representative H\&E images 14 weeks after Cre-recombination. \textbf{(E)} Survival of mice with Heterozygous \emph{Trp53} mutant alleles. \textbf{(F)} Survival of mice with homozygous \emph{Trp53} alleles.}\label{fig:06}
+\includegraphics[width=1\textwidth,height=\textheight]{images/tuba1.tiff}
+\caption{\textbf{This is the title of Figure} this is the text.}\label{fig:06}
+}
+\end{figure}
+
+\begin{figure}
+\hypertarget{fig:06}{%
+\centering
+\includegraphics[width=1\textwidth,height=\textheight]{images/tuba1.tiff}
+\caption{\textbf{This is the title of Figure} this is the text.}\label{fig:06}
+}
+\end{figure}
+
+\begin{figure}
+\hypertarget{fig:06}{%
+\centering
+\includegraphics[width=1\textwidth,height=\textheight]{images/tuba1.tiff}
+\caption{\textbf{This is the title of Figure} this is the text.}\label{fig:06}
+}
+\end{figure}
+
+\begin{figure}
+\hypertarget{fig:06}{%
+\centering
+\includegraphics[width=1\textwidth,height=\textheight]{images/tuba1.tiff}
+\caption{\textbf{This is the title of Figure} this is the text.}\label{fig:06}
+}
+\end{figure}
+
+\begin{figure}
+\hypertarget{fig:06}{%
+\centering
+\includegraphics[width=1\textwidth,height=\textheight]{images/tuba5.tiff}
+\caption{\textbf{This is the title of Figure} this is the text.}\label{fig:06}
+}
+\end{figure}
+
+\begin{figure}
+\hypertarget{fig:06}{%
+\centering
+\includegraphics[width=1\textwidth,height=\textheight]{images/tuba1.tiff}
+\caption{\textbf{This is the title of Figure} this is the text.}\label{fig:06}
 }
 \end{figure}
 
@@ -133,8 +180,8 @@ Given our findings of SETD2 loss increased tumor burden concurrent with BRAF(V60
 
 \textsuperscript{TP53} missense BRAF\textsuperscript{V600E} mutations both frequently occur in lung adenocarcinoma. While genetically engineered mouse models (GEMMs) of lung adenocarcinoma are invaluable for understanding the initiation, progression, and response to therapeutics, little is known about how different hotspot point mutations in p53 affect disease progression and therapeutic responses. To this end, we use GEMMs, tumor-derived cell lines, and human lung cancer cell lines to test how murine homologues of p53 hotspot mutants R172H and R245W compare to p53-deletion. We find that conformation mutation p53\textsuperscript{R172H} drives more aggressive lung adenocarcinomas and dedifferentiation. We also observe p53\textsuperscript{R172H} and p53\textsuperscript{R245W} accumulation in only high-grade tumors that have activated ARF expression. In vitro and in vivo studies demonstrate enhanced resistance to BRAF+MEK blockade with p53\textsuperscript{R172H} and p53\textsuperscript{R245W}, a common treatment regimen for BRAF\textsuperscript{V600E} mutant patients. Mechanistically, mutant-p53 alters the transcriptome of cancer cells and enhances entry into the cell cycle.
 
-\hypertarget{introduction}{%
-\subsection{Introduction}\label{introduction}}
+\hypertarget{introduction-1}{%
+\subsection{Introduction}\label{introduction-1}}
 
 Lung adenocarcinoma (LUAD) remains deadliest form of cancer since 1987 (Siegel, Miller et al.~2021). It is characterized by alterations in the MAP kinase (MAPK) pathway, including activating mutations in the oncoproteins EGFR, KRAS (G12C, G12D, G12V) or BRAF\textsuperscript{V600E} (2014; Politi \emph{et al.}, 2006; Jackson \emph{et al.}, 2001; Dankort \emph{et al.}, 2007). The recognized predominant cell of origin for LUAD, lung alveolar type-2 pneumocyte cells (AT2), are exquisitely responsive to the transformative properties of constitutive activation of the MAPK pathway (Sutherland \emph{et al.}, 2014; Sainz de Aja and Kim, 2020). Indeed, conditionally genetically engineered mouse models (GEMMs) of mutationally activated EGFR, KRAS, or BRAF form lung tumors that strongly resemble key characteristics of human LUAD. However, tumors formed in all three models (KRAS:G12D, EGFR: Deletion 19 or L858R, or BRAF:V600E) develop only into histologically low- to mid-grade cancer and are growth arrested (Jackson \emph{et al.}, 2001; Politi \emph{et al.}, 2006; Dankort \emph{et al.}, 2007). Prior research has determined that oncogene-induced tumor growth arrest occurs through activation of several tumor suppression mechanisms, most notably, p53-mediated tumor suppression (Shai \emph{et al.}, 2015).
 
@@ -144,8 +191,8 @@ In BRAF\textsuperscript{V600E} GEMMs, when p53 function is abolished by \emph{Tr
 
 Here, we characterize the differential impact of p53(null), as well as p53 hotspot mutations p53\textsuperscript{R712H} (R175H in humans) and p53\textsuperscript{R245W} (R248W in humans) on BRAF\textsuperscript{V600E} lung tumorigenesis. We observed significantly differential effects of p53-R172H on BRAF\textsuperscript{V600E}-driven lung tumorigenesis that was not observed when p53 is deleted, such as enhanced tumor size and decreased survival. Our findings highlight functional differences in mutant-p53 biology, as well as the importance and the utility of clinically relevant mutant-p53 mouse models.
 
-\hypertarget{results}{%
-\subsection{Results}\label{results}}
+\hypertarget{results-1}{%
+\subsection{Results}\label{results-1}}
 
 \emph{\textbf{P53-mutant Alleles Differentially Alter BRAF (V600E) Lung Tumorigenesis}}
 
@@ -170,7 +217,7 @@ Due to our observations that mutant p53\textsuperscript{R172H} drives more aggre
 \begin{figure}
 \hypertarget{fig:11}{%
 \centering
-\includegraphics[width=0.75\textwidth,height=\textheight]{images/figure1_021022.svg}
+\includegraphics[width=0.75\textwidth,height=\textheight]{images/figure.svg}
 \caption{\textbf{Differential BRAF\textsuperscript{V600E} lung tumorigenesis imparted by p53-Hotspot mutants.} \textbf{(A)} Genetically-engineered alleles of \emph{Braf\textsuperscript{v600E}} and \textsuperscript{Trp53} before and after Cre-Recombinase. \textbf{(B)} Tumor burden and \emph{(C)}** Tumor size of BRAF(V600E) plus Trp53-wildtype, null, or mutant alleles 14 weeks post Cre-mediated recombination. \emph{(D)} Representative H\&E images 14 weeks after Cre-recombination. \textbf{(E)} Survival of mice with Heterozygous \emph{Trp53} mutant alleles. \textbf{(F)} Survival of mice with homozygous \emph{Trp53} alleles.}\label{fig:11}
 }
 \end{figure}
@@ -199,8 +246,8 @@ Due to our observations that mutant p53\textsuperscript{R172H} drives more aggre
 }
 \end{figure}
 
-\hypertarget{discussion}{%
-\subsection{Discussion}\label{discussion}}
+\hypertarget{discussion-1}{%
+\subsection{Discussion}\label{discussion-1}}
 
 While lung adenocarcinomas primarily contain missense mutations in p53, most studies using mouse models of lung adenocarcinoma utilize a p53-null (\emph{Trp53\textsuperscript{fl/fl}}) allele instead of alleles encoding hotspot missense mutations (Gao \emph{et al.}, 2013). This is most likely because prior mutant-p53 alleles were null for \emph{Trp53} prior to Cre-mediated recombination, leaving every cell in the mouse sensitive to leukemias, lymphomas and sarcomas due to being partially p53-deficient (Jackson \emph{et al.}, 2005; Wijnhoven \emph{et al.}, 2005; Olive \emph{et al.}, 2004). Our work has been made possible by newly described ``wildtype to mutant'' p53 alleles that allow for mice to be fully wildtype for p53 in all cells prior to Cre-mediated recombination(Zhang \emph{et al.}, 2018). This strategy is crucial, as it allows for temporally extended experiments not confounded by separate malignancies. Here, we utilize "wildtype to mutant"\emph{Trp53\textsuperscript{R172H}} and \emph{Trp53\textsuperscript{R245W}} alleles R245W to determine how they alter tumor progression in a BRAF(V600E) model of lung cancer. We show that p53\textsuperscript{R172H} and p53\textsuperscript{R245W} accelerates lung tumor progression and increases the rate of dedifferentiation beyond complete loss of p53 expression.
 

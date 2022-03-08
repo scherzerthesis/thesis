@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-03-07'
+date-meta: '2022-03-08'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-03-07" />
-  <meta name="citation_publication_date" content="2022-03-07" />
+  <meta name="dc.date" content="2022-03-08" />
+  <meta name="citation_publication_date" content="2022-03-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/852523248b1b0d8eaf8ca6a0e57ff961b5320e2e/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/852523248b1b0d8eaf8ca6a0e57ff961b5320e2e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/852523248b1b0d8eaf8ca6a0e57ff961b5320e2e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/6d999790895a2c1e1221abb5b70c9b11f5d4b2e5/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/6d999790895a2c1e1221abb5b70c9b11f5d4b2e5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/6d999790895a2c1e1221abb5b70c9b11f5d4b2e5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/852523248b1b0d8eaf8ca6a0e57ff961b5320e2e/))
+([permalink](https://scherzerthesis.github.io/thesis/v/6d999790895a2c1e1221abb5b70c9b11f5d4b2e5/))
 was automatically generated
-from [scherzerthesis/thesis@8525232](https://github.com/scherzerthesis/thesis/tree/852523248b1b0d8eaf8ca6a0e57ff961b5320e2e)
-on March 7, 2022.
+from [scherzerthesis/thesis@6d99979](https://github.com/scherzerthesis/thesis/tree/6d999790895a2c1e1221abb5b70c9b11f5d4b2e5)
+on March 8, 2022.
 </em></small>
 
 ## Authors
@@ -161,6 +161,7 @@ The cellular mechanisms that GOF P53 are involved in are also well-characterized
 
 ## Chapter Two {.page_break_before}
 
+# Introduction
 
 **Quantitative tumor burden and small library screen using TUBA-SEQ**
 
@@ -170,7 +171,7 @@ Recently, Monte Winslow and his lab at Stanford University has developed **Tu** 
 
 The initiation of lung tumors with pools of barcoded Lenti-sgRNA/Cre viral vectors 96 enables the generation of many tumors of different genotypes in parallel. All neoplastic cells 97 within each clonal tumor have the same two-component barcode, in which an sgID region 98 identifies the sgRNA and a random barcode (BC) is unique to each tumor. Thus, high-throughput 99 sequencing of the sgID-BC region from bulk tumor-bearing lungs can quantify the number of 100 neoplastic cells in each tumor of each genotype(28). Previous Tuba-seq studies quantify tumor 101 suppressor effects and their interaction with other tumor suppressor genes, focusing only on 102 comparisons within mice(28-30). Comparisons of tumor distributions across mice are more 103 challenging and required improvements in accuracy as well as new analytical methods. Winslow 2021
 
-Results
+# Results
 
 **TUBA-SEQ to uncover the contribution of tumor suppressor loss on BRAF (V600E) lung tumors**
 
@@ -180,9 +181,21 @@ In determine the size of BRAF (V600E) tumors and the contribution of 11 tumor su
 
 Gross histologic images of experimental lungs are show an increase in tumor burden with both time (Figure xxx) and CAS9 status (figure xxx). Therefore, based on macroscopic inspection, at least one tumor suppressor appeared to cooperate with BRAF (V600E) to increase tumor burden. In order to determine the fitness landscape of any one particular tumor suppressor, we calculated the relative number of tumor cells in a given tumor using the TUBA-SEQ genomics pipeline. After 8 weeks post tumor initiation there no statistically significant contribution of tumor suppressor loss. SETD2 loss was trending towards statistical significance. However, 16 weeks post initiation revealed both SETD2 loss and APC loss cooperated with BRAF (V600E) to form larger, more malignant tumors. APC loss was a suspected hit as we have previously shown that activation of Wnt-beta-catenin signaling promoted BRAF(V600E) tumorigenesis. As APC loss is predicted to increase the activity of Beta-catenin signaling, this result was unsurprising to us. However, loss of SETD2 was a novel finding in the context of BRAF (V600E) lung tumorigenesis.
 
-Given our findings of SETD2 loss increased tumor burden concurrent with BRAF(V600E) we next validated SETD2 in a new cohort of mice with single-guide RNAs targeting SETD2. Indeed, loss of SETD2 increased tumor burden from 5% to over 30% in some animals. Since SETD2 antibodies are unreliable in both western blots and immunohistochemistry we used H3K36me3 as a surrogate marker for SETD2 activity by immunohistochemistry. Whereas 90% of nuclei in BRAF (V600E) only tumors were H3K36me3, more than 60% tumors of mice infected with SETD2 CRISPR virus were negative for H3K36me3. Furthermore, when classified by H3K36me3-positive or -negative, there is even stronger evidence that SETD2 loss leads to larger tumor formation.
+Given our findings of SETD2 loss increased tumor burden concurrent with BRAF(V600E) we next validated SETD2 in a new cohort of mice with single-guide RNAs targeting SETD2. Indeed, loss of SETD2 increased tumor burden from 5% to over 30% in some animals. Since SETD2 antibodies are unreliable in both western blots and immunohistochemistry we used H3K36me3 as a surrogate marker for SETD2 activity by immunohistochemistry. Whereas 90% of nuclei in BRAF (V600E) only tumors were H3K36me3, more than 60% tumors of mice infected with SETD2 CRISPR virus were negative for H3K36me3. Furthermore, when classified by H3K36me3-positive or -negative, there is even stronger evidence that SETD2 loss leads to larger tumor formation
 
-![**Differential BRAF^V600E^ lung tumorigenesis imparted by p53-Hotspot mutants.** **(A)** Genetically-engineered alleles of _Braf^v600E^_ and ^Trp53^ before and after Cre-Recombinase. **(B)** Tumor burden and *(C)*** Tumor size of BRAF(V600E) plus Trp53-wildtype, null, or mutant alleles 14 weeks post Cre-mediated recombination. *(D)*  Representative H&E images 14 weeks after Cre-recombination. **(E)** Survival of mice with Heterozygous _Trp53_ mutant alleles. **(F)** Survival of mice with homozygous _Trp53_ alleles.](images/tubaseq_figure1.svg){#fig:06 .white width="75%"}
+# Discussion
+
+![**This is the title of Figure** this is the text.](images/tuba1.tiff){#fig:06 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/tuba1.tiff){#fig:06 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/tuba1.tiff){#fig:06 .white width="100%"}  
+  
+![**This is the title of Figure** this is the text.](images/tuba1.tiff){#fig:06 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/tuba5.tiff){#fig:06 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/tuba1.tiff){#fig:06 .white width="100%"}
 
 ## Chapter Three {.page_break_before}
 
@@ -225,7 +238,7 @@ _**P53^R172H^ and P53^R245W^ alters the transcriptome of BRAF(V600E) lung tumor 
 Due to our observations that mutant p53^R172H^ drives more aggressive cancer phenotypes such as increased growth, dedifferentiation, and resistance to FDA-approved therapeutics, we reasoned that this would be reflected in a change in the transcriptional landscape. This is due in part, by the transcriptional trans-activation potential by mutant p53. RNA sequencing of cell lines generated from p53-mutant mouse lung tumors do reveal transcriptomic differences between both p53^R172H^ and p53^R245W^ cells compared to p53-null cell lines (Figure @fig:14 4 A). Interestingly, genes involved in cell cycle regulation, epithelial-to-mesenchymal transition (EMT), and MYC pathway are upregulated in both p53^R172H^ and p53^R2245W^ cell lines (Figure 4 @fig:14 B). These results suggest that mutant-p53 is affecting transcription of genes involved in pro-growth signaling pathways.
 
 
-![**Differential BRAF^V600E^ lung tumorigenesis imparted by p53-Hotspot mutants.** **(A)** Genetically-engineered alleles of _Braf^v600E^_ and ^Trp53^ before and after Cre-Recombinase. **(B)** Tumor burden and *(C)*** Tumor size of BRAF(V600E) plus Trp53-wildtype, null, or mutant alleles 14 weeks post Cre-mediated recombination. *(D)*  Representative H&E images 14 weeks after Cre-recombination. **(E)** Survival of mice with Heterozygous _Trp53_ mutant alleles. **(F)** Survival of mice with homozygous _Trp53_ alleles.](images/figure1_021022.svg){#fig:11 .white width="75%"}
+![**Differential BRAF^V600E^ lung tumorigenesis imparted by p53-Hotspot mutants.** **(A)** Genetically-engineered alleles of _Braf^v600E^_ and ^Trp53^ before and after Cre-Recombinase. **(B)** Tumor burden and *(C)*** Tumor size of BRAF(V600E) plus Trp53-wildtype, null, or mutant alleles 14 weeks post Cre-mediated recombination. *(D)*  Representative H&E images 14 weeks after Cre-recombination. **(E)** Survival of mice with Heterozygous _Trp53_ mutant alleles. **(F)** Survival of mice with homozygous _Trp53_ alleles.](images/figure.svg){#fig:11 .white width="75%"}
 
 ![**Missense mutant-p53 alters lung adenocarcinoma differentiation status and accumulation of mutant-p53 correlates with p19 ARF expression.** **(A)** Panel representative IHC sections stained with SPC,NKX2-1, p53 and HMGA2. **(B)** H-score of individual tumors. **(C)** Association between mutant-p53 R172H accumulation and increased malignancy and dedifferentiation. **(D)** serial section of P53-HI and pERK1/2-HI tumors compared to adjacent low. **(E)** Colocalization of p19/ARF and p53 in p53-mutant tumors](images/figure2_021722.svg){#fig:12 .white width="75%"}
 

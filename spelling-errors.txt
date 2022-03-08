@@ -9,13 +9,13 @@ atypia
 barcode
 barcoded
 bona
-Braf
+BRAF
 BRAFi
 CAAX
 Carboplatin
 Cas
 catenin
-Cdkn
+CDKN
 cDNA
 chemoresistance
 chemotherapies
@@ -37,7 +37,7 @@ DMBA
 DMP
 doublings
 dysregulation
-ectopic
+Ectopic
 EGF
 EGFR
 endoing
@@ -48,7 +48,7 @@ fluorophore
 FOXA
 Fraumeni
 FVB
-gemms
+GEMMs
 genomic
 genotype
 genotypes
@@ -72,9 +72,9 @@ hotspots
 Hyperactivation
 IHC
 Imatinib
-immunoblotting
+Immunoblotting
 immunofluorescence
-immunohistochemistry
+Immunohistochemistry
 immunostaining
 inducible
 johndoe
@@ -103,7 +103,7 @@ MEKi
 mesenchymal
 microenvironment
 misclassification
-Missense
+missense
 mitogens
 mor
 mutationally
@@ -166,7 +166,7 @@ TGF
 timecourse
 titer
 TP
-trametinib
+Trametinib
 transactivation
 transcriptional
 transcriptome
@@ -184,6 +184,6 @@ vitro
 vivo
 wildtype
 Winslow
-WNT
+wnt
 XXXX
 XXXXXXXX
