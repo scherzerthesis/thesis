@@ -13,7 +13,7 @@ BRAF
 BRAFi
 CAAX
 Carboplatin
-Cas
+CAS
 catenin
 CDKN
 cDNA
@@ -67,14 +67,14 @@ HMGA
 homologue
 homologues
 homozygous
-Hotspot
+hotspot
 hotspots
 Hyperactivation
 IHC
 Imatinib
-Immunoblotting
+immunoblotting
 immunofluorescence
-Immunohistochemistry
+immunohistochemistry
 immunostaining
 inducible
 johndoe
@@ -149,9 +149,9 @@ SETD
 sgID
 sgRNA
 Siegel
-Smad
+SMAD
 SOX
-Spc
+SPC
 Stk
 stressor
 stromal
@@ -166,7 +166,7 @@ TGF
 timecourse
 titer
 TP
-Trametinib
+trametinib
 transactivation
 transcriptional
 transcriptome
@@ -179,7 +179,7 @@ tumorigenesis
 tumorigenic
 Tyrosine
 uencing
-upregulated
+Upregulated
 vitro
 vivo
 wildtype
