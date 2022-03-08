@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/979aac6c91cdcd60c73bd3dfdcd768979d6a1696/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/979aac6c91cdcd60c73bd3dfdcd768979d6a1696/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/979aac6c91cdcd60c73bd3dfdcd768979d6a1696/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/6b74dd289e23ad30efba1d526e6f171f6bade1ce/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/6b74dd289e23ad30efba1d526e6f171f6bade1ce/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/6b74dd289e23ad30efba1d526e6f171f6bade1ce/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/979aac6c91cdcd60c73bd3dfdcd768979d6a1696/))
+([permalink](https://scherzerthesis.github.io/thesis/v/6b74dd289e23ad30efba1d526e6f171f6bade1ce/))
 was automatically generated
-from [scherzerthesis/thesis@979aac6](https://github.com/scherzerthesis/thesis/tree/979aac6c91cdcd60c73bd3dfdcd768979d6a1696)
+from [scherzerthesis/thesis@6b74dd2](https://github.com/scherzerthesis/thesis/tree/6b74dd289e23ad30efba1d526e6f171f6bade1ce)
 on March 8, 2022.
 </em></small>
 
@@ -185,17 +185,19 @@ Given our findings of SETD2 loss increased tumor burden concurrent with BRAF(V60
 
 # Discussion
 
-![**This is the title of Figure** this is the text.](images/tuba1.svg){#fig:06 .white width="100%"}
+![**This is the title of Figure** this is the text.](images/tuba1.svg){#fig:04 .white width="100%"}
 
-![**This is the title of Figure** this is the text.](images/tuba2.svg){#fig:06 .white width="100%"}
+![**This is the title of Figure** this is the text.](images/tuba2.svg){#fig:05 .white width="100%"}
 
 ![**This is the title of Figure** this is the text.](images/tuba3.svg){#fig:06 .white width="100%"}  
   
-![**This is the title of Figure** this is the text.](images/tuba4.svg){#fig:06 .white width="100%"}
+![**This is the title of Figure** this is the text.](images/tuba4.svg){#fig:07 .white width="100%"}
 
-![**This is the title of Figure** this is the text.](images/tuba1.svg){#fig:06 .white width="100%"}
+![**This is the title of Figure** this is the text.](images/tuba5.svg){#fig:08 .white width="100%"}
 
-![**This is the title of Figure** this is the text.](images/tuba1.svg){#fig:06 .white width="100%"}
+![**This is the title of Figure** this is the text.](images/tuba6.svg){#fig:09 .white width="100%"}
+
+
 
 ## Chapter Three {.page_break_before}
 
