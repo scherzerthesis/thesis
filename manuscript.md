@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/9213662b7adaf086956a4d1fa83ad98751f19610/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/9213662b7adaf086956a4d1fa83ad98751f19610/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/9213662b7adaf086956a4d1fa83ad98751f19610/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/9213662b7adaf086956a4d1fa83ad98751f19610/))
+([permalink](https://scherzerthesis.github.io/thesis/v/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3/))
 was automatically generated
-from [scherzerthesis/thesis@9213662](https://github.com/scherzerthesis/thesis/tree/9213662b7adaf086956a4d1fa83ad98751f19610)
+from [scherzerthesis/thesis@d1ac79b](https://github.com/scherzerthesis/thesis/tree/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3)
 on March 15, 2022.
 </em></small>
 
@@ -248,13 +248,11 @@ Due to our observations that mutant p53^R172H^ drives more aggressive cancer phe
 ![**Mutant-p53 cell lines are refractory to BRAFi+MEKi.** **(A)** Response of GEMMs to BRAFi+MEKi chow after four weeks **(B)** in vitro dose response to BRAFi single agent. **(C)** in vitro timecourse with dabrafenib (1000nm) plus trametinib (100nM). **(D)** Accumulation of dead cells in dabrafenib plus trametinib measured by CytotoxRed accumulation. **(E)** Immunoblotting of phospho-ERK1/2 in response to dabrafenib plus trametinib. **(F)** Ectopic expression of p53^R17H^ in human HCC364 cells. **(E)** Response of p53^R175H^ cells to dabrafenib plus trametinib. ](images/p53_3.png){#fig:13 .white width="100%"}
 
 
-![**Mutant-p53 expression cells have distinct transcriptome compared to p53-null cells.** **(A)** Volcano plot of differentially-expressed genes. **(B)** Upregulated pathways using GSEA with Hallmark gene sets.](images/p53_5.png){#fig:14 .white width="100%%"}
+![**Mutant-p53 expression cells have distinct transcriptome compared to p53-null cells.** **(A)** Volcano plot of differentially-expressed genes. **(B)** Upregulated pathways using GSEA with Hallmark gene sets.](images/p53_4.png){#fig:14 .white width="100%%"}
 
-![**Mutant-p53 expression cells have distinct transcriptome compared to p53-null cells.** **(A)** Volcano plot of differentially-expressed genes. **(B)** Upregulated pathways using GSEA with Hallmark gene sets.](images/p53_6.png){#fig:14 .white width="100%%"}
+![**Mutant-p53 expression cells have distinct transcriptome compared to p53-null cells.** **(A)** Volcano plot of differentially-expressed genes. **(B)** Upregulated pathways using GSEA with Hallmark gene sets.](images/p53_4.png){#fig:14 .white width="100%%"}
 
-![**Mutant-p53 expression cells have distinct transcriptome compared to p53-null cells.** **(A)** Volcano plot of differentially-expressed genes. **(B)** Upregulated pathways using GSEA with Hallmark gene sets.](images/p53_7.png){#fig:14 .white width="100%%"}
 
-![**Mutant-p53 expression cells have distinct transcriptome compared to p53-null cells.** **(A)** Volcano plot of differentially-expressed genes. **(B)** Upregulated pathways using GSEA with Hallmark gene sets.](images/p53_8.png){#fig:14 .white width="100%%"}
 
 ## Discussion
 
