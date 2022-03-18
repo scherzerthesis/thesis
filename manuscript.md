@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-03-15'
+date-meta: '2022-03-18'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-03-15" />
-  <meta name="citation_publication_date" content="2022-03-15" />
+  <meta name="dc.date" content="2022-03-18" />
+  <meta name="citation_publication_date" content="2022-03-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/d8a34ba19e7004dab8879e50fe9a95405c7d2252/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/d8a34ba19e7004dab8879e50fe9a95405c7d2252/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/d8a34ba19e7004dab8879e50fe9a95405c7d2252/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3/))
+([permalink](https://scherzerthesis.github.io/thesis/v/d8a34ba19e7004dab8879e50fe9a95405c7d2252/))
 was automatically generated
-from [scherzerthesis/thesis@d1ac79b](https://github.com/scherzerthesis/thesis/tree/d1ac79b39eca2a98ddaf51e9083282c9a05eaed3)
-on March 15, 2022.
+from [scherzerthesis/thesis@d8a34ba](https://github.com/scherzerthesis/thesis/tree/d8a34ba19e7004dab8879e50fe9a95405c7d2252)
+on March 18, 2022.
 </em></small>
 
 ## Authors
@@ -89,15 +89,15 @@ on March 15, 2022.
 
 **NSCLC**
 
-Lung cancer is a global menace on human health. The historic consumption of cigarette smoke has caused lung cancer to be the most common and deadly form of cancer in both men and women. Fortunately, smoking-rates have decreased in the past 30 years with lung cancer rates also on the decline. However, even if cigarette consumption were eradicated, lung cancer would still significantly affect human health. It is estimated that approximately 25% of all lung cancer cases arise in never smokers [@pmid:23714547]. Secondary causes of lung cancer include Radon exposure, high-heat cooking, family history, air pollution [@pmid:27174888]. An individual's risk of lung cancer also increases with age due to a decreased ability of the immune system to combat early neoplasms[@pmid:22974775].
+Lung cancer is a global hazard on human health. The historic consumption of cigarette smoke has caused lung cancer to be the most common and deadly form of cancer. Fortunately, smoking-rates have decreased in the past 30 years with lung cancer rates also on the decline. However, even if cigarette consumption were eradicated, lung cancer would still significantly affect human health. Indeedm it is estimated that approximately 25% of all lung cancer cases arise in never smokers [@pmid:23714547]. Secondary causes of lung cancer include Radon exposure, high-heat cooking, family history, air pollution [@pmid:27174888]. An individual's risk of lung cancer also increases with age due to  decreases in the efficiency of tumor supressive mechanisms such as tumor immunity and apoptosis[@pmid:22974775].
 
-Lung cancer can be classified broadly into two major histological types that were named based on how the malignant cells look under a microscope: Non-small Cell Lung Cancer (NSCLC) and Small Cell Lung Cancer (SCLC). NSCLC is the most common type and represents 75% of lung cancer cases and is the most common subtype for patients who have never smoked cigarettes. Within NSCLC, tumors are further characterized based on histological architecture, anatomical location, cell-of-origin, as well as genomic alteration[@pmid:18815398]. For example, lung adenocarcinoma is the most common subtype and is characterized by glandular and papillary structures while squamous cell lung carcinoma characterized by keratin-pearls[@pmid:15059877] .Moreover, adenocarcinomas arise from alveolar-type-2 (AT2) cells in the distal lung and alveoli and are typified by genomic alterations throughout the MAPK pathway, such as EGFR, KRAS, BRAF, PI3K [@pmid:32747478; @pmid:11751630]. Squamous cells carcinoma likely arise from basal cells and typically harbor SOX2 gene amplification [@pmid:27308419; @pmid:30332632].
+Lung cancer can be broadly classified into two major histological categories that are named based on how the malignant cells look under a microscope: Non-small Cell Lung Cancer (NSCLC) and Small Cell Lung Cancer (SCLC). Within NSCLC, tumors are further characterized based on histological structures, anatomical location, cell-of-origin, as well as genetic drivers[@pmid:18815398]. For example, lung adenocarcinoma is the most common subtype and is characterized by glandular and papillary structures while squamous cell lung carcinoma is characterized by keratin-pearls[@pmid:15059877]. Moreover, adenocarcinomas arise from alveolar-type-2 (AT2) cells in the distal lung and alveoli and are typified by genomic alterations throughout the MAPK pathway, such as EGFR, KRAS, BRAF, PI3K [@pmid:32747478; @pmid:11751630]. On the other hand, squamous cells carcinomas likely arise from basal cells and typically harbor SOX2 gene amplification [@pmid:27308419; @pmid:30332632].
 
-The 5-year survival rate for patients with lung cancer was 25% in 2020 but varies depending on stage of disease at time of diagnosis [@doi:10.3322/caac.21654]. Although patient survival has improved over the past few decades due to improved targeted and immune therapies, the still poor prognosis reflects a need to better understand the molecular mechanisms underlying lung tumor progression, maintenance and response to targeted- or immune-therapy (reword).
+The 5-year survival rate for patients with lung cancer was 25% in 2020 but varies depending on stage of disease at time of diagnosis [@doi:10.3322/caac.21654].Like other solid cancers, lung cancers are most deadly after primary tumors have metastaized to other organ systems like the liver, kidney, bone, or nervous system [@pmid:5130083]. Lung cancer patients with no local or distant metastasis typically have a 5-year survival percentage of approximately 40% compared to approximately 5% with distant metastasis[@pmid:27535389; 27740970]. Ultimately, the cause of death of many lung cancer patients include primary lung tumor burden, infection, pulmonary embolism or hemorrhage, or complications of metastatic dissemination[@pmid:23194048]. Although patient survival has improved  due to improved targeted and immune therapies, the still poor prognosis reflects a need to better understand the molecular mechanisms underlying lung adenocarcinoma initiation, progression, maintenance and response to targeted- or immune-therapy.
 
-Currently, the standard of care for LUAD are combination of several conventional chemotherapeutic agents, such as Cisplatin, Carboplatin, Paclitaxel, or Pemetrexed[@pmid:32548736]. Fortunately for patients who have been identified to have EGFR, ALK, ROS, TRK, or BRAF (V600E) genetic alternations significantly benefit from pathway-targeted therapies[@pmid:27283860; @pmid:24651011]
+The current standard of care for Lung adenocarcinoma patients are often a combination of several conventional chemotherapeutics including Cisplatin, Carboplatin, Paclitaxel, or Pemetrexed[@pmid:32548736]. Fortunately for patients who have been identified to have EGFR, ALK, ROS, TRK, or BRAF (V600E) genetic alternations are often offered pathway-targeted therapies[@pmid:27283860; @pmid:24651011]. As of late, many patients receive immunotherapy first, followed by pathway-targeted therapy after progression on immunotherapy. Furthermore, in the last seven years, exciting therapeutic options for _KRAS_ mutant lung cancer have been developed and tested, such as a combination of MEK-inhibition and autophagy-inhibtion, and direct inhibitors of _KRAS_ G12c and _KRAS_ G12D [@pmid:30833748; @pmid:35267628; @pmid:35167298]
 
-Of the solid malignancies, lung cancer accounts for the greatest number of new cancer diagnoses worldwide with an estimated 2.1 million new cases in 2018 [@doi:10.3322/caac.21654]. It is the most commonly diagnosed cancer in men, and second most commonly diagnosed cancer in women after breast cancer. Unfortunately, this particularly insidious disease is the leading cause of cancer related death in men and often the leading cause of death in women each year, accounting for 1.8 million deaths last year. In the United States, these grim statistics have shown little improvement in the last decade. Kentucky bears the highest lung cancer incidence rate and this outcome is correlated with its top ranking smoking rate among the population. Lung cancer is a disease of aging and commonly affects people over the age of 60. Data provided by the National Cancer Institute and the Surveillance, Epidemiology, and End Results program indicate that patients in which their disease is detected early, while the tumor is confined to the primary location and has not disseminated to the adjacent lymph nodes have a five-year survival rate of approximately 57.4% [@pmid:27740970]. Once the cancer has spread to adjacent regional lymph nodes, this survival rate drops markedly to 30.8%. Tragically, those diagnosed with late stage and distant metastatic disease have only a 5.2% chance of survival past five years. It is a grim fact that a majority of new patients that will be diagnosed with lung cancer, around 80%, will be informed that they have regional or distant disease. Metastatic disease is the true killer in lung cancer~~. Non-small cell lung cancer is also subdivided into several histological subtypes including adenocarcinoma, a disease arising from the distal glandular epithelial lining of the bronchi, squamous cell carcinoma, arising from the more proximal squamous epithelium of the bronchus, and large cell carcinoma [@pmid:24163741].  This means that from the time of oncogenic transformation that results in a tumor cell able to continuously proliferate and evade immune detection to the time of a detectable tumor mass by chest radiograph can be over a decade. For the vast majority of this time, patients do not experience pain from the growing mass and do not experience other related symptoms specific to the 3 disease. Often the first symptoms experienced by the patient are associated with metastatic dissemination such as pain associated with tumor invasion into the chest wall, liver capsule, or bone structure, or a number of other paraneoplastic syndromes. This delays the critical time to diagnosis for the patient, leading to poor outcomes, but also allows ample time for mutated cells to adapt and modulate a local tumor microenvironment that is conducive to support tumor growth, progression, and metastasis.
+
 
 **BRAF (V600E) signaling and cooperating genetic events to LUAD initiation and progression**
 
