@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/419ff731062cbb3fe3b1423f6c6a6cec111ea028/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/419ff731062cbb3fe3b1423f6c6a6cec111ea028/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/419ff731062cbb3fe3b1423f6c6a6cec111ea028/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/419ff731062cbb3fe3b1423f6c6a6cec111ea028/))
+([permalink](https://scherzerthesis.github.io/thesis/v/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73/))
 was automatically generated
-from [scherzerthesis/thesis@419ff73](https://github.com/scherzerthesis/thesis/tree/419ff731062cbb3fe3b1423f6c6a6cec111ea028)
+from [scherzerthesis/thesis@1a493f8](https://github.com/scherzerthesis/thesis/tree/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73)
 on March 21, 2022.
 </em></small>
 
@@ -141,7 +141,7 @@ Once a cell encounters a stressor such as DNA damage or oncogene activation, P53
 
 P53 was originally thought to be an oncogene as P53 is accumulated in lung cancer, which is not common in normal tissues[@pmid:1969059; @pmid:1694291]. Moreover, ectopic expression of a P53 cDNA was found to aide in the transformation of primary cells induced by RAS. However, early studies erroneously used mutated P53 instead of wild-type leading to the misclassification of P53 as an oncogene. We now know P53 suppresses cell growth and transformation[@pmid:19776744].
 
-Often times, P53 is mutated in the DNA-binding domain at sites commonly referred to as &quot;hotspots&quot; due to there extraordinary frequency. These hotspot mutations poison the ability of p53 to bind DNA therefore blocking its function. Interestingly, since one mutated P53 can disrupt the entire P53 tetramer complex, a single mutation can exert dominant-negative effects by inhibiting the normal tumor suppressive functions of P53. Although one mutant P53 allele is enough to compromised transcriptional activity, there is still selective pressure to lose the other wild -type copy. Loss of hemizygosity implies there is still residual tumor suppression in the presence of a wild-type P53 allele.
+Often times, P53 is mutated in the DNA-binding domain at sites commonly referred to as &quot;hotspots&quot; due to there extraordinary frequency. These hotspot mutations poison the ability of p53 to bind DNA therefore blocking its function. Interestingly, since one mutated P53 can disrupt the entire P53 tetramer complex, a single mutation can exert dominant-negative effects by inhibiting the normal tumor suppressive functions of P53. Although one mutant P53 allele is enough to compromised transcriptional activity, there is still selective pressure to lose the other wild -type copy. Loss of hemizygosity implies there is still residual tumor suppression in the presence of a wild-type P53 allele[@pmid:27585860].
 
 Early on in P53 studies, there were reports of certain P53 mutations having a &quot;gain-of-function&quot; (GOF) effect. For example, Li-Fraumeni patients with certain missense mutations in P53 would develop tumors earlier than Li-Fraumeni patients with loss-of-function (LOF) mutations [@pmid:18511570]. Furthermore, there were experimental cell biology studies that would express mutant-p53 in P53-null cells and demonstrate enhanced tumorigenic potential [@pmid:32404993]. Further evidence for GOF mutant-P53 in mice indicated that missense mutant P53 induced different cancer types and enhanced metastasis than LOF P53 [@pmid:15607980]. Furthermore, many groups have shown mutant-p53 can alter signal transduction affecting chemoresistance and altering metabolism.
 
