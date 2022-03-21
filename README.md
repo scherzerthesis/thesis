@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/scherzerthesis/thesis/tree/gh-pages) branch hosts the contents of this directory at <https://scherzerthesis.github.io/thesis/>.
-The permalink for this webpage version is <https://scherzerthesis.github.io/thesis/v/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73/>.
+The permalink for this webpage version is <https://scherzerthesis.github.io/thesis/v/f639410c88922414b468ef64117835556bd27e8e/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://scherzerthesis.github.io/thesis/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73`](https://github.com/scherzerthesis/thesis/commit/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73).
+[`f639410c88922414b468ef64117835556bd27e8e`](https://github.com/scherzerthesis/thesis/commit/f639410c88922414b468ef64117835556bd27e8e).
