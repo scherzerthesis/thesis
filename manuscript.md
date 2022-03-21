@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/f639410c88922414b468ef64117835556bd27e8e/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/f639410c88922414b468ef64117835556bd27e8e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/f639410c88922414b468ef64117835556bd27e8e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73/))
+([permalink](https://scherzerthesis.github.io/thesis/v/f639410c88922414b468ef64117835556bd27e8e/))
 was automatically generated
-from [scherzerthesis/thesis@1a493f8](https://github.com/scherzerthesis/thesis/tree/1a493f8ef1b1d34f03b4e1ee4cfd6e289b300a73)
+from [scherzerthesis/thesis@f639410](https://github.com/scherzerthesis/thesis/tree/f639410c88922414b468ef64117835556bd27e8e)
 on March 21, 2022.
 </em></small>
 
@@ -241,6 +241,26 @@ Due to our observations that mutant p53^R172H^ drives more aggressive cancer phe
 ![**Mutant-p53 expression cells have distinct transcriptome compared to p53-null cells.** **(A)** Volcano plot of differentially-expressed genes. **(B)** Upregulated pathways using GSEA with Hallmark gene sets.](images/p53_4.png){#fig:14 .white width="100%%"}
 
 ![**Mutant-p53 expression cells have distinct transcriptome compared to p53-null cells.** **(A)** Volcano plot of differentially-expressed genes. **(B)** Upregulated pathways using GSEA with Hallmark gene sets.](images/p53_4.png){#fig:14 .white width="100%%"}
+
+![**This is the title of Figure** this is the text.](images/p53_1.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/p53_2.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/p53_3.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/p53_4.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/p53_5.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/p536.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/p537.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/p538.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/p539.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.](images/p5310.png){#fig:04 .white width="100%"}
 
 
 
