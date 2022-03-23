@@ -1,8 +1,8 @@
 This manuscript
-(\href{https://scherzerthesis.github.io/thesis/v/f639410c88922414b468ef64117835556bd27e8e/}{permalink})
+(\href{https://scherzerthesis.github.io/thesis/v/22231633041f00c426f417c21e01890d62f0a00d/}{permalink})
 was automatically generated
-from \href{https://github.com/scherzerthesis/thesis/tree/f639410c88922414b468ef64117835556bd27e8e}{scherzerthesis/thesis@f639410}
-on March 21, 2022.
+from \href{https://github.com/scherzerthesis/thesis/tree/22231633041f00c426f417c21e01890d62f0a00d}{scherzerthesis/thesis@2223163}
+on March 23, 2022.
 
 \hypertarget{authors}{%
 \subsection{Authors}\label{authors}}
@@ -25,6 +25,8 @@ on March 21, 2022.
 \subsection{Chapter One: Introduction}\label{chapter-one-introduction}}
 
 \textbf{NSCLC}
+
+adasdkj
 
 Lung cancer is a global hazard on human health. The historic consumption of cigarette smoke has caused lung cancer to be the most common and deadly form of cancer. Fortunately, smoking-rates have decreased in the past 30 years with lung cancer rates also on the decline. However, even if cigarette consumption were eradicated, lung cancer would still significantly affect human health. Indeedm it is estimated that approximately 25\% of all lung cancer cases arise in never smokers (Warren and Cummings, 2013). Secondary causes of lung cancer include Radon exposure, high-heat cooking, family history, air pollution (Malhotra \emph{et al.}, 2016). An individual's risk of lung cancer also increases with age due to decreases in the efficiency of tumor supressive mechanisms such as tumor immunity and apoptosis(de Groot and Munden, 2012).
 
@@ -81,35 +83,38 @@ Early on in P53 studies, there were reports of certain P53 mutations having a "g
 
 The cellular mechanisms that GOF P53 are involved in are also well-characterized but context-dependent. For example, in Pancreatic cancers driven by KRAS(G12D) Mutant P3 interacts with CREB to induce FOXA1 transcription which enhances Beta-Catenin signaling to augment liver metastasis (Kim \emph{et al.}, 2021).
 
-\hypertarget{chapter-two}{%
-\subsection{Chapter Two}\label{chapter-two}}
+\hypertarget{chapter-two-quantitative-tumor-burden-and-small-library-screen-using-tuba-seq}{%
+\subsection{Chapter Two: Quantitative tumor burden and small library screen using TUBA-SEQ}\label{chapter-two-quantitative-tumor-burden-and-small-library-screen-using-tuba-seq}}
+
+\{.page\_break\_before\}
+
+\hypertarget{abstract}{%
+\section{Abstract}\label{abstract}}
 
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
 
-\textbf{Quantitative tumor burden and small library screen using TUBA-SEQ}
+Next generation sequencing has allowed for the unbiased identification of genes that are mutated in human cancer (2014; Hoadley \emph{et al.}, 2014; Kandoth \emph{et al.}, 2013). The wealth of knowledge gained from such large-scale sequencing projects has revealed actionable mutationas that can be targeted with small molecule inhibitors, such as dabrafenib and trametinib. However, Identificaton of possible targets is not enough, as many cancers with similarly mutated oncogenes, such as BRAF\textsuperscript{V600E}, respond differentially to BRAF\textsuperscript{V600E}-targeed therapy. For example, mealanoma patients with BRAF\textsuperscript{V600E} mutations respond well to BRAF\textsuperscript{V600E}-targeted therapy whereas colorectal cancer patients with BRAF\textsuperscript{V600E} mutations do not respond(Corcoran \emph{et al.}, 2012). The disconnect between putative driver oncogenes identified in human cancers and response to targeted therapy is a problem that can be solved with rigorous pre-clinical experimentation, such as in GEMMs.
 
-Genetic sequencing has allowed for the unbiased identification of genes that are mutated in human cancer. The wealth of knowledge gained from such large-scale sequencing endeavors has revealed actionable mutations that can be targeted with small molecules. However, in highly mutated cancers, such as melanoma and lung cancer, recurrent mutations are not necessarily predictive of biological importance. To better understand the importance of candidate tumor suppressors or oncogenes, researchers exploit tumor cell lines and GEMMs to identify bona-fide genetic drivers of cancer. However, these systems are suboptimal, as they are either not physiologically relevant (tissue culture) or are not scalable to determine the effect of many mutations (GEMMs).
+Genomic sequencing of human tumors has also been crucial insight into how cancers form and what signaling nodes might be important for progressive stages of cancer evolution. For example, pancreatic cancers have a very stereotypical histiological progression that is brought about by known mutational activation. Specifically, mutations in \emph{KRAS} initiate tumorigenesis and loss of \emph{TP53} function and \emph{SMAD3} are associated with cancer progression(Orth \emph{et al.}, 2019). However, this is more difficult to do in lung adenocarcinoma because of the high mutational burden often due to the consumption of cigarettes(Alexandrov \emph{et al.}, 2016; Yoshida \emph{et al.}, 2020).
 
-Recently, Monte Winslow and his lab at Stanford University has developed \textbf{Tu} mor- \textbf{Ba} rcode \textbf{Seq} uencing (TUBA-SEQ), a rapid, multiplexed, quantitative assay for analyzing the contribution of tumor-suppressor loss \emph{in vivo}. This technique works by delivering a uniquely barcoded lentiviral endoing Cre recombinase, to activate Cre-mediated oncogenes, and a guide RNA, to inactivate a single tumor suppressor gene. Therefore, each tumor will be driven by the same oncogene, but will have different tumor suppressors inactivated. After a period of time (6-24 weeks), tissue will be harvested for whole-lung DNA extraction and targeted DNA-sequencing performed to quantify relative tumor size to spike-in controls. Therefore, contribution of a single tumor suppressor can be quantified in single animal. Here, we explore the contribution of 11 tumor suppressor genes and 5 controls in the context of our BRAF (V600E)- driven lung tumor models.
+Indeed, in highly mutated cancers such as melanoma and lung cancer, recurrent mutations are not necessarily predictive of biological importance. To better understand the importance of candidate tumor suppressors or oncogenes, researchers exploit tumor cell lines and GEMMs to identify bona-fide genetic drivers of cancer. However, these systems are suboptimal, as they are either not physiologically relevant (tissue culture) or are not scalable to determine the effect of many mutations (GEMMs). Moreover, techniques to measure cooperation of genes to drive lung cancer are qualitative and are not sufficiently quantitative to allow for large-scale studies. typically, lung adenocarcinoma is quantified by lung weight or histological analyses such as tumor burden (Percentage of lung that is tumor), tumor size, and immunohistochemistry (IHC) of tumor markers. Although important and informative, these analyses are not high-throughput and rely on many mice to acheive statistical confidence. Furthermore, there is intrinsic bias when calculating tumor size and tumor burden, as tissue-sectioning results in tumor sections that do not accurately portray true tumor size. Therefore, more advanced techniques are required for large-scale analysis of mouse tumors that are both quantitative and high throughput.
 
-The initiation of lung tumors with pools of barcoded Lenti-sgRNA/Cre viral vectors 96 enables the generation of many tumors of different genotypes in parallel. All neoplastic cells 97 within each clonal tumor have the same two-component barcode, in which an sgID region 98 identifies the sgRNA and a random barcode (BC) is unique to each tumor. Thus, high-throughput 99 sequencing of the sgID-BC region from bulk tumor-bearing lungs can quantify the number of 100 neoplastic cells in each tumor of each genotype(28). Previous Tuba-seq studies quantify tumor 101 suppressor effects and their interaction with other tumor suppressor genes, focusing only on 102 comparisons within mice(28-30). Comparisons of tumor distributions across mice are more 103 challenging and required improvements in accuracy as well as new analytical methods. Winslow 2021
+Recently, Monte Winslow and his lab at Stanford University has developed \textbf{Tu}mor- \textbf{Ba}rcode \textbf{Seq}uencing (TUBA-SEQ), a rapid, multiplexed, quantitative assay for analyzing the contribution of tumor-suppressor loss \emph{in vivo}. This technique works by delivering a uniquely barcoded lentiviral endoing Cre recombinase, to activate Cre-mediated oncogenes, and a guide RNA, to inactivate a single tumor suppressor gene. Therefore, each tumor will be driven by the same oncogene, but will have different tumor suppressors inactivated. After a period of time (6-24 weeks) tissue is harvested for whole-lung DNA extraction and targeted DNA-sequencing is performed to quantify relative tumor size to spike-in controls(Rogers \emph{et al.}, 2017). Therefore, contribution of a single tumor suppressor can be quantified in single animal. Here, we explore the contribution of 11 tumor suppressor genes and 5 controls in the context of our BRAF \textsuperscript{V600E}- driven lung tumor models.
 
 \hypertarget{results}{%
 \section{Results}\label{results}}
 
-\textbf{TUBA-SEQ to uncover the contribution of tumor suppressor loss on BRAF (V600E) lung tumors}
+To determine the size of BRAF \textsuperscript{V600E} tumors and the contribution of 11 tumor suppressor genes (\emph{Trp53, Rb1, Cdkn2a, Apc, Rbm10, Stk11, Setd2, Arid1a, Atm, Keap1, Smad4)} on BRAF \textsuperscript{V600E} lung tumorigenesis, we obtained tittered barcoded-lentiviral plasmids that encode Cre-recombinase as well as a sgRNA that inactivates one of eleven tumor suppressors common in lung adenocarcinoma. All genes tested are putative tumor suppressor genes commonly lost in human lung cancer patients. Each lentiviral solution contained \textasciitilde1000 individually barcoded lentiviruses. We infected both \emph{LSL-Cas9} and \emph{CAS9} deficient mice in order to determine the contribution of genetic manipulation and/or deletion of the targeted gene. Mice meant to be analyzed after 8 weeks received a viral titer of 1x10\^{}5 while mice mean to be analyzed after 16 weeks received a viral titer of 1x10\^{}4. After euthanasia, lungs were collected for genomic DNA extraction, and barcode amplification followed by preperation of sequencing libraries. Before genomic extraction and library preparation, a known quantity of known-barcoded cells was added in order to benchmark sequencing reads to a known cell number.
 
-Oncogenic BRAF (V600E) is a major driver in lung adenocarcinoma. However, mouse models with activation of BRAF (V600E) only lead to benign tumorigenesis (cite). Although it is well known that activation of WNT and PI3k signaling, as well as lost of \emph{Trp53} and \emph{Cdkn2a} genes allow BRAF (V600E) benign lung tumors to progress to malignant disease, we wanted to systematically test a variety of known tumor suppressors in lung adenocarcinoma. Furthermore, we do not know the size of BRAF(V600E) adenomas. Prior to TUBA-SEQ, it was very difficult to accurately determine the size of BRAF(V600E) adenomas. Based on population doublings, as well as cross sections of BRAF (V600E) tumors in histological sections, it is estimated that BRAF(V600E)-driven lung adenomas grow about 15-20 populations doublings and reaching a size of 1mm3. (cite) With TUBA-SEQ, we can more accurately discern the absolute size of BRAF(V600E) lung adenomas in almost every tumor in all animal subjects. Given the theory that BRAF-(V600) induces growth arrest after an initial burst of neoplastic growth, it would be of interest to know if all tumors grow to a predetermined and absolute size, or if there is a spectrum of tumor sizes that are determined by extrinsic factors such as proximity to blood vessels or certain stromal cells.
+Gross histologic images of experimental lungs are show an increase in tumor burden with both time (Figure xxx) and CAS9 status (figure xxx). Therefore, based on macroscopic inspection, at least one tumor suppressor appeared to cooperate with BRAF \textsuperscript{V600E} to increase tumor burden. In order to determine the fitness landscape of any one particular tumor suppressor, we calculated the relative number of tumor cells in a given tumor using the TUBA-SEQ genomics pipeline. After 8 weeks post tumor initiation there no statistically significant contribution of tumor suppressor loss (Figure). SETD2 loss was trending towards statistical significance. However, 16 weeks post initiation revealed both SETD2 loss and APC loss cooperated with BRAF \textsuperscript{V600E} to form larger tumors (Figure x). APC loss was a suspected hit as we have previously shown that activation of Wnt-beta-catenin signaling promoted BRAF\textsuperscript{V600E} tumorigenesis. As APC loss is predicted to increase the activity of Beta-catenin signaling, this result was unsurprising to us. However, loss of SETD2 was a novel finding in the context of BRAF \textsuperscript{V600E} lung tumorigenesis.
 
-In determine the size of BRAF (V600E) tumors and the contribution of 11 tumor suppressor genes (\emph{Trp53, Rb1, Cdkn2a, Apc, Rbm10, Stk11, Setd2, Arid1a, Atm, Keap1, Smad4)} on BRAF (V600E) lung tumorigenesis, we obtained tittered barcoded-lentiviral plasmids that encode Cre-recombinase as well as a sgRNA that inactivates one of eleven tumor suppressors common in lung adenocarcinoma. All genes tested putative tumor suppressor genes commonly identified as lost in human lung cancer patients. Each lentiviral solution contained \textasciitilde1000 individually barcoded lentiviruses. We infected both \emph{LSL-Cas9} and \_CAS9-\_deficient mice in order to determine the contribution of genetic manipulation and/or deletion of the targeted gene. Mice meant to be analyzed after 8 weeks received a viral titer of 1x10\^{}5 while mice mean to be analyzed after 16 weeks received a viral titer of 1x10\^{}4. After euthanasia, lungs were collected for genomic DNA extraction and barcode amplification and sequencing libraries were generated and sequenced. Before genomic extraction and library preparation, a known quantity of known-barcoded cells was added in order to benchmark sequencing reads to a known cell number.
-
-Gross histologic images of experimental lungs are show an increase in tumor burden with both time (Figure xxx) and CAS9 status (figure xxx). Therefore, based on macroscopic inspection, at least one tumor suppressor appeared to cooperate with BRAF (V600E) to increase tumor burden. In order to determine the fitness landscape of any one particular tumor suppressor, we calculated the relative number of tumor cells in a given tumor using the TUBA-SEQ genomics pipeline. After 8 weeks post tumor initiation there no statistically significant contribution of tumor suppressor loss. SETD2 loss was trending towards statistical significance. However, 16 weeks post initiation revealed both SETD2 loss and APC loss cooperated with BRAF (V600E) to form larger, more malignant tumors. APC loss was a suspected hit as we have previously shown that activation of Wnt-beta-catenin signaling promoted BRAF(V600E) tumorigenesis. As APC loss is predicted to increase the activity of Beta-catenin signaling, this result was unsurprising to us. However, loss of SETD2 was a novel finding in the context of BRAF (V600E) lung tumorigenesis.
-
-Given our findings of SETD2 loss increased tumor burden concurrent with BRAF(V600E) we next validated SETD2 in a new cohort of mice with single-guide RNAs targeting SETD2. Indeed, loss of SETD2 increased tumor burden from 5\% to over 30\% in some animals. Since SETD2 antibodies are unreliable in both western blots and immunohistochemistry we used H3K36me3 as a surrogate marker for SETD2 activity by immunohistochemistry. Whereas 90\% of nuclei in BRAF (V600E) only tumors were H3K36me3, more than 60\% tumors of mice infected with SETD2 CRISPR virus were negative for H3K36me3. Furthermore, when classified by H3K36me3-positive or -negative, there is even stronger evidence that SETD2 loss leads to larger tumor formation
+Given our findings of SETD2 loss increased tumor burden concurrent with BRAF\textsuperscript{V600E} we next validated SETD2 in a new cohort of mice with single-guide RNAs targeting SETD2. Indeed, loss of SETD2 increased tumor burden from 5\% to over 30\% in some animals. Since SETD2 antibodies are unreliable in both western blots and immunohistochemistry we used H3K36me3 as a surrogate marker for SETD2 activity by immunohistochemistry. Whereas 90\% of nuclei in BRAF \textsuperscript{V600E} only tumors were H3K36me3, more than 60\% tumors of mice infected with SETD2 CRISPR virus were negative for H3K36me3. Furthermore, when classified by H3K36me3-positive or -negative, there is even stronger evidence that SETD2 loss leads to larger tumor formation
 
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
+
+Oncogenic BRAF\textsuperscript{V600E} is a major driver in lung adenocarcinoma. However, mouse models with activation of BRAF \textsuperscript{V600E} only lead to benign tumorigenesis(Shai \emph{et al.}, 2015; Dankort \emph{et al.}, 2007). Although it is well known that activation of WNT and PI3k signaling, as well as lost of \emph{Trp53} and \emph{Cdkn2a} genes allow BRAF\textsuperscript{V600E} benign lung tumors to progress to malignant disease, we wanted to systematically test a variety of known tumor suppressors in lung adenocarcinoma. Furthermore, we do not know the size of BRAF\textsuperscript{V600E} adenomas. Prior to TUBA-SEQ, it was very difficult to accurately determine the size of BRAF\textsuperscript{V600E} adenomas. Based on population doublings, as well as cross sections of BRAF \textsuperscript{V600E} tumors in histological sections, it is estimated that BRAF\textsuperscript{V600E}-driven lung adenomas grow about 15-20 populations doublings and reaching a size of 1mm\textsuperscript{3}(Juan \emph{et al.}, 2014) With TUBA-SEQ, we can more accurately discern the absolute size of BRAF\textsuperscript{V600E} lung adenomas in almost every tumor in all animal subjects. Given the theory that BRAF-\textsuperscript{V600E} induces growth arrest after an initial burst of neoplastic growth, it would be of interest to know if all tumors grow to a predetermined and absolute size, or if there is a spectrum of tumor sizes that are determined by extrinsic factors such as proximity to blood vessels or certain stromal cells.
 
 \begin{figure}
 \hypertarget{fig:04}{%
@@ -162,8 +167,8 @@ Given our findings of SETD2 loss increased tumor burden concurrent with BRAF(V60
 \hypertarget{chapter-three}{%
 \subsection{Chapter Three}\label{chapter-three}}
 
-\hypertarget{abstract}{%
-\subsection{Abstract}\label{abstract}}
+\hypertarget{abstract-1}{%
+\subsection{Abstract}\label{abstract-1}}
 
 \textsuperscript{TP53} missense BRAF\textsuperscript{V600E} mutations both frequently occur in lung adenocarcinoma. While genetically engineered mouse models (GEMMs) of lung adenocarcinoma are invaluable for understanding the initiation, progression, and response to therapeutics, little is known about how different hotspot point mutations in p53 affect disease progression and therapeutic responses. To this end, we use GEMMs, tumor-derived cell lines, and human lung cancer cell lines to test how murine homologues of p53 hotspot mutants R172H and R245W compare to p53-deletion. We find that conformation mutation p53\textsuperscript{R172H} drives more aggressive lung adenocarcinomas and dedifferentiation. We also observe p53\textsuperscript{R172H} and p53\textsuperscript{R245W} accumulation in only high-grade tumors that have activated ARF expression. In vitro and in vivo studies demonstrate enhanced resistance to BRAF+MEK blockade with p53\textsuperscript{R172H} and p53\textsuperscript{R245W}, a common treatment regimen for BRAF\textsuperscript{V600E} mutant patients. Mechanistically, mutant-p53 alters the transcriptome of cancer cells and enhances entry into the cell cycle.
 
@@ -339,6 +344,18 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{chapter-four}{%
 \subsection{Chapter Four}\label{chapter-four}}
 
+\hypertarget{chapter-three-1}{%
+\subsection{Chapter Three}\label{chapter-three-1}}
+
+\hypertarget{conclusions}{%
+\subsection{Conclusions}\label{conclusions}}
+
+\hypertarget{future-prespectives}{%
+\subsection{Future prespectives}\label{future-prespectives}}
+
+\hypertarget{introduction-2}{%
+\subsection{Introduction}\label{introduction-2}}
+
 \hypertarget{references}{%
 \subsection{References}\label{references}}
 
@@ -352,6 +369,9 @@ Abegglen,L.M. \emph{et al.} (2015) \href{https://doi.org/10.1001/jama.2015.13134
 
 \leavevmode\vadjust pre{\hypertarget{ref-1HKPvGqty}{}}%
 Adorno,M. \emph{et al.} (2009) \href{https://doi.org/10.1016/j.cell.2009.01.039}{A Mutant-p53/Smad complex opposes p63 to empower TGFbeta-induced metastasis.} \emph{Cell}, \textbf{137}, 87--98.
+
+\leavevmode\vadjust pre{\hypertarget{ref-e3rkxhDE}{}}%
+Alexandrov,L.B. \emph{et al.} (2016) \href{https://doi.org/10.1126/science.aag0299}{Mutational signatures associated with tobacco smoking in human cancer.} \emph{Science}, \textbf{354}, 618--622.
 
 \leavevmode\vadjust pre{\hypertarget{ref-6j21xB75}{}}%
 Arteaga,C.L. and Engelman,J.A. (2014) \href{https://doi.org/10.1016/j.ccr.2014.02.025}{ERBB receptors: from oncogene discovery to basic science to mechanism-based cancer therapeutics.} \emph{Cancer Cell}, \textbf{25}, 282--303.
@@ -370,6 +390,9 @@ Boutelle,A.M. and Attardi,L.D. (2021) \href{https://doi.org/10.1016/j.tcb.2020.1
 
 \leavevmode\vadjust pre{\hypertarget{ref-G5wVcRrJ}{}}%
 Christophorou,M.A. \emph{et al.} (2006) \href{https://doi.org/10.1038/nature05077}{The pathological response to DNA damage does not contribute to p53-mediated tumour suppression.} \emph{Nature}, \textbf{443}, 214--7.
+
+\leavevmode\vadjust pre{\hypertarget{ref-wMtu748b}{}}%
+Corcoran,R.B. \emph{et al.} (2012) \href{https://doi.org/10.1158/2159-8290.cd-11-0341}{EGFR-mediated re-activation of MAPK signaling contributes to insensitivity of BRAF mutant colorectal cancers to RAF inhibition with vemurafenib.} \emph{Cancer Discov}, \textbf{2}, 227--35.
 
 \leavevmode\vadjust pre{\hypertarget{ref-dTvhNsG9}{}}%
 Dankort,D. \emph{et al.} (2007) \href{https://doi.org/10.1101/gad.1516407}{A new mouse model to explore the initiation, progression, and therapy of BRAFV600E-induced lung tumors.} \emph{Genes Dev}, \textbf{21}, 379--84.
@@ -416,6 +439,9 @@ Hanahan,D. and Weinberg,R.A. (2011) \href{https://doi.org/10.1016/j.cell.2011.02
 \leavevmode\vadjust pre{\hypertarget{ref-19duX0kT0}{}}%
 Herbst,R.S. \emph{et al.} (2008) \href{https://doi.org/10.1056/nejmra0802714}{Lung cancer.} \emph{N Engl J Med}, \textbf{359}, 1367--80.
 
+\leavevmode\vadjust pre{\hypertarget{ref-PAjnX7uA}{}}%
+Hoadley,K.A. \emph{et al.} (2014) \href{https://doi.org/10.1016/j.cell.2014.06.049}{Multiplatform analysis of 12 cancer types reveals molecular classification within and across tissues of origin.} \emph{Cell}, \textbf{158}, 929--944.
+
 \leavevmode\vadjust pre{\hypertarget{ref-17uu2v5lM}{}}%
 Huang,S. \emph{et al.} (2011) \href{https://doi.org/10.1158/0008-5472.can-11-0128}{p53 modulates acquired resistance to EGFR inhibitors and radiation.} \emph{Cancer Res}, \textbf{71}, 7071--9.
 
@@ -433,6 +459,9 @@ Juan,J. \emph{et al.} (2014) \href{https://doi.org/10.1101/gad.233627.113}{Dimin
 
 \leavevmode\vadjust pre{\hypertarget{ref-okfbKJaD}{}}%
 Junttila,M.R. \emph{et al.} (2010) \href{https://doi.org/10.1038/nature09526}{Selective activation of p53-mediated tumour suppression in high-grade tumours.} \emph{Nature}, \textbf{468}, 567--71.
+
+\leavevmode\vadjust pre{\hypertarget{ref-12CuLfxxd}{}}%
+Kandoth,C. \emph{et al.} (2013) \href{https://doi.org/10.1038/nature12634}{Mutational landscape and significance across 12 major cancer types.} \emph{Nature}, \textbf{502}, 333--339.
 
 \leavevmode\vadjust pre{\hypertarget{ref-9P0mUQ2t}{}}%
 Kemp,C.J. \emph{et al.} (1994) \href{https://doi.org/10.1038/ng0994-66}{p53-deficient mice are extremely susceptible to radiation-induced tumorigenesis.} \emph{Nat Genet}, \textbf{8}, 66--9.
@@ -497,6 +526,9 @@ Olive,K.P. \emph{et al.} (2004) \href{https://doi.org/10.1016/j.cell.2004.11.004
 \leavevmode\vadjust pre{\hypertarget{ref-1Aj9gKIb1}{}}%
 Olivier,M. \emph{et al.} (2010) \href{https://doi.org/10.1101/cshperspect.a001008}{TP53 mutations in human cancers: origins, consequences, and clinical use.} \emph{Cold Spring Harb Perspect Biol}, \textbf{2}, a001008.
 
+\leavevmode\vadjust pre{\hypertarget{ref-WVwMP2mo}{}}%
+Orth,M. \emph{et al.} (2019) \href{https://doi.org/10.1186/s13014-019-1345-6}{Pancreatic ductal adenocarcinoma: biological hallmarks, current status, and future perspectives of combined modality treatment approaches.} \emph{Radiat Oncol}, \textbf{14}, 141.
+
 \leavevmode\vadjust pre{\hypertarget{ref-E3yjcNvW}{}}%
 Perry,M.E. \emph{et al.} (1993) \href{https://doi.org/10.1073/pnas.90.24.11623}{The mdm-2 gene is induced in response to UV light in a p53-dependent manner.} \emph{Proc Natl Acad Sci U S A}, \textbf{90}, 11623--7.
 
@@ -514,6 +546,9 @@ Reita,D. \emph{et al.} (2022) \href{https://doi.org/10.3390/cancers14051321}{Dir
 
 \leavevmode\vadjust pre{\hypertarget{ref-CgOGrXoS}{}}%
 Robert,C. \emph{et al.} (2014) \href{https://doi.org/10.1056/nejmoa1412690}{Improved overall survival in melanoma with combined dabrafenib and trametinib.} \emph{N Engl J Med}, \textbf{372}, 30--9.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sufLyk4G}{}}%
+Rogers,Z.N. \emph{et al.} (2017) \href{https://doi.org/10.1038/nmeth.4297}{A quantitative and multiplexed approach to uncover the fitness landscape of tumor suppression in vivo.} \emph{Nat Methods}, \textbf{14}, 737--742.
 
 \leavevmode\vadjust pre{\hypertarget{ref-PX0Ki15S}{}}%
 Rusch,V. \emph{et al.} (1995) \href{https://www.ncbi.nlm.nih.gov/pubmed/7585548}{Aberrant p53 expression predicts clinical resistance to cisplatin-based chemotherapy in locally advanced non-small cell lung cancer.} \emph{Cancer Res}, \textbf{55}, 5038--42.
@@ -562,6 +597,9 @@ Woodard,G.A. \emph{et al.} \href{https://doi.org/10.1007/978-3-319-40389-2_3}{Lu
 
 \leavevmode\vadjust pre{\hypertarget{ref-Mb1Q4pdk}{}}%
 Wu,X. \emph{et al.} (1993) \href{https://doi.org/10.1101/gad.7.7a.1126}{The p53-mdm-2 autoregulatory feedback loop.} \emph{Genes Dev}, \textbf{7}, 1126--32.
+
+\leavevmode\vadjust pre{\hypertarget{ref-3xXZMpos}{}}%
+Yoshida,K. \emph{et al.} (2020) \href{https://doi.org/10.1038/s41586-020-1961-1}{Tobacco smoking and somatic mutations in human bronchial epithelium.} \emph{Nature}, \textbf{578}, 266--272.
 
 \leavevmode\vadjust pre{\hypertarget{ref-kitgYOkt}{}}%
 Zhang,Y. \emph{et al.} (2018) \href{https://doi.org/10.1038/s41467-018-06146-9}{Somatic Trp53 mutations differentially drive breast cancer and evolution of metastases.} \emph{Nat Commun}, \textbf{9}, 3953.
