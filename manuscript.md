@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/e94f99edda419d16f3c4329fea505917908f8036/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/e94f99edda419d16f3c4329fea505917908f8036/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/e94f99edda419d16f3c4329fea505917908f8036/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/0460c57dfce1ec664d567e514d7e4e3dc856b56a/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0460c57dfce1ec664d567e514d7e4e3dc856b56a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0460c57dfce1ec664d567e514d7e4e3dc856b56a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/e94f99edda419d16f3c4329fea505917908f8036/))
+([permalink](https://scherzerthesis.github.io/thesis/v/0460c57dfce1ec664d567e514d7e4e3dc856b56a/))
 was automatically generated
-from [scherzerthesis/thesis@e94f99e](https://github.com/scherzerthesis/thesis/tree/e94f99edda419d16f3c4329fea505917908f8036)
+from [scherzerthesis/thesis@0460c57](https://github.com/scherzerthesis/thesis/tree/0460c57dfce1ec664d567e514d7e4e3dc856b56a)
 on March 24, 2022.
 </em></small>
 
@@ -87,11 +87,7 @@ on March 24, 2022.
 ## Chapter One: Introduction {.page_break_before}
 
 
-**NSCLC**
-
-adasdkj
-
-Lung cancer is a global hazard on human health. The historic consumption of cigarette smoke has caused lung cancer to be the most common and deadly form of cancer. Fortunately, smoking-rates have decreased in the past 30 years with lung cancer rates also on the decline. However, even if cigarette consumption were eradicated, lung cancer would still significantly affect human health. Indeedm it is estimated that approximately 25% of all lung cancer cases arise in never smokers [@pmid:23714547]. Secondary causes of lung cancer include Radon exposure, high-heat cooking, family history, air pollution [@pmid:27174888]. An individual's risk of lung cancer also increases with age due to  decreases in the efficiency of tumor supressive mechanisms such as tumor immunity and apoptosis[@pmid:22974775].
+**NSCLC** Lung cancer is a global hazard on human health. The historic consumption of cigarette smoke has caused lung cancer to be the most common and deadly form of cancer. Fortunately, smoking-rates have decreased in the past 30 years with lung cancer rates also on the decline. However, even if cigarette consumption were eradicated, lung cancer would still significantly affect human health. Indeedm it is estimated that approximately 25% of all lung cancer cases arise in never smokers [@pmid:23714547]. Secondary causes of lung cancer include Radon exposure, high-heat cooking, family history, air pollution [@pmid:27174888]. An individual's risk of lung cancer also increases with age due to  decreases in the efficiency of tumor supressive mechanisms such as tumor immunity and apoptosis[@pmid:22974775].
 
 Lung cancer can be broadly classified into two major histological categories that are named based on how the malignant cells look under a microscope: Non-small Cell Lung Cancer (NSCLC) and Small Cell Lung Cancer (SCLC). Within NSCLC, tumors are further characterized based on histological structures, anatomical location, cell-of-origin, as well as genetic drivers[@pmid:18815398]. For example, lung adenocarcinoma is the most common subtype and is characterized by glandular and papillary structures while squamous cell lung carcinoma is characterized by keratin-pearls[@pmid:15059877]. Moreover, adenocarcinomas arise from alveolar-type-2 (AT2) cells in the distal lung and alveoli and are typified by genomic alterations throughout the MAPK pathway, such as EGFR, KRAS, BRAF, PI3K [@pmid:32747478; @pmid:11751630]. On the other hand, squamous cells carcinomas likely arise from basal cells and typically harbor SOX2 gene amplification [@pmid:27308419; @pmid:30332632].
 
@@ -99,14 +95,14 @@ The 5-year survival rate for patients with lung cancer was 25% in 2020 but varie
 
 The current standard of care for Lung adenocarcinoma patients are often a combination of several conventional chemotherapeutics including Cisplatin, Carboplatin, Paclitaxel, or Pemetrexed[@pmid:32548736]. Fortunately for patients who have been identified to have EGFR, ALK, ROS, TRK, or BRAF (V600E) genetic alternations are often offered pathway-targeted therapies[@pmid:27283860; @pmid:24651011]. As of late, many patients receive immunotherapy first, followed by pathway-targeted therapy after progression on immunotherapy. Furthermore, in the last seven years, exciting therapeutic options for _KRAS_ mutant lung cancer have been developed and tested, such as a combination of MEK-inhibition and autophagy-inhibtion, and direct inhibitors of _KRAS_ G12c and _KRAS_ G12D [@pmid:30833748; @pmid:35267628; @pmid:35167298]
 
-**MAPK signaling in cancer** standard activation from the top of he MAPK pathway begins with extracellular ligands (EGF, NGF, etc.) binding to Receptor-Tyrosine Kinases (RTKs). This leads to an loading of RAS with GTP, which activates RAS. Many RAS mutations lead to either more efficient loading of GTP or less effciency GTP hydrolysis which both serve to activate RAS.  GTP-loaded RAS recruits and activates RAF kinases (ARAF, BRAF, CRAF) which then phosphorylates and activates MEK1/2 kinases which then phosphorylates and activates ERK1/2. This ultimately leads to the activation of a suite of cellular processes that are required for proliferation, differentiation, migration, and cell survival. Therefore, activating mutation in this pathway, from RTKs to kinases, serve to keep the pathway in a constitutively active state. For example, the most common mutation in _BRAF_ is V600E. This valine to glutamic acid substitution is located in the kinase domain and mimics phosphorylation, allowing BRAF(V600E) to become independet of upstream regulations like RAS. This active state drives many of the hallmarks of cancer that is required for tumor formation. It is important to note that oncogenic activation of the MAPK pathway differs from normal ligand-mediated pathway activation. For example, mitogens, such as EGF, only transiently activate the pathway even with constant ligand stimulation. This immediate and strong spike in pathway activation is integrated by various biological processes in the cell that results in transcription of certain target genes. In contrast, oncogenic signaling thru mutational activation of BRAF(V600E) results in constant kinase signaling that is integrated differently than normal pathway stimulation. Thus, an oncogene-specific transcriptional program is activated.
+**MAPK signaling** standard activation from the top of he MAPK pathway begins with extracellular ligands (EGF, NGF, etc.) binding to Receptor-Tyrosine Kinases (RTKs). This leads to an loading of RAS with GTP, which activates RAS. Many RAS mutations lead to either more efficient loading of GTP or less effciency GTP hydrolysis which both serve to activate RAS.  GTP-loaded RAS recruits and activates RAF kinases (ARAF, BRAF, CRAF) which then phosphorylates and activates MEK1/2 kinases which then phosphorylates and activates ERK1/2. This ultimately leads to the activation of a suite of cellular processes that are required for proliferation, differentiation, migration, and cell survival. Therefore, activating mutation in this pathway, from RTKs to kinases, serve to keep the pathway in a constitutively active state. For example, the most common mutation in _BRAF_ is V600E. This valine to glutamic acid substitution is located in the kinase domain and mimics phosphorylation, allowing BRAF(V600E) to become independet of upstream regulations like RAS. This active state drives many of the hallmarks of cancer that is required for tumor formation. It is important to note that oncogenic activation of the MAPK pathway differs from normal ligand-mediated pathway activation. For example, mitogens, such as EGF, only transiently activate the pathway even with constant ligand stimulation. This immediate and strong spike in pathway activation is integrated by various biological processes in the cell that results in transcription of certain target genes. In contrast, oncogenic signaling thru mutational activation of BRAF(V600E) results in constant kinase signaling that is integrated differently than normal pathway stimulation. Thus, an oncogene-specific transcriptional program is activated.
 
 The importance of this pathway is reflected in the strong anti-tumor responses that are seen when small molecule inhibitors are used to target various molecules involved in the MAPK pathway. For example, Dabrafenib and Trametinib, inhibitors of BRAF and MEK kinases, respectfully, are used in patients that harbor BRAF(V600E) melanomas and lung cancers[@pmid:34455067; @pmid:25399551]. Although there is strong pre-clinical and clinical evidence that BRAF+MEK blockade can lead to tumor regression, not all patients respond to treatment[@pmid:35033867]. Therefore, to see a complete response, multiple pathways need to be targeted, such as PI3K or autophagy [@pmid:25472943; @pmid:32933997; @pmid:30833748].
 
 
 Great effort has elucidated the proto-oncogenes that drive cancer formation when mutated, such as _MYC_, _RAS_, _PI3K_, and others. Yet we still do not fully understand the mechanistic details that determine how genes cooperate to drive cancer.
 
-**Genetically-engineered mouse models **Genetically-Engineered mouse models (GEMMs) of human cancer have allowed for the reproducible analysis of cancer biology driven by specific mutations frequently found in cancer patients. These models are helpful in understanding the molecular mechanisms that drive tumor formation and testing tumor responses to targeted or immune therapies. Early mouse models were not engineered but instead selected inbred mouse strains that were natural hosts of tumor transplantation[@pmid:692142]. However, these models suffer from long latencies, incomplete pentrance, and often not relevant to human cancers. Therefore, carcinogen-induced models such as UV, Urethane, radiation, cigarette consumption, or MNU treatment models were developed to ressemble carinogene-induced human cancers[@pmid:7987394; @pmid:25363767].After techniques were developed to genetically manipulate embryonic stem-cells came the ability to engineer mice with specific mutations that could drive tumor formation. Since genes involved in cancer are also important for normal mouse development, conditional gene manipulation was developed to allow for temporal control.
+**Genetically-engineered mouse models** Genetically-Engineered mouse models (GEMMs) of human cancer have allowed for the reproducible analysis of cancer biology driven by specific mutations frequently found in cancer patients. These models are helpful in understanding the molecular mechanisms that drive tumor formation and testing tumor responses to targeted or immune therapies. Early mouse models were not engineered but instead selected inbred mouse strains that were natural hosts of tumor transplantation[@pmid:692142]. However, these models suffer from long latencies, incomplete pentrance, and often not relevant to human cancers. Therefore, carcinogen-induced models such as UV, Urethane, radiation, cigarette consumption, or MNU treatment models were developed to ressemble carinogene-induced human cancers[@pmid:7987394; @pmid:25363767].After techniques were developed to genetically manipulate embryonic stem-cells came the ability to engineer mice with specific mutations that could drive tumor formation. Since genes involved in cancer are also important for normal mouse development, conditional gene manipulation was developed to allow for temporal control.
 
 The most commonly used conditional gene expression system relies on inducible transcription factors, such as tetracycline-dependent regulatory system, where the treatment of mice with doxycycline toggles gene transcriptial levels of transgenes. More recently, Cre-Lox recombination strategies have been utilized to get more cell type specific control. In this system, genes of interested are constructed to contain LoxP-sites that flank a particular genetic element and upon delivery of Cre-recombinase the DNA sequence in between LoxP sites are excised. With this approach, one can knockout a gene by engineering LoxP sites around critical exons, or one could induce gene transcription by flanking a strong stop signal such as a polyadenylation sequence upstream of a gene-of-interest sequence such as KRAS(G12D)[@pmid:11751630].
 
@@ -116,7 +112,7 @@ Due to the robust connection between lung adenocarcinomas and mutational activat
 
 Our lab has previously developed a conditional mouse model of BRAF (V600E) human lung cancers[@pmid:17299132; @pmid:26001956; @pmid:31452510]. In the _Braf(CAT)_ model, normal BRAF is expressed from a conditional allele prior to Cre-mediated recombination . LoxP sites flank human _BRAF_ cDNA encoding normal _BRAF_ exons 15-18. Downstream of the LoxP sites is the mutant exon 15 that encodes the murine equivalent of the T1799A mutation that gives rise to the BRAF (V600E) onco-protein. Downstream of the mutant exon there is a P2A element and a CAAX-tagged _TdTomato_. Therefore, after Cre-mediated recombination, the BRAF (V600E) oncoprotein and fluorophore TdTomato is expressed at normal levels[@pmid:31452510].
 
-**BRAF (V600E) signaling and cooperating genetic events to LUAD initiation and progression**  Mutational activation of the MAPK pathway forms lung tumors in mice. specifically, expression of BRAF (V600E) in the Surfactant-Protein C expression cells (alveolar type 2 pneumocytes) elicits benign tumor formation that fails to progress to lung adenocarcinoma. It is hypothesized that the cell cycle arrest is dependent on the tumor suppressors P53 and CDKN2A. Loss of either P53 or CDKN2A allows tumors to progress to malignant and deadly lung adenocarcinoma. Also, activation of WNT signaling and PI3K signaling similarly allows BRAF (V600E) adenomas to progress to adenocarcinoma [@pmid:31452510; @pmid:26567140; @pmid:24589553]. These observations are in concordance to the &quot;multiple-hit&quot; hypothesis that states that cancers do not arise from single mutagenic events, but are the consequence of sequential assaults on the genome that activate more than one oncogenic pathway. These multiple genetic hits allow cells to adopt traits to form cancer, which is coined by Bob Weinberg and Douglas Hanahan as the &quot;Hallmarks of Cancer&quot; [@pmid:21376230; @pmid:35022204]. The traits include suppression of apoptosis, active proliferation, altered metabolism, changes in cell identity, and forming blood-vessels to supply tumor cells with adequate resources for growth[@pmid:35022204]. BRAF(V600E) expression alone is sufficient to activate many of the hallmarks of cancer but additional pathways need to be activated, or suppresed, to develop to malignant tumors. Great effort has elucidated the proto-oncogenes that drive cancer formation when mutated, such as _MYC_, _RAS_, _PI3K_, and others. Yet we still do not fully understand the mechanistic details that determine how genes cooperate to overide tumor suppressive mechanisms and drive cancer progression.
+**BRAF (V600E) Tumorigenesis and Cooperating Events for Progression**  Mutational activation of the MAPK pathway forms lung tumors in mice. specifically, expression of BRAF (V600E) in the Surfactant-Protein C expression cells (alveolar type 2 pneumocytes) elicits benign tumor formation that fails to progress to lung adenocarcinoma. It is hypothesized that the cell cycle arrest is dependent on the tumor suppressors P53 and CDKN2A. Loss of either P53 or CDKN2A allows tumors to progress to malignant and deadly lung adenocarcinoma. Also, activation of WNT signaling and PI3K signaling similarly allows BRAF (V600E) adenomas to progress to adenocarcinoma [@pmid:31452510; @pmid:26567140; @pmid:24589553]. These observations are in concordance to the &quot;multiple-hit&quot; hypothesis that states that cancers do not arise from single mutagenic events, but are the consequence of sequential assaults on the genome that activate more than one oncogenic pathway. These multiple genetic hits allow cells to adopt traits to form cancer, which is coined by Bob Weinberg and Douglas Hanahan as the &quot;Hallmarks of Cancer&quot; [@pmid:21376230; @pmid:35022204]. The traits include suppression of apoptosis, active proliferation, altered metabolism, changes in cell identity, and forming blood-vessels to supply tumor cells with adequate resources for growth[@pmid:35022204]. BRAF(V600E) expression alone is sufficient to activate many of the hallmarks of cancer but additional pathways need to be activated, or suppresed, to develop to malignant tumors. Great effort has elucidated the proto-oncogenes that drive cancer formation when mutated, such as _MYC_, _RAS_, _PI3K_, and others. Yet we still do not fully understand the mechanistic details that determine how genes cooperate to overide tumor suppressive mechanisms and drive cancer progression.
 
 
 **Talk here about the prevalence of mutations in the egfr-ras-raf-mek-erk pathway**
@@ -294,6 +290,28 @@ In summary, we have compared the tumorigenic potential of three _^Trp53^_ allele
 ## Chapter Four {.page_break_before}
 
 
+## Introduction
+history of scRNA seq
+cell types of lung tumorigenesis
+tumor heterogenity
+response to D+T
+
+
+## Results
+all cell types in the lung
+tumor cell clusters
+highlight known cell types
+repspone to D+T each cluster?
+
+## Discussion
+talk about the batch effects
+talk about the times
+similarity to other studies with KRAS
+talk about homogenous response to D+T
+
+
+
+
 
 
 ## Chapter Three {.page_break_before}
@@ -301,9 +319,29 @@ In summary, we have compared the tumorigenic potential of three _^Trp53^_ allele
 ## Conclusions
 
 ## Future prespectives
+single cell at later time points
+metastasis
+p53 homologous recombination
+mechanisms of setd2 loss
+complex gene-drug interactions
+copy number variation
+requirement for p19 for p53 mutant stability
 
 
-## Introduction
+
+
+
+
+
+
+
+
+
+## Chapter Six: methods {.page_break_before}
+
+**test** 
+
+
 
 
 
