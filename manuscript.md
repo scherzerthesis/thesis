@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/aae47d7eb70a422d565a223f2ab9fc95ccae4700/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/aae47d7eb70a422d565a223f2ab9fc95ccae4700/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/aae47d7eb70a422d565a223f2ab9fc95ccae4700/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/78ef3a4ef4a18353bcca1019ff69fe0e3876a2bc/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/78ef3a4ef4a18353bcca1019ff69fe0e3876a2bc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/78ef3a4ef4a18353bcca1019ff69fe0e3876a2bc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/aae47d7eb70a422d565a223f2ab9fc95ccae4700/))
+([permalink](https://scherzerthesis.github.io/thesis/v/78ef3a4ef4a18353bcca1019ff69fe0e3876a2bc/))
 was automatically generated
-from [scherzerthesis/thesis@aae47d7](https://github.com/scherzerthesis/thesis/tree/aae47d7eb70a422d565a223f2ab9fc95ccae4700)
+from [scherzerthesis/thesis@78ef3a4](https://github.com/scherzerthesis/thesis/tree/78ef3a4ef4a18353bcca1019ff69fe0e3876a2bc)
 on March 27, 2022.
 </em></small>
 
@@ -165,7 +165,9 @@ Recently, Monte Winslow and his lab at Stanford University has developed **Tu**m
 
 # Results
 Adenoviral vectors and lentiviral vectors introduced in the lungs of GEMMs offer temporal control and can be titrated to acheive an optimal level of tumor numerosity. However, only lentiviral vectors can be used to barcode tumors because they integrate into the genome while adenoviruses do not[@pmid:19561589; @pmid:28530655]. Together with CRISPR/CAS9 gene editing, lentiviruses have been used to analyzed many genetic interactions of oncogenic _Kras_ driven lung adenocarcinoma[@pmid:29233960;@pmid:28530655]. To enable simultaneous actvation of BRAF^V600E^ and loss of tumor supressor genes, we bred _Braf^CAT^_; _H11b^LSL-CAS9/+^_ mice. 
-To  determine the size of BRAF ^V600E^ tumors and the contribution of 11 tumor suppressor genes (_Trp53, Rb1, Cdkn2a, Apc, Rbm10, Stk11, Setd2, Arid1a, Atm, Keap1, Smad4)_ on BRAF ^V600E^ lung tumorigenesis, we obtained tittered barcoded-lentiviral plasmids that encode Cre-recombinase as well as a sgRNA that inactivates one of eleven tumor suppressors common in lung adenocarcinoma. All genes tested are putative tumor suppressor genes commonly lost in human lung cancer patients. Each lentiviral solution contained ~1000 individually barcoded lentiviruses. We infected both _LSL-Cas9_ and _CAS9_ deficient mice in order to determine the contribution of genetic manipulation and/or deletion of the targeted gene. Mice meant to be analyzed after 8 weeks received a viral titer of 1x10^5 while mice mean to be analyzed after 16 weeks received a viral titer of 1x10^4. After euthanasia, lungs were collected for genomic DNA extraction, and barcode amplification followed by preperation of sequencing libraries.  Before genomic extraction and library preparation, a known quantity of known-barcoded cells was added in order to benchmark sequencing reads to a known cell number.
+To  determine the size of BRAF ^V600E^ tumors and the contribution of 11 tumor suppressor genes (_Trp53, Rb1, Cdkn2a, Apc, Rbm10, Stk11, Setd2, Arid1a, Atm, Keap1, Smad4)_ on BRAF ^V600E^ lung tumorigenesis, we obtained tittered barcoded-lentiviral plasmids that encode Cre-recombinase as well as a sgRNA that inactivates one of eleven tumor suppressors common in lung adenocarcinoma. All genes tested are putative tumor suppressor genes commonly lost in human lung cancer patients. Each lentiviral solution contained ~1000 individually barcoded lentiviruses. We infected both _LSL-Cas9_ and _CAS9_ deficient mice in order to determine the contribution of genetic manipulation and/or deletion of the targeted gene. Mice meant to be analyzed after 8 weeks received a viral titer of 1x10^5 while mice mean to be analyzed after 16 weeks received a viral titer of 1x10^4. After euthanasia, lungs were collected for genomic DNA extraction, and barcode amplification followed by preperation of sequencing libraries.  Before genomic extraction and library preparation, a known quantity of known-barcoded cells was added in order to benchmark sequencing reads to a known cell number(figure).
+
+We determined the mean size of a BRAF^V600E^ driven tumor to be 21,248 thousand cells (figure). Interestingly, there is a widespread distribution of tumor sizes with the largest BRAF^V600E^ tumor to be ~300,000 cells along with many small tumors (figure).
 
 Gross histologic images of experimental lungs are show an increase in tumor burden with both time (Figure xxx) and CAS9 status (figure xxx). Therefore, based on macroscopic inspection, at least one tumor suppressor appeared to cooperate with BRAF ^V600E^ to increase tumor burden. In order to determine the fitness landscape of any one particular tumor suppressor, we calculated the relative number of tumor cells in a given tumor using the TUBA-SEQ genomics pipeline. After 8 weeks post tumor initiation there no statistically significant contribution of tumor suppressor loss (Figure). SETD2 loss was trending towards statistical significance. However, 16 weeks post initiation revealed both SETD2 loss and APC loss cooperated with BRAF ^V600E^ to form larger tumors (Figure x). APC loss was a suspected hit as we have previously shown that activation of Wnt-beta-catenin signaling promoted BRAF^V600E^ tumorigenesis. As APC loss is predicted to increase the activity of Beta-catenin signaling, this result was unsurprising to us. However, loss of SETD2 was a novel finding in the context of BRAF ^V600E^ lung tumorigenesis.
 
@@ -344,9 +346,44 @@ requirement for p19 for p53 mutant stability
 
 
 ## Chapter Six: methods {.page_break_before}
+**Animal husbandry**All mice were housed in an environmentally controlled room, and all animal care and experimental procedures were approved by (and in accordance with) the Institutional Animal Care and Use Committee Office of the Huntsman Cancer Institute at the University of Utah. Genetically engineered mouse breeding and genotyping was conducted as previously described [@pmid:31452510]. The BRAF^CAT^ and _Trp53^fl/fl^_ mice were previously described [@pmid:11694875; @pmid:31452510; @pmid:17299132; @pmid:26001956]. All viruses were administered in a Biosafety Level 2+ room, as is regulated by the Institutional Biosafety Committee Guidelines. Adeno-SPC-CRE virus (University of Iowa) was delivered through nasal instillation. The _Trp53^wmR172H^_ and _Trp53^wmR245W^_ mice and respective genotyping protocols were gifted by Gigi Lozano and her laboratory and previously published [@pmid:30262850; @pmid:33839689].
 
-**test** 
+**Cell line generation**Tumor bearing mice were euthanized and lungs dissected. Lungs were then minced and incubated in digestive enzymes Collagenase I, dispase, elastase,  for 30 minutes at 37 degrees. Single-cell suspensions were then resuspended in complete DMEM medium and filtered through a 100 micron filter and centrifuged at 300 x g for 5 minutes. Single-cell suspensions were then incubated in red blood cell lysis buffer for 5 minutes at room temperature, then resuspended in complete RPMI and placed in a tissue culture incubator. Cells were then passaged once a week with differential trypsinization to purify tumors cells from viable stromal cells. p53 status and BRAF^V600E^ status (tdTomato+) were assessed by western blot and flow cytometry.
 
+**Tissue culture**Murine tumor derived cell lines and HCC-3564 cells were routinely cultured in DMEM supplemented with 10% heat-inactivated FBS and 1% penicillin/streptomycin. Cells were routinely tested for mycoplasma.
+
+**Immunoblotting**Cells destined for western blot were scraped in ice cold PBS then centrifuged to pellet cells. After supernatant aspiration, cells were lysed with RIPA buffer supplemented with a protease/phosphatase inhibitor cocktail (Halt). Cell lysate protein concentration was determined with BCA assay. 40 microgram/lane was mixed with 4X SDS buffer and 10X sample buffer. Samples were run through a 4-12% Bis-tris gel at 200V for approximately 75 minutes then transferred to a PVDF membrane using the iBlot2 transfer apparatus. Membranes were then incubated in Odyssey blocking buffer for 30 minutes before being incubated overnight with primary antibody. Membranes were then washed 3X with TBS-T and incubated in secondary antibody for 2 hours before being washed 3X and imaged on the Licor Odyssey clX.
+
+**RNA Sequencing**Cells lines were routinely cultured for approximately 10 passages before RNA purification using Qiagen Mini kit from one million cells. Libraries were generated with Illumina TruSeq Stranded mRNA Library Prep with UDI kit and sequenced on a Nova-Seq targeting 25 million reads per sample. fastq files were processed on Galazy.org using FastQC, HISAT2, MultiQC, FeatureCounts, and DESeq2.
+
+**Immunohistochemistry and immunofluoresence**Immunohistochemistry was performed as previously described, with the rabbit primary antibody against P53, SPC, phospho-ERK1/2, NKX2-1, HMGA2, p19/ARF [@pmid:28089889; @pmid:31452510]. 
+
+
+**Slide imaging and Quantification**Hematoxylin and eosin (H&E) and IHC stained slides 1 were scanned automatically by the 3D Histech Pannoramic MIDI scanner (Thermo Fisher). Slides were imaged and analyzed using Caseviewer Software or QuantCenter analytical center provided on the 3D Histech Slide Scanner at the indicated magnification. Tumor burden was manually calculated on each lung lobe and total tumor area was compared to total lung area. Tumor diameters were measured using QuantCenter software from 3D Histech.
+
+**Reagents List**| Reagent Type      | Name               | Source                    | Catalog number | Additional Information            |
+|-------------------|--------------------|---------------------------|----------------|-----------------------------------|
+| antibody          | beta-Actin         | CST                       | 3700T          | wb: 1:10,000                      |
+| antibody          | Phospho ERK1/2     | CST                       | 4370           | wb:1:2000, IHC:1:1000             |
+| antibody          | ERK1/2             | CST                       | 4696           | wb: 1:2000                        |
+| antibody          | P53                | Leica                     | cm-5           | wb: 1:2000, IHC: 1:1000, IF:1:250 |
+| antibody          | NKX2-1             | Abcam                     | ab76013        | IHC: 1:1000                       |
+| antibody          | Pro-SPC            | Millipore                 | Cat# AB3786    | IHC: 1:2000                       |
+| antibody          | HMGA2              | CST                       | 8179S          | IHC 1:2000                        |
+| antibody          | p19/ARF            | Chuck Sherr               |[@pmid:15672607]|                                   |
+| Cell Line         | 293T               | ATCC                      | CRL-3216       |                                   |
+| Cell Line         | HCC-364            | Bivona lab                |[@pmid:24550319]|                                   |
+| Recombinant DNA   | Pmd2.5             | Addgene                   | #12259         |                                   |
+| Recombinant DNA   | pspax2             | Addgene                   | #12260         |                                   |
+| Recombinant DNA   | P53-R175H          | Addgene                   | #22936         |                                   |
+| Chemical Compound | dabrafenib         | Selleck                   | S2807          |                                   |
+| Chemical Compound | PLX4720            | Plexxikon/ Research Diets |                |                                   |
+| Chemical Compound | trametinib         | Selleck                   | S2673          |                                   |
+| Other             | Collagenase type 1 | Thermo Fischer Scientific | 17100017       |                                   |
+| Other             | Dispase            | Corning                   | 354235         |                                   |
+| other             | Elastase           | Worthington Biochem       | LS006365       |                                   |
+| other             | ad5spc-Cre         | university of Iowa        | VVC-Berns1168  |                                   |
+Table: **Critical reagents** {#tbl:reagents}
 
 
 
