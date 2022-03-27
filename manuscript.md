@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-03-24'
+date-meta: '2022-03-27'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-03-24" />
-  <meta name="citation_publication_date" content="2022-03-24" />
+  <meta name="dc.date" content="2022-03-27" />
+  <meta name="citation_publication_date" content="2022-03-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/0460c57dfce1ec664d567e514d7e4e3dc856b56a/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0460c57dfce1ec664d567e514d7e4e3dc856b56a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0460c57dfce1ec664d567e514d7e4e3dc856b56a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/aae47d7eb70a422d565a223f2ab9fc95ccae4700/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/aae47d7eb70a422d565a223f2ab9fc95ccae4700/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/aae47d7eb70a422d565a223f2ab9fc95ccae4700/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/0460c57dfce1ec664d567e514d7e4e3dc856b56a/))
+([permalink](https://scherzerthesis.github.io/thesis/v/aae47d7eb70a422d565a223f2ab9fc95ccae4700/))
 was automatically generated
-from [scherzerthesis/thesis@0460c57](https://github.com/scherzerthesis/thesis/tree/0460c57dfce1ec664d567e514d7e4e3dc856b56a)
-on March 24, 2022.
+from [scherzerthesis/thesis@aae47d7](https://github.com/scherzerthesis/thesis/tree/aae47d7eb70a422d565a223f2ab9fc95ccae4700)
+on March 27, 2022.
 </em></small>
 
 ## Authors
@@ -164,7 +164,7 @@ Indeed, in highly mutated cancers such as melanoma and lung cancer, recurrent mu
 Recently, Monte Winslow and his lab at Stanford University has developed **Tu**mor- **Ba**rcode **Seq**uencing (TUBA-SEQ), a rapid, multiplexed, quantitative assay for analyzing the contribution of tumor-suppressor loss _in vivo_. This technique works by delivering a uniquely barcoded lentiviral endoing Cre recombinase, to activate Cre-mediated oncogenes, and a guide RNA, to inactivate a single tumor suppressor gene. Therefore, each tumor will be driven by the same oncogene, but will have different tumor suppressors inactivated. After a period of time (6-24 weeks) tissue is harvested for whole-lung DNA extraction and targeted DNA-sequencing is performed to quantify relative tumor size to spike-in controls[@pmid:28530655]. Therefore, contribution of a single tumor suppressor can be quantified in single animal. Here, we explore the contribution of 11 tumor suppressor genes and 5 controls in the context of our BRAF ^V600E^- driven lung tumor models.
 
 # Results
-
+Adenoviral vectors and lentiviral vectors introduced in the lungs of GEMMs offer temporal control and can be titrated to acheive an optimal level of tumor numerosity. However, only lentiviral vectors can be used to barcode tumors because they integrate into the genome while adenoviruses do not[@pmid:19561589; @pmid:28530655]. Together with CRISPR/CAS9 gene editing, lentiviruses have been used to analyzed many genetic interactions of oncogenic _Kras_ driven lung adenocarcinoma[@pmid:29233960;@pmid:28530655]. To enable simultaneous actvation of BRAF^V600E^ and loss of tumor supressor genes, we bred _Braf^CAT^_; _H11b^LSL-CAS9/+^_ mice. 
 To  determine the size of BRAF ^V600E^ tumors and the contribution of 11 tumor suppressor genes (_Trp53, Rb1, Cdkn2a, Apc, Rbm10, Stk11, Setd2, Arid1a, Atm, Keap1, Smad4)_ on BRAF ^V600E^ lung tumorigenesis, we obtained tittered barcoded-lentiviral plasmids that encode Cre-recombinase as well as a sgRNA that inactivates one of eleven tumor suppressors common in lung adenocarcinoma. All genes tested are putative tumor suppressor genes commonly lost in human lung cancer patients. Each lentiviral solution contained ~1000 individually barcoded lentiviruses. We infected both _LSL-Cas9_ and _CAS9_ deficient mice in order to determine the contribution of genetic manipulation and/or deletion of the targeted gene. Mice meant to be analyzed after 8 weeks received a viral titer of 1x10^5 while mice mean to be analyzed after 16 weeks received a viral titer of 1x10^4. After euthanasia, lungs were collected for genomic DNA extraction, and barcode amplification followed by preperation of sequencing libraries.  Before genomic extraction and library preparation, a known quantity of known-barcoded cells was added in order to benchmark sequencing reads to a known cell number.
 
 Gross histologic images of experimental lungs are show an increase in tumor burden with both time (Figure xxx) and CAS9 status (figure xxx). Therefore, based on macroscopic inspection, at least one tumor suppressor appeared to cooperate with BRAF ^V600E^ to increase tumor burden. In order to determine the fitness landscape of any one particular tumor suppressor, we calculated the relative number of tumor cells in a given tumor using the TUBA-SEQ genomics pipeline. After 8 weeks post tumor initiation there no statistically significant contribution of tumor suppressor loss (Figure). SETD2 loss was trending towards statistical significance. However, 16 weeks post initiation revealed both SETD2 loss and APC loss cooperated with BRAF ^V600E^ to form larger tumors (Figure x). APC loss was a suspected hit as we have previously shown that activation of Wnt-beta-catenin signaling promoted BRAF^V600E^ tumorigenesis. As APC loss is predicted to increase the activity of Beta-catenin signaling, this result was unsurprising to us. However, loss of SETD2 was a novel finding in the context of BRAF ^V600E^ lung tumorigenesis.
@@ -174,6 +174,8 @@ Given our findings of SETD2 loss increased tumor burden concurrent with BRAF^V60
 # Discussion
 
 Oncogenic BRAF^V600E^ is a major driver in lung adenocarcinoma. However, mouse models with activation of BRAF ^V600E^ only lead to benign tumorigenesis[@pmid:26001956; @pmid:17299132]. Although it is well known that activation of WNT and PI3k signaling, as well as lost of _Trp53_ and _Cdkn2a_ genes allow BRAF^V600E^ benign lung tumors to progress to malignant disease, we wanted to systematically test a variety of known tumor suppressors in lung adenocarcinoma. Furthermore, we do not know the size of BRAF^V600E^ adenomas. Prior to TUBA-SEQ, it was very difficult to accurately determine the size of BRAF^V600E^ adenomas. Based on population doublings, as well as cross sections of BRAF ^V600E^ tumors in histological sections, it is estimated that BRAF^V600E^-driven lung adenomas grow about 15-20 populations doublings and reaching a size of 1mm^3^[@pmid:24589553] With TUBA-SEQ, we can more accurately discern the absolute size of BRAF^V600E^ lung adenomas in almost every tumor in all animal subjects. Given the theory that BRAF-^V600E^ induces growth arrest after an initial burst of neoplastic growth, it would be of interest to know if all tumors grow to a predetermined and absolute size, or if there is a spectrum of tumor sizes that are determined by extrinsic factors such as proximity to blood vessels or certain stromal cells.
+
+Our Tuba-Seq analysis revealed that there is a spectrum of BRAF^V600E^ tumors after 16-weeks. This observation would support the idea that just because a cell is activated by BRAF^V600E^, does not mean 
 
 ![**This is the title of Figure** this is the text.](images/tuba1.png){#fig:04 .white width="100%"}
 
@@ -296,12 +298,16 @@ cell types of lung tumorigenesis
 tumor heterogenity
 response to D+T
 
+The mammalian lung is a vast and intricate labyrinth that is responsible that is responsible for gas exchange between air and body through a meshwork of endothelial cells. The lung organ system begins with a single airway that branches in a geometric and stereotypic pattern[@pmid:18463632]. These many thousands of branches lead to the business end of gas exchange, the lung alveoli. The alveoli are comprised of two specialized cell types: Alveolar Type 1 (AT1) cells comprise most of the surface area of the lung and are thin squamous cells that mediate oxygen exchange across cell membranes. Alveolar Type 2 (AT2) cells, however, are cuboidal that secrete surfactant proteins that aide in preventing the delicate alveoli from collapsing. 
+
+Pathology of the alveoli is a steadfast threat to an organism's life due to the importance of gas exchange. Diseases such as lung adenocarcinoma, pulmonary fibrosis, and emphysema are the most common dysfunctions of the distal lung epithelium[@pmid:24499815]. Lung adenocarcinoma is also the most common type of human lung cancers in both men and women. A large body of literature has suggested that lung adenocarcinomas arise in the alveolar and are descendants of AT2 cells [@pmid:32747478; @pmid:11751630]. Therefore, there is great interest in understanding how AT2 cells develop, maintain cell identity, as well as how they renew themselves during aging or in response to injury [@pmid:24739965; @pmid:24879355; @pmid:24879355; @pmid:32669714].
+
+Recent advances in profiling of single-cell transcriptomes during homeostasis conditions and diseases states have greatly improved our understanding of AT2 cell, and lung adenocarcinoma cell biology[@pmid:32707077; @pmid:32707078; @pmid:24739965].Single-cell profiling of human lung cancers have revealed the drastic intra-tumoral heterogeneity that exists in a single tumor[@pmid:22397650; @pmid:27757846]. Since transcriptional heterogeneity can be considered a source of therapeutic resistance, there is great interest in understanding the evolution of lung adenocarcinoma and how it changes with response to pathway targeted therapy[@pmid:32822576].Since GEMMs are an important pre-clinical model for testing out potential therapeutic strategies for lung adenocarcinoma, it is important to understand single-cell heterogeneity in popular GEMM models. 
+
+Although GEMMs are a great way to model human lung adenocarcinomas, there are several drawbacks worth mentioning. Human lung adenocarcinomas typically develop from a single tumor-initiating cell and is a consequence of an accumulation of mutations in certain cell types and a weakened immune system across a lifetime.  In GEMMs, tumorigenesis is often initiated in many cells at once and is the consequence of an engineered mutation. In contrast to human lung adenocarcinomas that have a high mutational burden, murine lung adenocarcinomas do not have a high mutational burden and instead display high copy number variation[@pmid:25363767]. Therefore, we set out to profile the single-cell transcriptomes of various BRAF^V600E^-driven lung cancer GEMMs in order to determine genotype-specific heterogeneity and response to pathway-targeted therapy.
 
 ## Results
-all cell types in the lung
-tumor cell clusters
-highlight known cell types
-repspone to D+T each cluster?
+Adenoviral vectors and lentiviral vectors introduced in the lungs of GEMMs offer temporal control and can be titrated to acheive an optimal level of tumor numerosity. However, only lentiviral vectors can be used to barcode tumors because they integrate into the genome while adenoviruses do not[@pmid:19561589; @pmid:28530655].
 
 ## Discussion
 talk about the batch effects
