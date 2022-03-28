@@ -33,10 +33,10 @@ BRAFi
 CAAX
 Carboplatin
 carinogene
-CAS
+Cas
 Caseviewer
-Catenin
-CDKN
+catenin
+Cdkn
 cDNA
 chemoresistance
 chemotherapeutics
@@ -59,9 +59,9 @@ dabrafenib
 Dankort
 decameric
 dedifferentiated
-dedifferentiation
+Dedifferentiation
 DESeq
-differentially
+Differentially
 Dispase
 DMEM
 DMP
@@ -71,8 +71,8 @@ dysregulation
 Ectopic
 effciency
 EGF
-egfr
-Elastase
+EGFR
+elastase
 endoing
 engagment
 eosin
@@ -117,7 +117,7 @@ homogenous
 homologue
 homologues
 homozygous
-hotspot
+Hotspot
 hotspots
 Hyperactivation
 iBlot
@@ -125,10 +125,10 @@ Identificaton
 IHC
 Illumina
 Imatinib
-Immunoblotting
+immunoblotting
 immunofluorescence
 Immunofluoresence
-immunohistochemistry
+Immunohistochemistry
 immunostaining
 immunotherapy
 Indeedm
@@ -145,7 +145,7 @@ Kras
 latencies
 Leica
 lentiiral
-Lentiviral
+lentiviral
 Lentivirus
 lentiviruses
 leukemias
@@ -157,7 +157,7 @@ LOH
 LoxP
 Lozano
 LSL
-LUAD
+luad
 LUADs
 lysate
 lysed
@@ -166,7 +166,7 @@ MAPK
 MDM
 MDMX
 mealanoma
-mek
+MEK
 MEKi
 mesenchymal
 meshwork
@@ -191,7 +191,7 @@ numerosity
 ofmale
 oligomerization
 onco
-Oncogenic
+oncogenic
 oncoprotein
 oncoproteins
 overide
@@ -208,7 +208,7 @@ pfu
 phenotypes
 phenotypic
 phosphatase
-phospho
+Phospho
 phosphorylated
 phosphorylates
 plasmids
@@ -231,7 +231,7 @@ PVDF
 Qiagen
 QuantCenter
 Qubit
-ras
+RAS
 Rbm
 rcode
 Recombinant
@@ -248,13 +248,13 @@ SCLC
 scRNA
 SDS
 Selleck
-Setd
+SETD
 sgRNA
 Sherr
 Siegel
 SMAD
 SOX
-spc
+Spc
 stereotypic
 Stk
 stressor
@@ -267,7 +267,7 @@ supression
 supressive
 supressor
 Suquencing
-Surfactant
+surfactant
 SV
 targeed
 TdTomato
@@ -295,7 +295,7 @@ Trp
 TruSeq
 trypsinization
 tumoral
-Tumorigenesis
+tumorigenesis
 tumorigenic
 Tyrosine
 UDI
@@ -309,7 +309,7 @@ wb
 wildtype
 Winslow
 wmR
-WNT
+wnt
 Worthington
 XXXX
 XXXXXXXX
