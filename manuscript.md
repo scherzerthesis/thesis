@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/c38737afb577e35ec46750d76de1b28f67b86192/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/c38737afb577e35ec46750d76de1b28f67b86192/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/c38737afb577e35ec46750d76de1b28f67b86192/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/987c5d89817ca7e2654877bc3ecb872fb25a6d0f/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/987c5d89817ca7e2654877bc3ecb872fb25a6d0f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/987c5d89817ca7e2654877bc3ecb872fb25a6d0f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/c38737afb577e35ec46750d76de1b28f67b86192/))
+([permalink](https://scherzerthesis.github.io/thesis/v/987c5d89817ca7e2654877bc3ecb872fb25a6d0f/))
 was automatically generated
-from [scherzerthesis/thesis@c38737a](https://github.com/scherzerthesis/thesis/tree/c38737afb577e35ec46750d76de1b28f67b86192)
+from [scherzerthesis/thesis@987c5d8](https://github.com/scherzerthesis/thesis/tree/987c5d89817ca7e2654877bc3ecb872fb25a6d0f)
 on March 28, 2022.
 </em></small>
 
@@ -181,15 +181,15 @@ Our Tuba-Seq analysis revealed that there is a spectrum of BRAF^V600E^ tumors af
 
 ![**Figure 2.1. Overview of Tuba-Seq experimentation** (A) Lenti-sgRNA-Cre plasmid library with collection of targeted tumor supressors. (B) _Braf^CAT/+^_ and _Braf^CAT/+^;H11b^LSL-Cas9/+^_ were infected with either 10^4^ (16 week _Braf^CAT/+^; H11b^LSL-Cas9/+^_) or 10^5^ (8 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_ and 16 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_) (B) Representative gross images of experimental mouse lungs.](images/tuba1.png){#fig:04 .white width="100%"}
 
-![**Figure 2.2. Jitter plot of calculated tumor cell number based on Tuba-Seq pipeline. Mean tumor number for 16 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_ is 21,248 cells. Mean tumor number for 8 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_ is 9,095 cells. Mean tumor number for 16 week _Braf^CAT/+^; H11b^LSL-Cas9/+^_ is 29,867 cells.  ](images/tuba2.png){#fig:05 .white width="100%"}
+![**Figure 2.2. Jitter plot of calculated tumor cell number based on Tuba-Seq pipeline.Tumor size corresponds to dot size. Mean tumor number for 16 weeks _Braf^CAT/+^; H11b^+/+^_ is 21,248 cells. Mean tumor number for 8 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_ is 9,095 cells. Mean tumor number for 16 week _Braf^CAT/+^; H11b^LSL-Cas9/+^_ is 29,867 cells.  ](images/tuba2.png){#fig:05 .white width="100%"}
 
-![**Figure 2.3. Jitter plot of calculated tumor cell number based on Tuba-Seq pipeline seperated by sgID. (A) 16 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_(negative control) has no apparent cooperative genetic events. (B)8 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_ identifed Apc loss as a cooperating genetic event based on increase in tumor cell number (C) This is the title of Figure** this is the text.](images/tuba3.png){#fig:06 .white width="100%"}  
+![**Figure 2.3. Jitter plot of calculated tumor cell number based on Tuba-Seq pipeline seperated by sgID. (A) 16 weeks _Braf^CAT/+^; H11b^+/+^_(negative control) has no apparent cooperative genetic events. (B) 8 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_ identifed Apc loss as a cooperating genetic event based on increase in tumor cell number (C) 16 week _Braf^CAT/+^; H11b^LSL-Cas9/+^_ identified Apc and Setd2 loss as cooperating events.](images/tuba3.png){#fig:06 .white width="100%"}  
   
-![**This is the title of Figure** this is the text.](images/tuba4.png){#fig:07 .white width="100%"}
+![**Figure 2.4. Validation of _Setd2_ loss as cooperating genetic event in BRAF^V600E^ lung cancer. (A) Representative images of lung tumor histology of 16 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_ mice infected with 2.5x10^4^ PFU Lenti-sgSetd2-Cre or Lenti-sgNT1-Cre. (B) Quantification of tumor size based on histology, n= 30 tumors. * = _p-value<.05.](images/tuba4.png){#fig:07 .white width="100%"}
 
-![**This is the title of Figure** this is the text.](images/tuba5.png){#fig:08 .white width="100%"}
+![**Figure 2.5. H3K36me^3^ is lost in larger tumors in _Set2d_-edited lung tumors.(A) Representative images of H3K36me3 (surrogate for _setd2_ loss) depicting either "high" or "low" staining indicative of protein expression. (B) Quantification of H3K36me^3^ positive tumors in either _sgSetd2_ or _sgNT1_ targeted mice. *= _p-value<.05_ for negative tumors. (C) Quantification of tumor size paired with H3K36me^3^ negative tumors. Tumor size and H3K36me^3^ positivty were simuletaneously measured using QuantCenter and binned in either "low" or "High" and then average tumor size was determined for each group. *= _p-value<.05_.](images/tuba5.png){#fig:08 .white width="100%"}
 
-![**This is the title of Figure** this is the text.](images/tuba6.png){#fig:09 .white width="100%"}
+![**Figure 2.6. _SETD2_ loss is common in human cancers, an indicator of poor prognosis and frequently occurs with _BRAF^V600E^_ mutations. (A) Survival analysis with "Survival" R package indicates a trend towards poorer overall survival with low _SETD2_ mRNA in TGCA Lung adenocarcinoma dataset. (B) _SETD2_ mRNA is attenuated in Lung adenocarcinoma compared to normal lung tissue (C) _SETD2_ mutations significantly co-occur with BRAF^V600E^ mutations and are present in 40% of _BRAF^V600E^) mutant Lung Adenocarcinoma.](images/tuba6.png){#fig:09 .white width="100%"}
 
 
 
