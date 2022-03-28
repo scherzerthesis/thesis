@@ -302,6 +302,14 @@ content/02.tubaseq.md:29:tumorigenesis
 content/02.tubaseq.md:29:WNT
 content/02.tubaseq.md:31:BRAF
 content/02.tubaseq.md:31:BRAF
+content/02.tubaseq.md:33:Cre
+content/02.tubaseq.md:33:Lenti
+content/02.tubaseq.md:33:LSL
+content/02.tubaseq.md:33:LSL
+content/02.tubaseq.md:33:LSL
+content/02.tubaseq.md:33:plasmid
+content/02.tubaseq.md:33:sgRNA
+content/02.tubaseq.md:33:supressors
 content/03.p53.md:5:adenocarcinomas
 content/03.p53.md:5:ARF
 content/03.p53.md:5:BRAF

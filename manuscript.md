@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/811a8b3bb3b4ebbd000e6e5f7822e0778a33601f/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/811a8b3bb3b4ebbd000e6e5f7822e0778a33601f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/811a8b3bb3b4ebbd000e6e5f7822e0778a33601f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/c0eb8807f43cb1cfa23b023bee6fccf181e816ec/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/c0eb8807f43cb1cfa23b023bee6fccf181e816ec/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/c0eb8807f43cb1cfa23b023bee6fccf181e816ec/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/811a8b3bb3b4ebbd000e6e5f7822e0778a33601f/))
+([permalink](https://scherzerthesis.github.io/thesis/v/c0eb8807f43cb1cfa23b023bee6fccf181e816ec/))
 was automatically generated
-from [scherzerthesis/thesis@811a8b3](https://github.com/scherzerthesis/thesis/tree/811a8b3bb3b4ebbd000e6e5f7822e0778a33601f)
+from [scherzerthesis/thesis@c0eb880](https://github.com/scherzerthesis/thesis/tree/c0eb8807f43cb1cfa23b023bee6fccf181e816ec)
 on March 28, 2022.
 </em></small>
 
@@ -179,7 +179,7 @@ Oncogenic BRAF^V600E^ is a major driver in lung adenocarcinoma. However, mouse m
 
 Our Tuba-Seq analysis revealed that there is a spectrum of BRAF^V600E^ tumors after 16-weeks. This observation would support the idea that just because a cell is activated by BRAF^V600E^, does not mean 
 
-![**This is the title of Figure** this is the text.](images/tuba1.png){#fig:04 .white width="100%"}
+![**Figure 2.1. Overview of Tuba-Seq experimentation** (A) Lenti-sgRNA-Cre plasmid library with collection of targeted tumor supressors. _Braf^CAT/+^_ and _Braf^CAT/+^;H11b^LSL-Cas9/+^_ were infected with either 10^4^ (16 week _Braf^CAT/+^; H11b^LSL-Cas9/+^_) or 10^5^ (8 weeks _Braf^CAT/+^; H11b^LSL-Cas9/+^_ and 16 weeks _Braf^CAT/+^_ alone) (B)  text.](images/tuba1.png){#fig:04 .white width="100%"}
 
 ![**This is the title of Figure** this is the text.](images/tuba2.png){#fig:05 .white width="100%"}
 
