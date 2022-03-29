@@ -31,7 +31,7 @@ Biochem
 Biosafety
 Bivona
 bona
-Braf
+BRAF
 BRAFi
 CAAX
 Carboplatin
@@ -40,7 +40,7 @@ CAS
 Caseviewer
 catenin
 cBioPortal
-Cdkn
+CDKN
 cDNA
 chemoresistance
 chemotherapeutics
@@ -73,10 +73,10 @@ DMP
 doublings
 doxycycline
 dysregulation
-ectopic
+Ectopic
 effciency
 EGF
-egfr
+EGFR
 Elastase
 endoing
 engagment
@@ -126,7 +126,7 @@ homogenous
 homologue
 homologues
 homozygous
-Hotspot
+hotspot
 hotspots
 Hyperactivation
 iBlot
@@ -161,7 +161,7 @@ Leica
 Lenti
 lentiiral
 lentiviral
-lentivirus
+Lentivirus
 lentiviruses
 leukemias
 Licor
@@ -190,7 +190,7 @@ methyltransferase
 microgram
 Millipore
 misclassification
-missense
+Missense
 mitogens
 MNU
 mor
@@ -207,7 +207,7 @@ numerosity
 ofmale
 oligomerization
 onco
-Oncogenic
+oncogenic
 oncoprotein
 oncoproteins
 overide
@@ -250,11 +250,11 @@ Qiagen
 QuantCenter
 quantifcations
 Qubit
-ras
+RAS
 Rbm
 rcode
 Recombinant
-recombinase
+Recombinase
 reponse
 ressemble
 resuspended
@@ -299,7 +299,7 @@ surfactant
 SV
 targeed
 TCGA
-tdTomato
+TdTomato
 tetramer
 tetramerization
 TGCA
@@ -311,7 +311,7 @@ titer
 titered
 titrated
 TP
-trametinib
+Trametinib
 transactivation
 transcriptial
 transcriptional
@@ -335,7 +335,7 @@ tumorigenic
 Tyrosine
 UDI
 uencing
-Upregulated
+upregulated
 Utltimetly
 valine
 vitro
@@ -345,7 +345,7 @@ wb
 wildtype
 Winslow
 wmR
-wnt
+Wnt
 Worthington
 XXXX
 XXXXXXXX
