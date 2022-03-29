@@ -40,7 +40,7 @@ CAS
 Caseviewer
 catenin
 cBioPortal
-CDKN
+Cdkn
 cDNA
 chemoresistance
 chemotherapeutics
@@ -59,7 +59,7 @@ CRL
 cuboidal
 cytometry
 CytotoxRed
-dabrafenib
+Dabrafenib
 Dankort
 dataset
 decameric
@@ -81,7 +81,7 @@ Elastase
 endoing
 engagment
 eosin
-ERK
+erk
 evoltionary
 fastq
 FastQC
@@ -154,8 +154,8 @@ intubation
 Jitter
 johndoe
 Keap
-kinases
-KRAS
+Kinases
+Kras
 latencies
 Leica
 Lenti
@@ -172,7 +172,7 @@ LOH
 LoxP
 Lozano
 LSL
-LUAD
+luad
 LUADs
 lysate
 lysed
@@ -181,7 +181,7 @@ MAPK
 MDM
 MDMX
 mealanoma
-MEK
+mek
 MEKi
 mesenchymal
 meshwork
@@ -190,7 +190,7 @@ methyltransferase
 microgram
 Millipore
 misclassification
-missense
+Missense
 mitogens
 MNU
 mor
@@ -207,7 +207,7 @@ numerosity
 ofmale
 oligomerization
 onco
-oncogenic
+Oncogenic
 oncoprotein
 oncoproteins
 overide
@@ -220,11 +220,11 @@ PDGF
 PDGFR
 Pemetrexed
 pentrance
-PFU
+pfu
 phenotypes
 phenotypic
 phosphatase
-Phospho
+phospho
 phosphorylated
 phosphorylates
 plasmid
@@ -250,7 +250,7 @@ Qiagen
 QuantCenter
 quantifcations
 Qubit
-RAS
+ras
 Rbm
 rcode
 Recombinant
@@ -269,7 +269,7 @@ scRNA
 SDS
 Selleck
 seperated
-setd
+SETD
 sgID
 sgNT
 sgRNA
@@ -279,7 +279,7 @@ Sherr
 Siegel
 Similarily
 simuletaneously
-SMAD
+Smad
 SOX
 SPC
 stereotypic
@@ -299,7 +299,7 @@ Surfactant
 SV
 targeed
 TCGA
-TdTomato
+tdTomato
 tetramer
 tetramerization
 TGCA
@@ -330,12 +330,11 @@ trypsinization
 tummor
 tumoral
 tumorigeneic
-tumorigenesis
+Tumorigenesis
 tumorigenic
 Tyrosine
 UDI
 uencing
-untilnow
 Upregulated
 Utltimetly
 valine
@@ -346,7 +345,7 @@ wb
 wildtype
 Winslow
 wmR
-WNT
+wnt
 Worthington
 XXXX
 XXXXXXXX
