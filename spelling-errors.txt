@@ -40,7 +40,7 @@ CAS
 Caseviewer
 catenin
 cBioPortal
-CDKN
+CdkN
 cDNA
 chemoresistance
 chemotherapeutics
@@ -64,7 +64,7 @@ Dankort
 dataset
 decameric
 dedifferentiated
-dedifferentiation
+Dedifferentiation
 DESeq
 differentially
 Dispase
@@ -154,14 +154,14 @@ intubation
 Jitter
 johndoe
 Keap
-kinases
+Kinases
 KRAS
 latencies
 Leica
 Lenti
 lentiiral
 lentiviral
-Lentivirus
+lentivirus
 lentiviruses
 leukemias
 Licor
@@ -207,7 +207,7 @@ numerosity
 ofmale
 oligomerization
 onco
-oncogenic
+Oncogenic
 oncoprotein
 oncoproteins
 overide
@@ -224,7 +224,7 @@ PFU
 phenotypes
 phenotypic
 phosphatase
-phospho
+Phospho
 phosphorylated
 phosphorylates
 plasmid
@@ -254,7 +254,7 @@ RAS
 Rbm
 rcode
 Recombinant
-Recombinase
+recombinase
 reponse
 ressemble
 resuspended
@@ -269,7 +269,7 @@ scRNA
 SDS
 Selleck
 seperated
-Setd
+SETD
 sgID
 sgNT
 sgRNA
@@ -295,7 +295,7 @@ supressive
 supressor
 supressors
 Suquencing
-surfactant
+Surfactant
 SV
 targeed
 TCGA
@@ -311,7 +311,7 @@ titer
 titered
 titrated
 TP
-Trametinib
+trametinib
 transactivation
 transcriptial
 transcriptional
@@ -335,7 +335,7 @@ tumorigenic
 Tyrosine
 UDI
 uencing
-upregulated
+Upregulated
 Utltimetly
 valine
 vitro
