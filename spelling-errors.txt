@@ -66,14 +66,14 @@ decameric
 dedifferentiated
 dedifferentiation
 DESeq
-differentially
-Dispase
+Differentially
+dispase
 DMEM
 DMP
 doublings
 doxycycline
 dysregulation
-Ectopic
+ectopic
 effciency
 EGF
 EGFR
@@ -81,7 +81,7 @@ Elastase
 endoing
 engagment
 eosin
-erk
+ERK
 evoltionary
 fastq
 FastQC
@@ -96,7 +96,7 @@ FOXA
 Fraumeni
 Galazy
 GEMM
-GEMMs
+gemms
 Genomic
 genotype
 genotyping
@@ -113,7 +113,7 @@ hemizygosity
 heterogenity
 heterogenous
 heterozygosity
-Heterozygous
+heterozygous
 HISAT
 Histech
 histiological
@@ -126,7 +126,7 @@ homogenous
 homologue
 homologues
 homozygous
-Hotspot
+hotspot
 hotspots
 Hyperactivation
 iBlot
@@ -135,7 +135,7 @@ Identificaton
 IHC
 Illumina
 Imatinib
-immunoblotting
+Immunoblotting
 immunofluorescence
 Immunofluoresence
 immunohistochemistry
@@ -154,13 +154,13 @@ intubation
 Jitter
 johndoe
 Keap
-Kinases
-Kras
+kinases
+KRAS
 latencies
 Leica
 Lenti
 lentiiral
-lentiviral
+Lentiviral
 Lentivirus
 lentiviruses
 leukemias
@@ -181,7 +181,7 @@ MAPK
 MDM
 MDMX
 mealanoma
-mek
+MEK
 MEKi
 mesenchymal
 meshwork
@@ -190,7 +190,7 @@ methyltransferase
 microgram
 Millipore
 misclassification
-Missense
+missense
 mitogens
 MNU
 mor
@@ -207,7 +207,7 @@ numerosity
 ofmale
 oligomerization
 onco
-Oncogenic
+oncogenic
 oncoprotein
 oncoproteins
 overide
@@ -224,7 +224,7 @@ pfu
 phenotypes
 phenotypic
 phosphatase
-phospho
+Phospho
 phosphorylated
 phosphorylates
 plasmid
@@ -250,7 +250,7 @@ Qiagen
 QuantCenter
 quantifcations
 Qubit
-ras
+RAS
 Rbm
 rcode
 Recombinant
@@ -269,7 +269,7 @@ scRNA
 SDS
 Selleck
 seperated
-SETD
+Setd
 sgID
 sgNT
 sgRNA
@@ -279,7 +279,7 @@ Sherr
 Siegel
 Similarily
 simuletaneously
-Smad
+SMAD
 SOX
 SPC
 stereotypic
@@ -299,7 +299,7 @@ Surfactant
 SV
 targeed
 TCGA
-tdTomato
+TdTomato
 tetramer
 tetramerization
 TGCA
@@ -311,7 +311,7 @@ titer
 titered
 titrated
 TP
-trametinib
+Trametinib
 transactivation
 transcriptial
 transcriptional
@@ -324,13 +324,13 @@ trascribed
 trimethylation
 tris
 TRK
-Trp
+trp
 TruSeq
 trypsinization
 tummor
 tumoral
 tumorigeneic
-Tumorigenesis
+tumorigenesis
 tumorigenic
 Tyrosine
 UDI
