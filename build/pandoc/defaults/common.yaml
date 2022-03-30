@@ -9,5 +9,5 @@ filters:
 - citeproc
 wrap: preserve
 metadata:
-  csl: build/assets/teststyle.csl
+  csl: build/assets/cell-reports.csl
   link-citations: false
