@@ -24,14 +24,14 @@ ATCC
 atypia
 autophagy
 barcode
-barcoded
+Barcoded
 BCA
 Berns
 Biochem
 Biosafety
 Bivona
 bona
-BRAF
+Braf
 BRAFi
 CAAX
 Carboplatin
@@ -67,7 +67,7 @@ dedifferentiated
 dedifferentiation
 DESeq
 differentially
-Dispase
+dispase
 DMEM
 DMP
 doublings
@@ -81,7 +81,7 @@ Elastase
 endoing
 engagment
 eosin
-erk
+ERK
 evoltionary
 fastq
 FastQC
@@ -97,7 +97,7 @@ Fraumeni
 Galazy
 GEMM
 GEMMs
-Genomic
+genomic
 genotype
 genotypes
 genotyping
@@ -114,7 +114,7 @@ Hematoxylin
 hemizygosity
 heterogenous
 heterozygosity
-heterozygous
+Heterozygous
 HISAT
 Histech
 histiological
@@ -162,7 +162,7 @@ Leica
 Lenti
 lentiiral
 lentiviral
-lentivirus
+Lentivirus
 lentiviruses
 leukemias
 Licor
@@ -191,7 +191,7 @@ methyltransferase
 microgram
 Millipore
 misclassification
-missense
+Missense
 mitogens
 MNU
 mor
@@ -226,7 +226,7 @@ pfu
 phenotypes
 phenotypic
 phosphatase
-Phospho
+phospho
 phosphorylated
 phosphorylates
 plasmid
@@ -238,7 +238,7 @@ pneumocyte
 pneumocytes
 polyadenylation
 positivty
-pre
+Pre
 preclinical
 preperation
 proliferative
@@ -279,9 +279,9 @@ Sherr
 Siegel
 Similarily
 simuletaneously
-SMAD
+Smad
 SOX
-SPC
+spc
 stereotypic
 stimuliation
 Stk
@@ -296,11 +296,11 @@ supressive
 supressor
 supressors
 Suquencing
-surfactant
+Surfactant
 SV
 targeed
 TCGA
-tdTomato
+TdTomato
 tetramer
 tetramerization
 TGCA
@@ -346,7 +346,7 @@ wb
 wildtype
 Winslow
 wmR
-wnt
+WNT
 Worthington
 XXXX
 XXXXXXXX
