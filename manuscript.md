@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-03-30'
+date-meta: '2022-03-31'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-03-30" />
-  <meta name="citation_publication_date" content="2022-03-30" />
+  <meta name="dc.date" content="2022-03-31" />
+  <meta name="citation_publication_date" content="2022-03-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/1af40d40f8291eb85788543d7614044c788929f1/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/1af40d40f8291eb85788543d7614044c788929f1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/1af40d40f8291eb85788543d7614044c788929f1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/92ef2d831287c2ff7b407a0430e34b450ef9997c/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/92ef2d831287c2ff7b407a0430e34b450ef9997c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/92ef2d831287c2ff7b407a0430e34b450ef9997c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/1af40d40f8291eb85788543d7614044c788929f1/))
+([permalink](https://scherzerthesis.github.io/thesis/v/92ef2d831287c2ff7b407a0430e34b450ef9997c/))
 was automatically generated
-from [scherzerthesis/thesis@1af40d4](https://github.com/scherzerthesis/thesis/tree/1af40d40f8291eb85788543d7614044c788929f1)
-on March 30, 2022.
+from [scherzerthesis/thesis@92ef2d8](https://github.com/scherzerthesis/thesis/tree/92ef2d831287c2ff7b407a0430e34b450ef9997c)
+on March 31, 2022.
 </em></small>
 
 ## Authors
@@ -349,6 +349,9 @@ Due to our observations that mutant p53^R172H^ drives more aggressive cancer phe
 
 ![**This is the title of Figure** this is the text.**](images/p5311.png){#fig:04 .white width="100%"}
 
+![**This is the title of Figure** this is the text.**](images/pdgf1.png){#fig:04 .white width="100%"}
+
+![**This is the title of Figure** this is the text.**](images/pdgf2.png){#fig:04 .white width="100%"}
 
 
 ## Discussion
@@ -402,6 +405,7 @@ talk about the times
 similarity to other studies with KRAS
 talk about homogenous response to D+T
 
+![**This is the title of Figure** this is the text.**](images/scrna_1.png){#fig:04 .white width="100%"}
 
 
 
@@ -450,6 +454,23 @@ talk about homogenous response to D+T
 Table: **Critical reagents** {#tbl:reagents}
 
 
+
+
+
+
+
+
+
+
+## Chapter Six: Future {.page_break_before}
+
+##Conclusions
+The broad purpose of this work was to better understand how BRAF^V600E^ tumors form and progress to lung adenocarcinoma.
+Our strategy was (1) to determine additional tumor supressor genes in BRAF^V600E^ lung tumorigenesis, (2) evaluate effect different mutant-p53 alleles, and (3) profile the tumor cell heterogenity using scRNA-seq.
+
+
+##Future directions
+immuno profiling?
 
 
 
