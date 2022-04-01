@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-03-31'
+date-meta: '2022-04-01'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-03-31" />
-  <meta name="citation_publication_date" content="2022-03-31" />
+  <meta name="dc.date" content="2022-04-01" />
+  <meta name="citation_publication_date" content="2022-04-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/92ef2d831287c2ff7b407a0430e34b450ef9997c/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/92ef2d831287c2ff7b407a0430e34b450ef9997c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/92ef2d831287c2ff7b407a0430e34b450ef9997c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/fcabaebc95d4706a4292867fd20157e9518a14a5/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/fcabaebc95d4706a4292867fd20157e9518a14a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/fcabaebc95d4706a4292867fd20157e9518a14a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/92ef2d831287c2ff7b407a0430e34b450ef9997c/))
+([permalink](https://scherzerthesis.github.io/thesis/v/fcabaebc95d4706a4292867fd20157e9518a14a5/))
 was automatically generated
-from [scherzerthesis/thesis@92ef2d8](https://github.com/scherzerthesis/thesis/tree/92ef2d831287c2ff7b407a0430e34b450ef9997c)
-on March 31, 2022.
+from [scherzerthesis/thesis@fcabaeb](https://github.com/scherzerthesis/thesis/tree/fcabaebc95d4706a4292867fd20157e9518a14a5)
+on April 1, 2022.
 </em></small>
 
 ## Authors
@@ -349,9 +349,9 @@ Due to our observations that mutant p53^R172H^ drives more aggressive cancer phe
 
 ![**This is the title of Figure** this is the text.**](images/p5311.png){#fig:04 .white width="100%"}
 
-![**This is the title of Figure** this is the text.**](images/pdgf1.png){#fig:04 .white width="100%"}
+![**This is the title of Figure** this is the text.**](images/pdgfr1.png){#fig:04 .white width="100%"}
 
-![**This is the title of Figure** this is the text.**](images/pdgf2.png){#fig:04 .white width="100%"}
+![**This is the title of Figure** this is the text.**](images/pdgfr2.png){#fig:04 .white width="100%"}
 
 
 ## Discussion

@@ -24,7 +24,7 @@ ATCC
 atypia
 autophagy
 barcode
-barcoded
+Barcoded
 BCA
 Berns
 Biochem
@@ -38,9 +38,9 @@ Carboplatin
 carinogene
 CAS
 Caseviewer
-catenin
+Catenin
 cBioPortal
-CDKN
+Cdkn
 cDNA
 chemoresistance
 chemotherapeutics
@@ -59,7 +59,7 @@ CRL
 cuboidal
 cytometry
 CytotoxRed
-dabrafenib
+Dabrafenib
 Dankort
 dataset
 decameric
@@ -76,7 +76,7 @@ dysregulation
 Ectopic
 effciency
 EGF
-egfr
+EGFR
 Elastase
 endoing
 engagment
@@ -97,7 +97,7 @@ Fraumeni
 Galazy
 GEMM
 GEMMs
-genomic
+Genomic
 genotype
 genotypes
 genotyping
@@ -128,7 +128,7 @@ homogenous
 homologue
 homologues
 homozygous
-Hotspot
+hotspot
 hotspots
 Hyperactivation
 iBlot
@@ -138,7 +138,7 @@ IHC
 Illumina
 Imatinib
 immuno
-Immunoblotting
+immunoblotting
 immunofluorescence
 Immunofluoresence
 immunohistochemistry
@@ -158,13 +158,13 @@ Jitter
 johndoe
 Keap
 kinases
-KRAS
+Kras
 latencies
 Leica
 Lenti
 lentiiral
 lentiviral
-Lentivirus
+lentivirus
 lentiviruses
 leukemias
 Licor
@@ -224,11 +224,11 @@ PDGFR
 PDGFRA
 Pemetrexed
 pentrance
-PFU
+pfu
 phenotypes
 phenotypic
 phosphatase
-Phospho
+phospho
 phosphorylated
 phosphorylates
 plasmid
@@ -240,7 +240,7 @@ pneumocyte
 pneumocytes
 polyadenylation
 positivty
-Pre
+pre
 preclinical
 preperation
 proliferative
@@ -257,7 +257,7 @@ RAS
 Rbm
 rcode
 Recombinant
-recombinase
+Recombinase
 reponse
 ressemble
 resuspended
@@ -299,11 +299,11 @@ supressive
 supressor
 supressors
 Suquencing
-Surfactant
+surfactant
 SV
 targeed
 TCGA
-tdTomato
+TdTomato
 tetramer
 tetramerization
 TGCA
@@ -339,7 +339,7 @@ tumorigenic
 Tyrosine
 UDI
 uencing
-upregulated
+Upregulated
 Utltimetly
 valine
 vitro
@@ -349,7 +349,7 @@ wb
 wildtype
 Winslow
 wmR
-Wnt
+WNT
 Worthington
 XXXX
 XXXXXXXX
