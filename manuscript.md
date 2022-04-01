@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/ea3aab225306cad9bf38fdfcc0c9e01659bbf0fb/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/ea3aab225306cad9bf38fdfcc0c9e01659bbf0fb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/ea3aab225306cad9bf38fdfcc0c9e01659bbf0fb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/0f21057cb2e3dcbcb14167218e80695a4c2cef5c/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0f21057cb2e3dcbcb14167218e80695a4c2cef5c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0f21057cb2e3dcbcb14167218e80695a4c2cef5c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/ea3aab225306cad9bf38fdfcc0c9e01659bbf0fb/))
+([permalink](https://scherzerthesis.github.io/thesis/v/0f21057cb2e3dcbcb14167218e80695a4c2cef5c/))
 was automatically generated
-from [scherzerthesis/thesis@ea3aab2](https://github.com/scherzerthesis/thesis/tree/ea3aab225306cad9bf38fdfcc0c9e01659bbf0fb)
+from [scherzerthesis/thesis@0f21057](https://github.com/scherzerthesis/thesis/tree/0f21057cb2e3dcbcb14167218e80695a4c2cef5c)
 on April 1, 2022.
 </em></small>
 
@@ -324,6 +324,10 @@ Due to our observations that mutant p53^R172H^ drives more aggressive cancer phe
 **Response to PDGFR stimuliation and inhibition**
 
 
+![**This is the title of Figure** this is the text.**](images/pdgfr2.png){#fig:04 .white width="100%"}
+
+
+
 ![**Differential BRAF^V600E^ lung tumorigenesis imparted by p53-Hotspot mutants.** **(A)** Genetically-engineered alleles of _Braf^v600E^_ and ^Trp53^ before and after Cre-Recombinase. **(B)** Tumor burden and *(C)*** Tumor size of BRAF(V600E) plus Trp53-wildtype, null, or mutant alleles 14 weeks post Cre-mediated recombination. *(D)*  Representative H&E images 14 weeks after Cre-recombination. **(E)** Survival of mice with Heterozygous _Trp53_ mutant alleles. **(F)** Survival of mice with homozygous _Trp53_ alleles.](images/p53_1.png){#fig:11 .white width="10%"}
 
 ![**Missense mutant-p53 alters lung adenocarcinoma differentiation status and accumulation of mutant-p53 correlates with p19 ARF expression.** **(A)** Panel representative IHC sections stained with SPC,NKX2-1, p53 and HMGA2. **(B)** H-score of individual tumors. **(C)** Association between mutant-p53 R172H accumulation and increased malignancy and dedifferentiation. **(D)** serial section of P53-HI and pERK1/2-HI tumors compared to adjacent low. **(E)** Colocalization of p19/ARF and p53 in p53-mutant. tumors](images/p53_2.png){#fig:12 .white width="100%"}
@@ -349,9 +353,9 @@ Due to our observations that mutant p53^R172H^ drives more aggressive cancer phe
 
 ![**This is the title of Figure** this is the text.**](images/p5311.png){#fig:04 .white width="100%"}
 
-![**This is the title of Figure** this is the text.**](images/pdgfr1.png){#fig:04 .white width="100%"}
+![**This is the title of Figure** this is the text.**](images/pdgfr_1.png){#fig:04 .white width="100%"}
 
-![**This is the title of Figure** this is the text.**](images/pdgfr2.png){#fig:04 .white width="100%"}
+![**This is the title of Figure** this is the text.**](images/pdgfr_2.png){#fig:04 .white width="100%"}
 
 
 ## Discussion
@@ -405,7 +409,16 @@ talk about the times
 similarity to other studies with KRAS
 talk about homogenous response to D+T
 
-![**This is the title of Figure** this is the text.**](images/scrna_1.png){#fig:04 .white width="100%"}
+![All lung cells collected from different genotypes.](images/scrna_1.png){#fig:04 .white width="100%"}
+
+![Single cells broadly cluster into epithelial-, immune-, endothelial-, or mesenchymal- like cells.](images/scrna_2.png){#fig:04 .white width="100%"}
+
+![Tumor cells cells are clustered based on treatment](images/scrna_3.png){#fig:04 .white width="100%"}
+
+
+![P53 transcriptional signature is identified in BRAV^V600E^, p53-wildtype tumor cells](images/scrna_4.png){#fig:04 .white width="100%"}
+
+![Differentially expressed genes imparted by mutant-p53](images/scrna_5.png){#fig:04 .white width="100%"}
 
 
 
@@ -464,9 +477,10 @@ Table: **Critical reagents** {#tbl:reagents}
 
 ## Chapter Six: Future {.page_break_before}
 
-##Conclusions
+## Preface
 The broad purpose of this work was to better understand how BRAF^V600E^ tumors form and progress to lung adenocarcinoma.
 Our strategy was (1) to determine additional tumor supressor genes in BRAF^V600E^ lung tumorigenesis, (2) evaluate effect different mutant-p53 alleles, and (3) profile the tumor cell heterogenity using scRNA-seq.
+In this chapter, I will examine the exciting possibilities that arose as a consequence of my work. This will include a discussion on cooperating genetic events, p53 tumor supression, MAPK pathway targeted therapy,  and tumor heterogenity. 
 
 
 ##Future directions
