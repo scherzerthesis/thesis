@@ -62,9 +62,9 @@
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/43766a9c6b43fa547b7d571ee8496e8e2f89912f/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/43766a9c6b43fa547b7d571ee8496e8e2f89912f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/43766a9c6b43fa547b7d571ee8496e8e2f89912f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/14cf100164c7bfd47ddf716d89a664eaec87e10e/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/14cf100164c7bfd47ddf716d89a664eaec87e10e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/14cf100164c7bfd47ddf716d89a664eaec87e10e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://scherzerthesis.github.io/thesis/v/43766a9c6b43fa547b7d571ee8496e8e2f89912f/">permalink</a>)
+(<a href="https://scherzerthesis.github.io/thesis/v/14cf100164c7bfd47ddf716d89a664eaec87e10e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/scherzerthesis/thesis/tree/43766a9c6b43fa547b7d571ee8496e8e2f89912f">scherzerthesis/thesis@43766a9</a>
+from <a href="https://github.com/scherzerthesis/thesis/tree/14cf100164c7bfd47ddf716d89a664eaec87e10e">scherzerthesis/thesis@14cf100</a>
 on April 2, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -392,6 +392,11 @@ Feature plots of P53 target genes
 heatmap of P53 target genes
 heatmap/violin plot of MAPK score</p>
 <h2 id="discussion-2">Discussion</h2>
+<p>Here, we used scRNA-seq to determine transcriptional heterogenity of BRAF<sup>V600E</sup> driven lung cancer and how it changes in response to concomminant genetic alterations. We modeled lung adenocarcinoma that mimick human oncogenic transformation where MAPK pathway activation drives tumor formation, and inactivation of the p53 pathway allows for tumor progression<span class="citation" data-cites="xy4r2sTu">(Campbell et al., 2016)</span>. We also determined how cell state changes in response to MAPK blockade, a common theraputic option for patients with BRAF<sup>V600E</sup>-mutant lung adenocarcinomas.</p>
+<p>We determined that there is transcriptional heterogenity and that it is reporducible across genotypes. We also confirmed previousl published cell states in similar models, such as KRAS G12D<span class="citation" data-cites="pjuOgKHJ">(Marjanovic et al., 2020)</span>. Unfortunely, we did not observe robust dedifferentiation signals such as loss of NKX2-1 and adoption of a gastric cell state. However, we did collect and identify highly-pastic cell states, such as ITGA2+ and CLDN4+ cells. Our failure to collect and analyze pre-metastatic cell states such as EMT-like cells, is likely because we collected cells only after 8-weeks, which is likely not long enough for these cell states to evolve during lung tumorigenesis. Therefore, adoption of highly malignant cell states, although might require certain genomic alterations like p53 loss, is an outcome of tumor evolution. One hypothesis is that p53 loss causes genomic instability and thus copy number gain, but similar studies failed to detect robust changes in copy number variation<span class="citation" data-cites="pjuOgKHJ">(Marjanovic et al., 2020)</span>.</p>
+<p>We also failed to detect robust differences between genotypes that are known to cause malignant transformation, such as p53 loss, p53 missense mutation, CDKN2A loss, or mutant PI3K<sup>H1047R</sup> <span class="citation" data-cites="1GkFEmggg 1HVB1AoBP dTvhNsG9">(Dankort et al., 2007; Trejo et al., 2013; van Veen et al., 2019)</span>. This is likely a result from a combination of factors, such as time of collection and library capture/sequencing depth. One straightforward hypothesis is that we did not allow for full transcriptomic changes to take effect that is imparted by tumor suppressor or oncogene mutation. Therefore, a timecourse analysis that spans early timepoints (4-6 weeks) and late timepoints (&gt;16 weeks) will likely reveal more informative transcriptional heterogeneity. Indeed, our previous studies have indicated that there is no tumor growth advantage at early time points as late as 6 weeks post tumor initiation. One other possibility that could explain our lack of genotype-specific gene expression programs is that we did not capture enough unique transcripts in order to reveal the full extent of tumor heterogeneity. This is likely because there are known limitations to 10X genomic library preperation. Specifically, there is gene-dropout effects where only the most highly expressed genes are captured by the droplet-based technique. Indeed, 10X genomics technologies have been shown not to detect genes with lower expression<span class="citation" data-cites="2gUfVvoy">(Wang et al., 2021)</span>. However, 10X genomics allows you to profile more cells than similiar scRNA-seq techniques. Genes with lower expression can be just as important as highly expressed genes for a cell’s identity. Actually, transcription factors that determine cell states have been shown to have modest expression<span class="citation" data-cites="2gUfVvoy">(Wang et al., 2021)</span> Therefore, we hypothesis that using plate-based scRNA-seq approaches, such as Smart-Seq2, would allow for more gene capture. Thus, Smart-seq2 will enable us to more precisely determine transcirptional heterogenity and genotype-specific gene expression changes.</p>
+<p>Although our analysis was lacking with regards to transcriptional differences between genotypes, we did detect a robust transcriptional change with MAPK blockade(figure4.). Since human lung cancer patients treated with MAPK-pathway inhibitors exhibit a heterogeneity in response, one might hypothesize that each cell responds differently to MAPK-pathway inhibition. In our analysis, we determine that there is generally a homogenous response to MAPK inhibition. One straightforward explanation is that our short term treatment (four days) did not allow for cells to respond to pathway blockade. Perhaps there is an intial response to MAPK-pathway inhibition that is dampened over time that is dependant on transcriptional heterogeneity.</p>
+<p>In conclusion, we used 10X genomics to determine the transcriptional heterogeneity of BRAF<sup>V600E</sup> lung tumors with a five seperate cooperating alterations and treatments. We did identify transciprtional heterogeneity that is stereotypic and reproducible acorss genotypes. However, we failed to identify robust differences between genotypes. Our works highlights the importance of capturing full transcriptomes across multiple timepoints in order to accurately determine cell states throughout BRAF<sup>V600E</sup>-driven lung tumor evolution.</p>
 <p>talk about the batch effects
 talk about the times
 similarity to other studies with KRAS
@@ -648,6 +653,9 @@ Bougeard, G., Sesboüé, R., Baert-Desurmont, S., Vasseur, S., Martin, C., Tinat
 <div id="ref-KlPsMirp" class="csl-entry" role="doc-biblioentry">
 Boutelle, A.M., and Attardi, L.D. (2021). p53 and Tumor Suppression: It Takes a Network. Trends Cell Biol <em>31</em>, 298–310. <a href="https://doi.org/10.1016/j.tcb.2020.12.011">https://doi.org/10.1016/j.tcb.2020.12.011</a>.
 </div>
+<div id="ref-xy4r2sTu" class="csl-entry" role="doc-biblioentry">
+Campbell, J.D., Alexandrov, A., Kim, J., Wala, J., Berger, A.H., Pedamallu, C.S., Shukla, S.A., Guo, G., Brooks, A.N., Murray, B.A., et al. (2016). Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas. Nat Genet <em>48</em>, 607–616. <a href="https://doi.org/10.1038/ng.3564">https://doi.org/10.1038/ng.3564</a>.
+</div>
 <div id="ref-Ph0Z7rTW" class="csl-entry" role="doc-biblioentry">
 Cerami, E., Gao, J., Dogrusoz, U., Gross, B.E., Sumer, S.O., Aksoy, B.A., Jacobsen, A., Byrne, C.J., Heuer, M.L., Larsson, E., et al. (2012). The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data. Cancer Discov <em>2</em>, 401–404. <a href="https://doi.org/10.1158/2159-8290.cd-12-0095">https://doi.org/10.1158/2159-8290.cd-12-0095</a>.
 </div>
@@ -876,6 +884,9 @@ Sutherland, K.D., Song, J.-Y., Kwon, M.C., Proost, N., Zevenhoven, J., and Berns
 <div id="ref-fXe5uEAl" class="csl-entry" role="doc-biblioentry">
 Tabbò, F., Pisano, C., Mazieres, J., Mezquita, L., Nadal, E., Planchard, D., Pradines, A., Santamaria, D., Swalduz, A., Ambrogio, C., et al. (2021). How far we have come targeting BRAF-mutant non-small cell lung cancer (NSCLC). Cancer Treat Rev <em>103</em>, 102335. <a href="https://doi.org/10.1016/j.ctrv.2021.102335">https://doi.org/10.1016/j.ctrv.2021.102335</a>.
 </div>
+<div id="ref-1HVB1AoBP" class="csl-entry" role="doc-biblioentry">
+Trejo, C.L., Green, S., Marsh, V., Collisson, E.A., Iezza, G., Phillips, W.A., and McMahon, M. (2013). Mutationally activated PIK3CA(H1047R) cooperates with BRAF(V600E) to promote lung cancer progression. Cancer Res <em>73</em>, 6448–6461. <a href="https://doi.org/10.1158/0008-5472.can-13-0681">https://doi.org/10.1158/0008-5472.can-13-0681</a>.
+</div>
 <div id="ref-NLPwvKCP" class="csl-entry" role="doc-biblioentry">
 Treutlein, B., Brownfield, D.G., Wu, A.R., Neff, N.F., Mantalas, G.L., Espinoza, F.H., Desai, T.J., Krasnow, M.A., and Quake, S.R. (2014). Reconstructing lineage hierarchies of the distal lung epithelium using single-cell RNA-seq. Nature <em>509</em>, 371–375. <a href="https://doi.org/10.1038/nature13173">https://doi.org/10.1038/nature13173</a>.
 </div>
@@ -890,6 +901,9 @@ Vogelstein, B., Lane, D., and Levine, A.J. (2000). Surfing the p53 network. Natu
 </div>
 <div id="ref-S6qbb6kC" class="csl-entry" role="doc-biblioentry">
 Walter, D.M., Venancio, O.S., Buza, E.L., Tobias, J.W., Deshpande, C., Gudiel, A.A., Kim-Kiselak, C., Cicchini, M., Yates, T.J., and Feldser, D.M. (2017). Systematic. Cancer Res <em>77</em>, 1719–1729. <a href="https://doi.org/10.1158/0008-5472.can-16-2159">https://doi.org/10.1158/0008-5472.can-16-2159</a>.
+</div>
+<div id="ref-2gUfVvoy" class="csl-entry" role="doc-biblioentry">
+Wang, X., He, Y., Zhang, Q., Ren, X., and Zhang, Z. (2021). Direct Comparative Analyses of 10X Genomics Chromium and Smart-seq2. Genomics Proteomics Bioinformatics <em>19</em>, 253–266. <a href="https://doi.org/10.1016/j.gpb.2020.02.005">https://doi.org/10.1016/j.gpb.2020.02.005</a>.
 </div>
 <div id="ref-11g54rA8N" class="csl-entry" role="doc-biblioentry">
 Warren, G.W., and Cummings, K.M. (2013). Tobacco and lung cancer: risks, trends, and outcomes in patients with cancer. Am Soc Clin Oncol Educ Book 359–364. <a href="https://doi.org/10.14694/edbook_am.2013.33.359">https://doi.org/10.14694/edbook_am.2013.33.359</a>.
