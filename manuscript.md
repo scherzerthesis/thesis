@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-04-01'
+date-meta: '2022-04-02'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-04-01" />
-  <meta name="citation_publication_date" content="2022-04-01" />
+  <meta name="dc.date" content="2022-04-02" />
+  <meta name="citation_publication_date" content="2022-04-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/0f21057cb2e3dcbcb14167218e80695a4c2cef5c/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0f21057cb2e3dcbcb14167218e80695a4c2cef5c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0f21057cb2e3dcbcb14167218e80695a4c2cef5c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/0fa019fc01a326428db51f405b30eb6701837e33/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0fa019fc01a326428db51f405b30eb6701837e33/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/0fa019fc01a326428db51f405b30eb6701837e33/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/0f21057cb2e3dcbcb14167218e80695a4c2cef5c/))
+([permalink](https://scherzerthesis.github.io/thesis/v/0fa019fc01a326428db51f405b30eb6701837e33/))
 was automatically generated
-from [scherzerthesis/thesis@0f21057](https://github.com/scherzerthesis/thesis/tree/0f21057cb2e3dcbcb14167218e80695a4c2cef5c)
-on April 1, 2022.
+from [scherzerthesis/thesis@0fa019f](https://github.com/scherzerthesis/thesis/tree/0fa019fc01a326428db51f405b30eb6701837e33)
+on April 2, 2022.
 </em></small>
 
 ## Authors
@@ -324,39 +324,30 @@ Due to our observations that mutant p53^R172H^ drives more aggressive cancer phe
 **Response to PDGFR stimuliation and inhibition**
 
 
-![**This is the title of Figure** this is the text.**](images/pdgfr2.png){#fig:04 .white width="100%"}
+![Cre-mediated wildtype-to-mutant alleles used in study. (A) Priot to Cre-mediated recombination, normal _Braf_ and _Trp53_ are expressed from their endogenous loci. (B) After Cre-mediated recombination, the indicated mutant proteins are expressed, in addition to a TdTomato fluorescent protein to mark expression of BRAF^V600E^.](images/p53_1.png){#fig:04 .white width="100%"}
+
+![Mutant-p53 alleles differentially alter BRAF^V600E^ driven lung tumorigenesis. (A) Tumor burden analysis 14-weeks post Cre-recombinase. (B) Tumor size 14 weeks post Cre-Recombinase. (C) Representative histological images 14 weeks post Cre-Recombinase. *** = _p-value<.01_](images/p53_2.png){#fig:04 .white width="100%"}
+
+![Mutant-p53 alleles differentially affect the survival of mice due to progressive lung adenocarcinoma. (A) Kaplan-Meier plot of _Braf^CAT/+^_ mice with p53-mutant alleles. (B) Kaplan-Meier plot of _Braf^CAT/+^_ mice with homozygous p53-mutant alleles.* = _p-value<.05_ ](images/p53_3.png){#fig:04 .white width="100%"}
+
+![Missense mutant-p53 alters lung adenocarcinoma differentiation status. (A)Representative IHC images of tumors stained with antibodies targeting p53, NKX2-1, SPC, and HMGA2. (B) Quantification of immunostaing in (A) based on H-Score. *** = _p-value<.01_ ; **** = _p-value<.001_. ](images/p53_4.png){#fig:04 .white width="100%"}
+
+![p53-accumulation occurs in high grade tumors and correlates with p19/ARF expression. (A) Representative images of mutant-p53 accumulation in high grade tumors. the tumor area encased by the dashed line exhibit nuclear atypia and enlarged nuclei.(B) Mutant-p53 immunostaining correlates with phospho-ERK1/2 accumulation. (C) p53 immunostaining correlates with loss of SPC expression. (D) mutant-p53 is co-expressed with p19/ARF in p53-mutant tumors.](images/p53_5.png){#fig:04 .white width="100%"}
+
+![Mouse tumors and cell lines that expression P53-R172H and p53-R245W are refractory to MAPK blockade. (A) Tumor burden analysis of GEMMs treated with MAPKi chow for four weeks. (B) _n vitro_ dose response to dabrafenib for 48 hours. (C) Western blots of timecourse of cell lines treated with dabrafenib plus trametinib.](images/p536.png){#fig:04 .white width="100%"}
 
 
+![p53-R172H and p53-R245W cell lines are insensitive to MAPKi-induced cell death (A-C) Incucyte analysis of cell lines treated with the combination of dabrafinib plus trametinib for 96 hours. (D) Accumulation of dead cells in response to dabrafinib plus trametinib. Dead cells were quantified by CytoTox Red Dye.](images/p537.png){#fig:04 .white width="100%"}
 
-![**Differential BRAF^V600E^ lung tumorigenesis imparted by p53-Hotspot mutants.** **(A)** Genetically-engineered alleles of _Braf^v600E^_ and ^Trp53^ before and after Cre-Recombinase. **(B)** Tumor burden and *(C)*** Tumor size of BRAF(V600E) plus Trp53-wildtype, null, or mutant alleles 14 weeks post Cre-mediated recombination. *(D)*  Representative H&E images 14 weeks after Cre-recombination. **(E)** Survival of mice with Heterozygous _Trp53_ mutant alleles. **(F)** Survival of mice with homozygous _Trp53_ alleles.](images/p53_1.png){#fig:11 .white width="10%"}
+![HCC-364 cells that express p53-R175H are refractory to MAPKi. (A) Western blot showing successful ectopic expression of p53-R175H. (B) Incucyte analysis of HCC364 parental and HCC364+p53-R175H in response to dabrafenib plus trametenib.](images/p538.png){#fig:04 .white width="100%"}
 
-![**Missense mutant-p53 alters lung adenocarcinoma differentiation status and accumulation of mutant-p53 correlates with p19 ARF expression.** **(A)** Panel representative IHC sections stained with SPC,NKX2-1, p53 and HMGA2. **(B)** H-score of individual tumors. **(C)** Association between mutant-p53 R172H accumulation and increased malignancy and dedifferentiation. **(D)** serial section of P53-HI and pERK1/2-HI tumors compared to adjacent low. **(E)** Colocalization of p19/ARF and p53 in p53-mutant. tumors](images/p53_2.png){#fig:12 .white width="100%"}
+![P53-R172H and p53-R245W cell lines have altered transcriptome compared to p53-null cell lines. (A) Volcano plot showing up- and down- regulated genes compared to p53-null cells. (B) Pathway analysis of Differentially expressed genes of p53-R172H and p53-R245W cell lines compared to p53-null cell lines. ](images/p539.png){#fig:04 .white width="100%"}
 
+![Comparison of differentially-expressed genes between p53-R172H and p53-R245W cell lines. (A) Volcano plot of differntially expressed gene between p53-R172H and p53-R245W tumor-derived cell lines. (B) Pathway analysis of differentially expressed genes between p53-R172H and p53-R245W tumor-derived cell lines.](images/p5310.png){#fig:04 .white width="100%"}
 
-![**Mutant-p53 cell lines are refractory to BRAFi+MEKi.** **(A)** Response of GEMMs to BRAFi+MEKi chow after four weeks **(B)** in vitro dose response to BRAFi single agent. **(C)** in vitro timecourse with dabrafenib (1000nm) plus trametinib (100nM). **(D)** Accumulation of dead cells in dabrafenib plus trametinib measured by CytotoxRed accumulation. **(E)** Immunoblotting of phospho-ERK1/2 in response to dabrafenib plus trametinib. **(F)** Ectopic expression of p53^R17H^ in human HCC364 cells. **(E)** Response of p53^R175H^ cells to dabrafenib plus trametinib. ](images/p53_3.png){#fig:13 .white width="100%"}
+![PDGFRB is upregulated and expressed in mutant-p53 tumors and cell lines. (A) Log-normalized counts of _Pdgfrb_ RNA reads from p53-mutant cell lines. (B) Western blot analysis of basal and PDGF-BB stimulated cells. (C) IHC of PDGFRB in p53-mutant GEMM tumors. ](images/p5311.png){#fig:04 .white width="100%"}
 
-
-![**Mutant-p53 expression cells have distinct transcriptome compared to p53-null cells.** **(A)** Volcano plot of differentially-expressed genes. **(B)** Upregulated pathways using GSEA with Hallmark gene sets.](images/p53_4.png){#fig:14 .white width="100%%"}
-
-
-![**This is the title of Figure** this is the text.**](images/p53_5.png){#fig:04 .white width="100%"}
-
-![**This is the title of Figure** this is the text.**](images/p536.png){#fig:04 .white width="100%"}
-
-![**This is the title of Figure** this is the text.**](images/p537.png){#fig:04 .white width="100%"}
-
-![**This is the title of Figure** this is the text.**](images/p538.png){#fig:04 .white width="100%"}
-
-![**This is the title of Figure** this is the text.**](images/p539.png){#fig:04 .white width="100%"}
-
-![**This is the title of Figure** this is the text.**](images/p5310.png){#fig:04 .white width="100%"}
-
-![**This is the title of Figure** this is the text.**](images/p5311.png){#fig:04 .white width="100%"}
-
-![**This is the title of Figure** this is the text.**](images/pdgfr_1.png){#fig:04 .white width="100%"}
-
-![**This is the title of Figure** this is the text.**](images/pdgfr_2.png){#fig:04 .white width="100%"}
-
+![PDGF-stimulation or PDGF patway blockade has no effect on cell proliferation. (A) Growth response to PDGF stimulation. (B) Growth response to Imatinib treatment.](images/p5312.png){#fig:04 .white width="100%"}
 
 ## Discussion
 
@@ -388,6 +379,16 @@ Recent advances in profiling of single-cell transcriptomes during homeostasis co
 Although GEMMs are a great way to model human lung adenocarcinomas, there are several drawbacks worth mentioning. Human lung adenocarcinomas typically develop from a single tumor-initiating cell and is a consequence of an accumulation of mutations in certain cell types and a weakened immune system across a lifetime.  In GEMMs, tumorigenesis is often initiated in many cells at once and is the consequence of an engineered mutation. In contrast to human lung adenocarcinomas that have a high mutational burden, murine lung adenocarcinomas do not have a high mutational burden and instead display high copy number variation[@pmid:25363767]. Therefore, we set out to profile the single-cell transcriptomes of various BRAF^V600E^-driven lung cancer GEMMs in order to determine genotype-specific heterogeneity and response to pathway-targeted therapy.
 
 ## Results
+**ScRNA Sequencing of benign and malignant BRAF^V600E^ mouse lung tumors**
+We profiled the single-cell transcriptome of six different BRAF^V600E^ mouse lung tumor models including BRAF^V600E^ on its own, BRAF^V600E^ plus either mutant _Pik3ca^H1047R/+^_,  _Cdkn2a^fl/fl^_, _Trp53^fl/fl^_, _Trp53^R172H/R172H^_, or _Trp53^R245W/R245W^_. We also treated each genotype with dabrafenib (100mg/kg) plus trametinib(2mg/kg) once daily for four days prior to tissue harvesting and 10X genomics library preperation.Importantly, we kept dabrafenib and trametinib throughout all stages of processing to prevent altered transcription in response to drug cessation. Using fluorescently-activated cell sorting (FACS), we purified tumor cells based on  Td-Tomato expression 8 weeks after tumor initiation using adenoviral Spc-Cre. In sum, we were able to identify 71,110 cells that passed standard 10X genomics and Seuratbased quality control and filtering (Figure 4.1).
+
+Although we sought to purify tumor cells based on TdTomato-positivity, we did unintentionally collect and analyze stromal cells, such as immune, mesenchymal, and endothelial cell, which are also present in the murine distal lung epithelium (Figure 4.2). Therefore, we removed these cells based on their expression of _Ptprc_(immune), _Pecam1_ (endothelial), _and Pdgfra_ (mesenchymal) for downstream analysis (Figure 4.3).
+
+Reclustering of only tumor cells(based on their expression of TdTomato and AT2 identity)  revealed significant tumor cell heterogeneity(Figure 4.4). Next we sought to determine cluster specific markers using DESEQ2 analysis (Figure 4.5). strong markers of each cluster include
+
+We next sought to determine the effect of dabrafenib plus trametinib on transcriptional heterogeneity (Figure 4.6). Clearly, there is a MAPK specific gene expression program  that is decreased in most if not all clusters and genotpes (Figre 4.7).
+
+We were also interested in genotype-specific differences. therefore, we performed DESEQ2 between vehicle-treated mice of each genotype (Figure 4.8). 
 
 **table of genotypes/treatment/and cells collected**
 Pre-sort
@@ -409,7 +410,7 @@ talk about the times
 similarity to other studies with KRAS
 talk about homogenous response to D+T
 
-![All lung cells collected from different genotypes.](images/scrna_1.png){#fig:04 .white width="100%"}
+![71,110  cells collected from different genotypes.](images/scrna_1.png){#fig:04 .white width="100%"}
 
 ![Single cells broadly cluster into epithelial-, immune-, endothelial-, or mesenchymal- like cells.](images/scrna_2.png){#fig:04 .white width="100%"}
 
@@ -424,7 +425,7 @@ talk about homogenous response to D+T
 
 
 
-## Chapter Six: methods {.page_break_before}
+## Materials and Methods
 **Animal Husbandry** All mice were housed in an environmentally controlled room, and all animal care and experimental procedures were approved by (and in accordance with) the Institutional Animal Care and Use Committee Office of the Huntsman Cancer Institute at the University of Utah. Genetically engineered mouse breeding and genotyping was conducted as previously described [@pmid:31452510]. The BRAF^CAT^ and _Trp53^fl/fl^_ mice were previously described [@pmid:11694875; @pmid:31452510; @pmid:17299132; @pmid:26001956]. All viruses were administered in a Biosafety Level 2+ room, as is regulated by the Institutional Biosafety Committee Guidelines. Adeno-SPC-CRE virus (University of Iowa) was delivered through nasal instillation. The _Trp53^wmR172H^_ and _Trp53^wmR245W^_ mice and respective genotyping protocols were gifted by Gigi Lozano and her laboratory and previously published [@pmid:30262850; @pmid:33839689].
 
 **Tuba-Seq** _Braf^CAT/+^_ and _H11b^LSL-CAS9/+^_ mice have been described[@pmid:31452510; @pmid:26178787] and maintained on a mixed background. approximetley equal numbers ofmale and female mice were used in the study. lung tumors were initiated by intratracheal intubation of lentiviral Cre vectors as previously described[@pmid:19561589]. Barcoded lentiviral vectors were supplied by Monte Winslow as previously described[@pmid:29233960]. Briefly, Lentiviral vectors that contain an eight nucleotide sequence that defines the CRISPR-targeted followed by a 15 nucleotide sequence that is unique only to each initiated tumor. Lentivirus was generated in HEK 293T cells in DMEM supplemented with 10% FBS by standard lentiiral generation and titered as previously described[@pmid:29233960]. Genomic DNA was isolated from bulk lung tissue after weighing. Briefly, benchmark control cell lines were spiked-in to enable calculation of the absolute number of tumor cells from the number of barcode reads. After tissue homogenization and 12-hour proteinase-K digestion, genomic DNA isolation was extracted using standard Phenol-Chloroform and precipitated by ethanol. Suquencing libraries were prepared by PCR amlifying the sgRNA-BC sequencing in eight reactions in parallel with Q5 master mix and purified with AMPure beads and quantified with the Qubit instrument. Computational analysis was performed in house by the Monte Winslow laboratory.
@@ -442,6 +443,8 @@ talk about homogenous response to D+T
 
 **Slide Imaging and Quantification**Hematoxylin and eosin (H&E) and IHC stained slides 1 were scanned automatically by the 3D Histech Pannoramic MIDI scanner (Thermo Fisher). Slides were imaged and analyzed using Caseviewer Software or QuantCenter analytical center provided on the 3D Histech Slide Scanner at the indicated magnification. Tumor burden was manually calculated on each lung lobe and total tumor area was compared to total lung area. Tumor diameters were measured using QuantCenter software from 3D Histech.
 
+**Single Cell RNA-Seq analysis** Mice were initiated as described previusly using ad5-Spc-Cre. Four days prior to tissue harvesting, mice were either treated with corn oil control or corn oil with dabrafenib (150mg/kg) and trametenib(2mg/kg) once daily and again two hours prior to tissue harvest. single cell suspensions were made using enzymatic digestion, as previously detailed in cell line generation. Single-cell suspensions were then sorted with the BD ARIA II flow cytometer. 10X genomics library prep and sequencing was performed by HCI high throughput genomics core. Seurat objects where then created for downstream differential gene expression analysis and visualization with ggplots2.
+
 **Reagents List**| Reagent Type      | Name               | Source                    | Catalog number | Additional Information            |
 |-------------------|--------------------|---------------------------|----------------|-----------------------------------|
 | antibody          | beta-Actin         | CST                       | 3700T          | wb: 1:10,000                      |
@@ -454,7 +457,7 @@ talk about homogenous response to D+T
 | antibody          | p19/ARF            | Chuck Sherr               |[@pmid:15672607]|                                   |
 | Cell Line         | 293T               | ATCC                      | CRL-3216       |                                   |
 | Cell Line         | HCC-364            | Bivona lab                |[@pmid:24550319]|                                   |
-| Recombinant DNA   | Pmd2.5             | Addgene                   | #12259         |                                   |
+| Recombinant DNA   | Pmd2.g             | Addgene                   | #12259         |                                   |
 | Recombinant DNA   | pspax2             | Addgene                   | #12260         |                                   |
 | Recombinant DNA   | P53-R175H          | Addgene                   | #22936         |                                   |
 | Chemical Compound | dabrafenib         | Selleck                   | S2807          |                                   |
