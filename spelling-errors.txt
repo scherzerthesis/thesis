@@ -9,7 +9,7 @@ adenocarcinomas
 adenocarinoma
 adenoma
 adenomas
-Adenoviral
+adenoviral
 adenovirus
 adenoviruses
 ALK
@@ -40,9 +40,9 @@ Carboplatin
 carinogene
 Cas
 Caseviewer
-Catenin
+catenin
 cBioPortal
-Cdkn
+CdkN
 cDNA
 chemoresistance
 chemotherapeutics
@@ -80,7 +80,7 @@ dysregulation
 ectopic
 effciency
 EGF
-EGFR
+egfr
 Elastase
 endoing
 engagment
@@ -103,7 +103,7 @@ FOXA
 Fraumeni
 Galazy
 GEMM
-gemms
+GEMMs
 Genomic
 genotpes
 genotype
@@ -170,7 +170,7 @@ johndoe
 Kaplan
 Keap
 Kinases
-Kras
+KRAS
 latencies
 Leica
 Lenti
@@ -187,7 +187,7 @@ LOH
 LoxP
 Lozano
 LSL
-luad
+LUAD
 LUADs
 lysate
 lysed
@@ -235,12 +235,12 @@ PCR
 PDAC
 PDGF
 PDGFR
-Pdgfra
+PDGFRA
 Pdgfrb
 Pecam
 Pemetrexed
 pentrance
-pfu
+PFU
 phenotypes
 phenotypic
 phosphatase
@@ -258,7 +258,7 @@ pneumocytes
 polyadenylation
 positivity
 positivty
-pre
+Pre
 preclinical
 preperation
 previusly
@@ -307,7 +307,7 @@ Similarily
 simuletaneously
 Smad
 SOX
-Spc
+SPC
 stereotypic
 stimuliation
 Stk
@@ -322,11 +322,11 @@ supressive
 supressor
 supressors
 Suquencing
-surfactant
+Surfactant
 SV
 targeed
 TCGA
-TdTomato
+tdTomato
 tetramer
 tetramerization
 TGCA
