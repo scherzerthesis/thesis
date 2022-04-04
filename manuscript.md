@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-04-02'
+date-meta: '2022-04-04'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-04-02" />
-  <meta name="citation_publication_date" content="2022-04-02" />
+  <meta name="dc.date" content="2022-04-04" />
+  <meta name="citation_publication_date" content="2022-04-04" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/14cf100164c7bfd47ddf716d89a664eaec87e10e/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/14cf100164c7bfd47ddf716d89a664eaec87e10e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/14cf100164c7bfd47ddf716d89a664eaec87e10e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/86f7aa7d5412b0559c0590dc4ab93fef7fb616ae/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/86f7aa7d5412b0559c0590dc4ab93fef7fb616ae/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/86f7aa7d5412b0559c0590dc4ab93fef7fb616ae/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/14cf100164c7bfd47ddf716d89a664eaec87e10e/))
+([permalink](https://scherzerthesis.github.io/thesis/v/86f7aa7d5412b0559c0590dc4ab93fef7fb616ae/))
 was automatically generated
-from [scherzerthesis/thesis@14cf100](https://github.com/scherzerthesis/thesis/tree/14cf100164c7bfd47ddf716d89a664eaec87e10e)
-on April 2, 2022.
+from [scherzerthesis/thesis@86f7aa7](https://github.com/scherzerthesis/thesis/tree/86f7aa7d5412b0559c0590dc4ab93fef7fb616ae)
+on April 4, 2022.
 </em></small>
 
 ## Authors
@@ -85,6 +85,18 @@ on April 2, 2022.
 
 
 ## Chapter One: Introduction {.page_break_before}
+
+**Abstract**
+Lung cancer remains a threat to human health throughout the world. As a conseqeunce of accumulation of mutations, from tobacco or otherwise, lung cancers have a vast mutational spectrum that affects many genes. These characteristics make lung cancer a challenge in understanding how the disease is formed. Furthermore, mutational tumor heterogeneity is linked to drug resistance and a poor prognosis for patients. Interestingly, MAPK pathway activation appears to be a prerequisate for the formation of lung adenocarcinoma. In chatper 1, using genetically engineered mouse models of BRAF^V600E^ lung tumorigenesis, we analyzed the contribution of commonnly mutated genes to tumor pregression. It was found that, while BRAF^V600E^ drives benign tumor formation, loss of SETD2 function drives tumor progression to larger tumors. Thus, we identified SETD2 as a common alteration in BRAF^V600E^ lung cancer that is a bone fide tumor supressor.
+
+  Genetic sequencing of human lung adenocarcinomas has also reavealed the widespread inactivation of p53 as a common alteration in late stage lung adenocarcinoma. Normal p53 function restricts tumor plasticity and thus losing p53 function enables tumor cells to adopt more malignant cell identities. However, not all p53 mutations are created equal. In chapter 2, we characterized the effect of three p53 mutant alleles (P53-null, P53-R172H, and p53-R245W) on BRAF^V600E^ lung tumorigenesis. It was found that p53-R172H and p53-R245W induce more widespread tumor dedifferentiation thus leading to worst tumor outcomes, compared to p53-loss. Cell lines derived from the tumors allowed for the dissection of signaling pathway dynamics which led us to observed higher MAPK pathway activation in p53-R172H and p53-R245W cell lines. We also found that p53-R172H and p53-R245W cell lines were more refractory to MAPK pathway inhibition with small molecule inhibitors. These altered phenotypes seen in p53-R172H and p53-R245W are liekly a reflection in their alter transcriptomic profiles. 
+  
+  Although genetically-engineered mouse models are foundational in understanding how lung adenocarcinomas delveop, progress, and metastasize, little is known about the transcriptional heterogeneity of genetically-engineered mice. In Chapter 3, we profiled the single-cell transcriptomes of BRAF^V600E^ lung tumors. We identified distinct clusters of tumor cell types and determined the transcriptional response to MAPK pathway-targeted therapy.
+  
+ By quantifying the tumor suppresive landscape and the heterogenous transcriptional landscape of BRAF^V600E^ cells, our work has contributed valuable knowledge to the field of lung adenocarcinoma biology.
+  
+
+
 
 
 **NSCLC** Lung cancer is a global hazard on human health. The historic consumption of cigarette smoke has caused lung cancer to be the most common and deadly form of cancer. Fortunately, smoking-rates have decreased in the past 30 years with lung cancer rates also on the decline. However, even if cigarette consumption were eradicated, lung cancer would still significantly affect human health. Indeedm it is estimated that approximately 25% of all lung cancer cases arise in never smokers [@pmid:23714547]. Secondary causes of lung cancer include Radon exposure, high-heat cooking, family history, air pollution [@pmid:27174888]. An individual's risk of lung cancer also increases with age due to  decreases in the efficiency of tumor supressive mechanisms such as tumor immunity and apoptosis[@pmid:22974775].
@@ -151,7 +163,7 @@ The cellular mechanisms that GOF P53 are involved in are also well-characterized
 {.page_break_before}
 
 # Abstract
-
+Large-scale sequencing of cancers have revealed that lung adenocarcinomas have a high mutation rate. Although it is clear that the evolution of lung adenocarcinoma is centered around mutational activation of the EGFR-RAS-RAF-MEK-ERK pathway, little is known about secondary mutations that drive disease progression. Since lung cancers are riddled with mutations, it is difficult to glean which mutations support cancer growth and which are merely bystanders. Thefore, pre-clinical mouse models that are syngenetic are important models to determine oncogenicity of a particular gene. Here, we use Tuba-Sequencing combined with CRISPR/Cas9 gene editing to simmuletaneuosly determine the contribution of the loss of one of eleven tumor suppressor genes in BRAF^V600E^ mouse lung tumorigenesis. We show that loss of either _Apc_ or _Setd2_ leads to enhanced tumor growth. We validated SETD2 loss as a cooperating mutation with single-guide RNAs. FUnctionalily, SETD2 is a histone lysine methyltransferase that marks active gene bodies by depositing me^3^ marks on H3K36. In BRAF^V600E^ lung tumors,  _Setd2_ loss decreases H3K36me^3^ and H3K36me^3^ was observed to correlate with larger tumors. _SETD2_ RNA is expressed less human lung cancers than normal lung and can be indicative of worse overall survival. Moreover, _SETD2_ loss is a common event in humna _BRAF^V600E^_ lung adenocarcinomas. Together, our results highlight the potential importance of _SETD2_ in the progresion of BRAF^V600E^ lung adenocarinoma.
 
 # Introduction
 
@@ -366,9 +378,8 @@ In summary, we have compared the tumorigenic potential of three _^Trp53^_ allele
 ## Chapter Four {.page_break_before}
 
 ##Abstract
-
-
-
+malignant lung adenocarcinomas tumors are initiated from a single neoplastic cell. Yet, there is substantial cellular heterogenity in a fully malignant tumor. Since human lung adenocarcinomas are heavily mutated, it is diffuclt to know wheter underlying cellular heterogenity is a consequence of the underlying mutational heterogenity. Mouse models of lung adenocarcinoma accurately represent genomic and histological aspects of human lung adenocarcinoma. However, genetically-engineered mouse model tumor heterogenity remains poorly understood. Here, we profile the single cell transcriptomes of genetically-engineered mouse models that are driven by the BRAF^V600E^ oncoprotein with 5 seperate cooperating genetic events ( _Pi3k^H1047R^_, _CdkN2a^fl/fl^_, _Trp53^fl/fl^_, _Trp53^R172H/R162H^_, and _Trp53^R245W/R245W^_). There are stereotypically distinct clusters of cells thorughout all genotypes of BRAF^V600E^-driven tumors. We also identified known tumor cell identities in both human and mouse lung adenocarcinoma. 
+  
 ## Introduction
 The mammalian lung is a vast and intricate labyrinth that is responsible that is responsible for gas exchange between air and body through a meshwork of endothelial cells. The lung organ system begins with a single airway that branches in a geometric and stereotypic pattern[@pmid:18463632]. These many thousands of branches lead to the business end of gas exchange, the lung alveoli. The alveoli are comprised of two specialized cell types: Alveolar Type 1 (AT1) cells comprise most of the surface area of the lung and are thin squamous cells that mediate oxygen exchange across cell membranes. Alveolar Type 2 (AT2) cells, however, are cuboidal that secrete surfactant proteins that aide in preventing the delicate alveoli from collapsing. 
 
@@ -402,19 +413,14 @@ Feature plots of P53 target genes
 heatmap of P53 target genes
 heatmap/violin plot of MAPK score
 
-
-
-
-
-
-
 ## Discussion
 
 Here, we used scRNA-seq to determine transcriptional heterogenity of BRAF^V600E^ driven lung cancer and how it changes in response to concomminant genetic alterations. We modeled lung adenocarcinoma that mimick human oncogenic transformation where MAPK pathway activation drives tumor formation, and inactivation of the p53 pathway allows for tumor progression[@pmid:27158780]. We also determined how cell state changes in response to MAPK blockade, a common theraputic option for patients with BRAF^V600E^-mutant lung adenocarcinomas.
 
 We determined that there is transcriptional heterogenity and that it is reporducible across genotypes. We also confirmed previousl published cell states in similar models, such as KRAS G12D[@pmid:32707077]. Unfortunely, we did not observe robust dedifferentiation signals such as loss of NKX2-1 and adoption of a gastric cell state. However, we did collect and identify highly-pastic cell states, such as ITGA2+ and CLDN4+ cells. Our failure to collect and analyze pre-metastatic cell states such as EMT-like cells, is likely because we collected cells only after 8-weeks, which is likely not long enough for these cell states to evolve during lung tumorigenesis. Therefore, adoption of highly malignant cell states, although might require certain genomic alterations like p53 loss, is an outcome of tumor evolution. One hypothesis is that p53 loss causes genomic instability and thus copy number gain, but similar studies failed to detect robust changes in copy number variation[@pmid:32707077].
 
-We also failed to detect robust differences between genotypes that are known to cause malignant transformation, such as p53 loss, p53 missense mutation, CDKN2A loss, or mutant PI3K^H1047R^ [@pmid:31452510; @pmid:24019382; @pmid:17299132]. This is likely a result from a combination of factors, such as time of collection and library capture/sequencing depth. One straightforward hypothesis is that we did not allow for full transcriptomic changes to take effect that is imparted by tumor suppressor or oncogene mutation. Therefore, a timecourse analysis that spans early timepoints (4-6 weeks) and late timepoints (>16 weeks) will likely reveal more informative transcriptional heterogeneity. Indeed, our previous studies have indicated that there is no tumor growth advantage at early time points as late as 6 weeks post tumor initiation. One other possibility that could explain our lack of genotype-specific gene expression programs is that we did not capture enough unique transcripts in order to reveal the full extent of tumor heterogeneity. This is likely because there are known limitations to 10X genomic library preperation. Specifically, there is gene-dropout effects where only the most highly expressed genes are captured by the droplet-based technique. Indeed, 10X genomics technologies have been shown not to detect genes with lower expression[@pmid:33662621]. However, 10X genomics allows you to profile more cells than similiar scRNA-seq techniques. Genes with lower expression can be just as important as highly expressed genes for a cell's identity. Actually, transcription factors that determine cell states have been shown to have modest expression[@pmid:33662621]  Therefore, we hypothesis that using plate-based scRNA-seq approaches, such as Smart-Seq2, would allow for more gene capture. Thus, Smart-seq2 will enable us to more precisely determine transcirptional heterogenity and genotype-specific gene expression changes.
+We also failed to detect robust differences between genotypes that are known to cause malignant transformation, such as p53 loss, p53 missense mutation, CDKN2A loss, or mutant PI3K^H1047R^ [@pmid:31452510; @pmid:24019382; @pmid:17299132]. This is likely a result from a combination of factors, such as time of collection and library capture/sequencing depth. One straightforward hypothesis is that we did not allow for full transcriptomic changes to take effect that is imparted by tumor suppressor or oncogene mutation. Therefore, a timecourse analysis that spans early timepoints (4-6 weeks) and late timepoints (>16 weeks) will likely reveal more informative transcriptional heterogeneity. Indeed, our previous studies have indicated that there is no tumor growth advantage at early time points as late as 6 weeks post tumor initiation. One other possibility that could explain our lack of genotype-specific gene expression programs is that we did not capture enough unique transcripts in order to reveal the full extent of tumor heterogeneity. This is likely because there are known limitations to 10X genomic library preperation. Specifically, there is gene-dropout effects where only the most highly expressed genes are captured by the droplet-based technique. Indeed, 10X genomics technologies have been shown not to detect genes with lower expression[@pmid:33662621]. However, 10X genomics allows you to profile more cells than similiar scRNA-seq techniques. Genes with lower expression can be just as important as highly expressed genes for a cell's identity. Actually, transcription factors that determine cell states have been shown to have modest expression[@pmid:33662621; @pmid;30205475].
+Therefore, we hypothesis that using plate-based scRNA-seq approaches, such as Smart-Seq2, would allow for more gene capture. Thus, Smart-seq2 will enable us to more precisely determine transcirptional heterogenity and genotype-specific gene expression changes.
 
 Although our analysis was lacking with regards to transcriptional differences between genotypes, we did detect a robust transcriptional change with MAPK blockade(figure4.). Since human lung cancer patients treated with MAPK-pathway inhibitors exhibit a heterogeneity in response, one might hypothesize that each cell responds differently to MAPK-pathway inhibition. In our analysis, we determine that there is generally a homogenous response to MAPK inhibition. One straightforward explanation is that our short term treatment (four days) did not allow for cells to respond to pathway blockade. Perhaps there is an intial response to MAPK-pathway inhibition that is dampened over time that is dependant on transcriptional heterogeneity. 
 
@@ -431,12 +437,16 @@ talk about homogenous response to D+T
 
 ![Single cells broadly cluster into epithelial-, immune-, endothelial-, or mesenchymal- like cells.](images/scrna_2.png){#fig:04 .white width="100%"}
 
-![Tumor cells cells are clustered based on treatment](images/scrna_3.png){#fig:04 .white width="100%"}
+![Murine lung adenocarcinoma transcripional programs in BRAF^V600E^ tumorigenesis](images/scrna_3.png){#fig:04 .white width="100%"}
 
 
-![P53 transcriptional signature is identified in BRAV^V600E^, p53-wildtype tumor cells](images/scrna_4.png){#fig:04 .white width="100%"}
+![Transcriptional heterogeneity of tumor cells](images/scrna_4.png){#fig:04 .white width="100%"}
 
-![Differentially expressed genes imparted by mutant-p53](images/scrna_5.png){#fig:04 .white width="100%"}
+![P53 transcriptional signature is identified in BRAV^V600E^, p53-wildtype tumor cells](images/scrna_5.png){#fig:04 .white width="100%"}
+
+![P53 transcriptional signature is identified in BRAV^V600E^, p53-wildtype tumor cells](images/scrna_5.png){#fig:04 .white width="100%"}
+
+![Genotpye-specific gene expression changes.](images/scrna_6.png){#fig:04 .white width="100%"}
 
 
 
