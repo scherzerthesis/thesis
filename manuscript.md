@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-04-04'
+date-meta: '2022-04-05'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-04-04" />
-  <meta name="citation_publication_date" content="2022-04-04" />
+  <meta name="dc.date" content="2022-04-05" />
+  <meta name="citation_publication_date" content="2022-04-05" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/eb31561e4aa1ce1f26312d5bee8f0d3caa85830c/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/eb31561e4aa1ce1f26312d5bee8f0d3caa85830c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/eb31561e4aa1ce1f26312d5bee8f0d3caa85830c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/1cc799cb76b18c366955ca819339505f0e3d53de/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/1cc799cb76b18c366955ca819339505f0e3d53de/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/1cc799cb76b18c366955ca819339505f0e3d53de/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/eb31561e4aa1ce1f26312d5bee8f0d3caa85830c/))
+([permalink](https://scherzerthesis.github.io/thesis/v/1cc799cb76b18c366955ca819339505f0e3d53de/))
 was automatically generated
-from [scherzerthesis/thesis@eb31561](https://github.com/scherzerthesis/thesis/tree/eb31561e4aa1ce1f26312d5bee8f0d3caa85830c)
-on April 4, 2022.
+from [scherzerthesis/thesis@1cc799c](https://github.com/scherzerthesis/thesis/tree/1cc799cb76b18c366955ca819339505f0e3d53de)
+on April 5, 2022.
 </em></small>
 
 ## Authors
@@ -503,16 +503,28 @@ Table: **Critical reagents** {#tbl:reagents}
 
 
 
-## Chapter Six: Future {.page_break_before}
+## Chapter Six: Future Perspectives {.page_break_before}
 
 ## Preface
 The broad purpose of this work was to better understand how BRAF^V600E^ tumors form and progress to lung adenocarcinoma.
-Our strategy was (1) to determine additional tumor supressor genes in BRAF^V600E^ lung tumorigenesis, (2) evaluate effect different mutant-p53 alleles, and (3) profile the tumor cell heterogenity using scRNA-seq.
+Our strategy was (1) to determine additional tumor supressor genes in BRAF^V600E^ lung tumorigenesis, (2) evaluate effects of different mutant-p53 alleles, and (3) profile the tumor cell heterogenity using scRNA-seq.
 In this chapter, I will examine the exciting possibilities that arose as a consequence of my work. This will include a discussion on cooperating genetic events, p53 tumor supression, MAPK pathway targeted therapy,  and tumor heterogenity. 
+
+The mechanisms by which the mutationally activated MAPK-pathway promotes lung tumorigenesis remains incompletely understood. However, recent work suggests that the levels of MAPK-pathway activation correlates with tumor initiation and progression[@pmid:21107428; @pmid:28228261]. Therefore, there must be secondary events after mutational activation of KRAS or BRAF that alter the tone of the MAPK pathway. Recent work has highlighted potential mechanisms tumor cells adopt to increase pathway activation. Amplifcation of the KRAS locus occurs during early murine tumorigenesis initiated by KRAS-G12D[@pmid:21807965]. During late tumorigenesis, MAPK-pathway hyperactivation can occur through loss of DUSP6 regulation by NKX2-1[@pmid:34689179]. However, NKX2-1 loss is also known to affect tumor cell identity and is associated with dedifferentiation[@pmid:33821796; @pmid:30332632]; @pmid:23523371]. In order for increased MAPK pathway activation to drive tumor progression, p53 function needs to be inhibited. Therefore, there are two main barriers to tumor progression in lung adenocarcinoma: (1) MAPK pathway activation and (2) subversion of p53-mediated tumor suppression. 
+
+Previous studies have linked oncogenic MAPK signaling to p53-mediated tumor supression[@pmid:9271435; @pmid:9765202]. One hypothesis is that during tumorigenesis MAPK pathway activated cresendos until p19/ARF expression is induced which triggers p53 activation and tumor supressor. Our studies indicate that mutant-p53 accumulation correlates with p19/ARF is consistent with previously published research[@pmid:21107427; @pmid:21107428]. Therefore, p19/ARF may play a dichotmous role in tumor development. In the context of wild-type p53, p19/ARF might play a tumor suppressive role in response to overactive MAPK signaling. In mutant-p53 expressing tumors, p19/ARF can stabilize mutant-p53 which potentiates oncogenesis and cancer progression. In order to fully understand p53 tumor suppresion and mutant-p53 dominant-negative effects, we propose to study p19/ARF-specific deletion in the context of wildtype and mutant p53 in BRAF^V600E^ tumorigenesis. Since p19/ARF is encoded by the _CDKN2A_ locus, it is difficult to determine the effect of p19-specific roles in genetically-engineered mice. However, one could still test the role of p19/ARF in mutant-p53 stabilization _in vivo_ and _in vitro_.   
+
+However, there are reported opposing effects of MAPK-pathway activated on p53 stability, as MAPK has been reported to induce expression of p53 negative regulator MDM2[@pmid:11057904].
+
+
+
+Our work has highlighted the role SETD2 plays in supressing lung tumorigenesis. However, we currently do not understand the mechanism behind SETD2 tumor suppression. One hypothesis is that SETD2 prevents spurious gene transcription. Thus when SETD2 function is lost, tumor cells adopt multiple different cell states due to altered gene expression. The more cell states a tumor cell can access increases the odds of adopting pro-growth characterstics best for the tumor environment. In order to test this hypothesis, we can profile the transcriptomes of single-cells that have intact SETD2 and SETD2 deficient tumor cells. Importantly, we must consider alternative transcirptional start sites as well as alternative splicing. Since p53 dysregulation is at the heart of tumor progression, we would like to known if SETD2 affects p53-stability, target-gene expression. Alternitively, SETD2 loss might circumvent p53 activation through some undescribed mechanism. 
+
+
+
 
 
 ##Future directions
-immuno profiling?
 
 
 
