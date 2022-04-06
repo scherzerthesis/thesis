@@ -1,7 +1,7 @@
 This manuscript
-(\href{https://scherzerthesis.github.io/thesis/v/3bd48ef9b7e8de9373449f399d612df876396338/}{permalink})
+(\href{https://scherzerthesis.github.io/thesis/v/cfeaf4b301d421f38362c16fb408e8a598ee88be/}{permalink})
 was automatically generated
-from \href{https://github.com/scherzerthesis/thesis/tree/3bd48ef9b7e8de9373449f399d612df876396338}{scherzerthesis/thesis@3bd48ef}
+from \href{https://github.com/scherzerthesis/thesis/tree/cfeaf4b301d421f38362c16fb408e8a598ee88be}{scherzerthesis/thesis@cfeaf4b}
 on April 6, 2022.
 
 \hypertarget{authors}{%
@@ -135,30 +135,32 @@ Adenoviral vectors and lentiviral vectors introduced in the lungs of GEMMs offer
 However, only lentiviral vectors can be used to barcode tumors because they integrate into the genome while adenoviruses do not(DuPage et al., 2009; Rogers et al., 2017).
 With CRISPR/CAS9 gene editing, lentiviruses have been used to analyze many genetic interactions of oncogenic \emph{Kras} driven lung adenocarcinoma(Rogers et al., 2017; Winters et al., 2017).
 To enable simultaneous activation of BRAF\textsuperscript{V600E} and loss of tumor suppressor genes, we bred \emph{Braf\textsuperscript{CAT}}; \emph{H11b\textsuperscript{LSL-CAS9/+}} mice.
-To determine the size of BRAF \textsuperscript{V600E} tumors and the contribution of 11 tumor suppressor genes (\emph{Trp53, Rb1, Cdkn2a, Apc, Rbm10, Stk11, Setd2, Arid1a, Atm, Keap1, Smad4)} on BRAF \textsuperscript{V600E} lung tumorigenesis, we obtained tittered barcoded-lentiviral plasmids that encode Cre-recombinase as well as a sgRNA that inactivates one of eleven tumor suppressors common in lung adenocarcinoma.
+To determine the size of BRAF \textsuperscript{V600E} tumors and the contribution of 11 tumor suppressor genes (\emph{Trp53, Rb1, Cdkn2a, Apc, Rbm10, Stk11, Setd2, Arid1a, Atm, Keap1, Smad4)} on BRAF \textsuperscript{V600E} lung tumorigenesis, we obtained tittered barcoded-lentiviral plasmids that encode Cre-recombinase as well as a sgRNA that inactivates one of eleven tumor suppressors common in lung adenocarcinoma(Figure 2.1).
 All genes tested are putative tumor suppressor genes commonly lost in human lung cancer patients. Each lentiviral solution contained \textasciitilde1000 individually barcoded lentiviruses.
-We infected both \emph{LSL-Cas9} and \emph{CAS9} deficient mice in order to determine the contribution of genetic manipulation on tumor size.
-Mice meant to be analyzed after eight weeks received a viral titer of 1x10\^{}5, while mice meant to be analyzed after 16 weeks received a viral titer of 1x10\^{}4. After euthanasia, lungs were collected for genomic DNA extraction and barcode amplification, followed by the preparation of sequencing libraries.
-Before genomic extraction and library preparation, a known quantity of known-barcoded cells was added to benchmark sequencing reads to a known cell number(figure).
-
-We determined the mean size of a BRAF\textsuperscript{V600E} driven tumor to be 21,248 thousand cells (figure).
-Interestingly, there is a widespread distribution of tumor sizes, with the most giant BRAF\textsuperscript{V600E} tumor to be \textasciitilde300,000 cells, along with many small tumors (figure).
-
-Gross, histologic images of experimental lungs show an increase in tumor burden with both time (Figure xxx) and CAS9 status (figure xxx).
+We infected both \emph{LSL-Cas9} and \emph{CAS9} deficient mice in order to determine the contribution of genetic manipulation on tumor size (Figure 2.1).
+Mice meant to be analyzed after eight weeks received a viral titer of 1x10\^{}5, while mice meant to be analyzed after 16 weeks received a viral titer of 1x10\^{}4.
+Gross, histologic images of experimental lungs show an increase in tumor burden with both time (Figure xxx) and CAS9 status (Figure 2.1).
 Therefore, based on macroscopic inspection, at least one tumor suppressor appeared to cooperate with BRAF \textsuperscript{V600E} to increase tumor burden.
-In order to determine the fitness landscape of any one particular tumor suppressor, we calculated the relative number of tumor cells in a given tumor using the Tuba-Seq genomics pipeline.
-After eight weeks post tumor initiation, there is no statistically significant contribution of tumor suppressor loss (Figure).
-SETD2 loss was trending towards statistical significance.
-However, 16 weeks post-initiation revealed that both SETD2 loss and APC loss cooperated with BRAF \textsuperscript{V600E} to form larger tumors (Figure x).
+After euthanasia, lungs were collected for genomic DNA extraction and barcode amplification, followed by the preparation of sequencing libraries.
+Before genomic extraction and library preparation, a known quantity of known-barcoded cells was added to benchmark sequencing reads to a known cell number.
+
+We determined the mean size of a BRAF\textsuperscript{V600E} driven tumor to be 21,248 thousand cells (Figure 2.2).
+Interestingly, there is a widespread distribution of tumor sizes, with the most giant BRAF\textsuperscript{V600E} tumor to be \textasciitilde300,000 cells, along with many small tumors (Figure).
+
+In order to determine the fitness landscape of any one particular tumor suppressor, we calculated the relative number of tumor cells in a given tumor using the Tuba-Seq genomics pipeline. In CAS9 deficient mice, there was no statiscically significant cooperation with any single-guide RNAs (Figure 2.3A).
+After eight weeks post tumor initiation, APC loss provided a growth advantage(Figure 2.3 B).
+However, 16 weeks post-initiation revealed that both SETD2 loss and APC loss cooperated with BRAF \textsuperscript{V600E} to form larger tumors (Figure 2.3 C).
 APC loss was a suspected hit as we have previously shown that activation of Wnt-beta-catenin signaling promoted BRAF\textsuperscript{V600E} tumorigenesis.
 As APC loss is predicted to increase Beta-catenin signaling activity, this result was unsurprising to us.
 However, loss of SETD2 was a novel finding in the context of BRAF \textsuperscript{V600E} lung tumorigenesis.
 
-Given our findings of SETD2 loss increased tumor burden concurrent with BRAF\textsuperscript{V600E}, we next validated SETD2 in a new cohort of mice with single-guide RNAs targeting SETD2.
-Indeed, loss of SETD2 increased tumor burden from 5\% to over 30\% in some animals.
-Since SETD2 antibodies are unreliable in both western blots and immunohistochemistry, we used H3K36me3 as a surrogate marker for SETD2 activity by immunohistochemistry.
-Whereas 90\% of nuclei in BRAF \textsuperscript{V600E} only tumors were H3K36me3, more than 60\% of tumors of mice infected with SETD2 CRISPR virus were negative for H3K36me3.
-Furthermore, when classified by H3K36me3-positive or -negative, there is even more substantial evidence that SETD2 loss leads to larger tumor formation.
+Given our findings of SETD2 loss increased tumor burden concurrent with BRAF\textsuperscript{V600E}, we next validated SETD2 in a new cohort of mice with single-guide RNAs targeting SETD2 (Figure 2.4).
+Indeed, loss of SETD2 increased tumor size based on gross histological analysis(Figure 2.4A). Addiionally, tumor size increased from in reponse to CRISPR/Cas9-mediated gene editing of \emph{Setd2}(Figure 2.4B).
+Since SETD2 antibodies are unreliable in both western blots and immunohistochemistry, we used H3K36me3 as a surrogate marker for SETD2 activity by immunohistochemistry(Figure 2.5A).
+Whereas 90\% of nuclei in BRAF \textsuperscript{V600E} only tumors were H3K36me3, more than 60\% of tumors of mice infected with SETD2 CRISPR virus were negative for H3K36me3(Figure 2.5B).
+Furthermore, when classified by H3K36me3-positive or -negative, there is even more substantial evidence that SETD2 loss leads to larger tumor formation(Figure 2.5C). Specifically, tumors that have lost H3H36me\textsuperscript{3}, were 5-times larger than tumors that have retained H3K36me\textsuperscript{3}. Therefore, we conclude that \emph{Setd2} loss drives growth of BRAF\textsuperscript{V600E}-driven lung tumors.
+
+Clearly, there is a strong selective advantage given to tumors that have lost \emph{Setd2} function. We next wondered if human lung cancer patients have altered \emph{SETD2} levels. Indeed, Low \emph{SETD2} levels correlate with poor overall survival and \emph{SETD2} is expressed less in lung tumors compared to normal lung tissue(Figure 2.6A,B). To further demonstrate the relationship between BRAF\textsuperscript{V600E} and \emph{SETD2} loss, we mined patient data avaiable from Project Genie(2017). Interestingly, we found an association between \emph{SETD2} genomic alterations and \emph{\textsuperscript{BRAF}V600\^{}} mutational activation(Figure 2.6C). Specifically, of the 220 \emph{BRAF\textsuperscript{V600}} mutations (include V600E and V600K), 40\% had concurrent alterations in \emph{SETD2}. These observations indicate \emph{SETD2} loss is a common feature of \emph{BRAF\textsuperscript{V600}}-driven human lung adenocarcinomas and predicts poor overall survival in non-small cell lung cancer.
 
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
@@ -284,32 +286,32 @@ Here, we characterize the differential impact of p53(null), as well as p53 hotsp
 
 \textbf{P53-mutant Alleles Differentially Alter BRAF (V600E) Lung Tumorigenesis}
 
-Expression of BRAF\textsuperscript{V600E} in the distal epithelium of the mouse lung elicits clonal tumorigenic outgrowths of alveolar type 2 (AT2) pneumocytes (Dankort et al., 2007). Prior work has shown that \emph{Trp53\textsuperscript{fl/fl}} cooperates with BRAF(V600E) to form malignant lung tumors when Cre recombinase is activated (Dankort et al., 2007; Shai et al., 2015). Therefore, we compared the tumor burden of \emph{Braf\textsuperscript{Cat/+}} mice with either p53 loss (\emph{Trp53\textsuperscript{fl/fl}}, p53\textsuperscript{R172H} (\emph{Trp53\textsuperscript{R172H/R172H}}), or p53\textsuperscript{R245W} (\emph{Trp53\textsuperscript{R245W/R245W}}) after infection with 106 pfu of adenovirus expressing surfactant protein C specific Cre (ad5-Spc-Cre) (Figure \ref{fig:3.1}). As expected, mice developed lung cancer, consistent with previous findings (Figure \ref{fig:3.2} B-C). However, there was a striking, highly reproducible increase in the tumor size of tumors harboring \emph{Trp53\textsuperscript{R172H/R172H}} and to a lesser extent \emph{Trp53\textsuperscript{R245W/R245W}}, compared to \emph{Trp53\textsuperscript{fl/fl}} (Figure \ref{fig:3.2} A,B). These data led us to hypothesize that p53\textsuperscript{R172H} and p53\textsuperscript{R245W} expression alters tumor progression uniquely from p53 deletion, and these differences may be potentially evident of gain-of-function effects imparted by mutant-53. We next looked at early time points to determine if p53 mutation affects the growth and proliferation of early stage lung tumors. However, we did not find any differences in tumor size between the three different p53 alleles(Figure (\textbf{fig3.3?}) A, B).
+Expression of BRAF\textsuperscript{V600E} in the distal epithelium of the mouse lung elicits clonal tumorigenic outgrowths of alveolar type 2 (AT2) pneumocytes (Dankort et al., 2007). Prior work has shown that \emph{Trp53\textsuperscript{fl/fl}} cooperates with BRAF(V600E) to form malignant lung tumors when Cre recombinase is activated (Dankort et al., 2007; Shai et al., 2015). Therefore, we compared the tumor burden of \emph{Braf\textsuperscript{Cat/+}} mice with either p53 loss (\emph{Trp53\textsuperscript{fl/fl}}, p53\textsuperscript{R172H} (\emph{Trp53\textsuperscript{R172H/R172H}}), or p53\textsuperscript{R245W} (\emph{Trp53\textsuperscript{R245W/R245W}}) after infection with 106 pfu of adenovirus expressing surfactant protein C specific Cre (ad5-Spc-Cre) (Figure 3.1). As expected, mice developed lung cancer, consistent with previous findings (Figure 3.2B-C). However, there was a striking, highly reproducible increase in the tumor size of tumors harboring \emph{Trp53\textsuperscript{R172H/R172H}} and to a lesser extent \emph{Trp53\textsuperscript{R245W/R245W}}, compared to \emph{Trp53\textsuperscript{fl/fl}} (Figure 3.2A and B). These data led us to hypothesize that p53\textsuperscript{R172H} and p53\textsuperscript{R245W} expression alters tumor progression uniquely from p53 deletion, and these differences may be potentially evident of gain-of-function effects imparted by mutant-53. We next looked at early time points to determine if p53 mutation affects the growth and proliferation of early stage lung tumors. However, we did not find any differences in tumor size between the three different p53 alleles(Figure 3.3A and B).
 
-Since lung cancer patients with mutations in \emph{TP53} often start only have one mutated \emph{p53} allele unless the loss of heterozygosity (LOH) occurs. Therefore, we generated mice heterozygous for both \emph{Braf\textsuperscript{CAT}} and either \emph{Trp53\textsuperscript{fl}}, \emph{Trp53\textsuperscript{R172H}}, or \emph{Trp53\^{} R245W\^{}} and observed their survival over time (Figure \ref{fig:3.4} A). We noted that \emph{Trp53\textsuperscript{R172H/+}} mice had diminished median overall survival compared to \emph{Trp53\textsuperscript{fl/+}} mice (183 days and 216 days), with \emph{Trp53\textsuperscript{R245W/+}} mice falling in between the two groups (median survival 212 days) (Figure \ref{fig:3.4} A).
+Since lung cancer patients with mutations in \emph{TP53} often start only have one mutated \emph{p53} allele unless the loss of heterozygosity (LOH) occurs. Therefore, we generated mice heterozygous for both \emph{Braf\textsuperscript{CAT}} and either \emph{Trp53\textsuperscript{fl}}, \emph{Trp53\textsuperscript{R172H}}, or \emph{Trp53\^{} R245W\^{}} and observed their survival over time (Figure 3.4A). We noted that \emph{Trp53\textsuperscript{R172H/+}} mice had diminished median overall survival compared to \emph{Trp53\textsuperscript{fl/+}} mice (183 days and 216 days), with \emph{Trp53\textsuperscript{R245W/+}} mice falling in between the two groups (median survival 212 days) (Figure 3.4A).
 
-We observed a distinct separation of survival between mice harboring lung tumors that are either \emph{Trp53\textsuperscript{fl/+}}, \emph{Trp53\textsuperscript{R172H/+}}, and \emph{Trp53\textsuperscript{R245W/+}}. This separation is diminished when altered p53 alleles are homozygous (Figure \ref{fig:3.4} B). \emph{Trp53\textsuperscript{R172H/R172H}} mice have a median survival of 120 days, while \emph{Trp53\textsuperscript{fl/fl}} mice have a median survival of 136 days. Importantly, this observed difference in survival is statistically significant (Log-rank test p\textless{} 0.001) and is likely to reflect the worse diseased, characterized by enhanced tumor burden and size.
+We observed a distinct separation of survival between mice harboring lung tumors that are either \emph{Trp53\textsuperscript{fl/+}}, \emph{Trp53\textsuperscript{R172H/+}}, and \emph{Trp53\textsuperscript{R245W/+}}. This separation is diminished when altered p53 alleles are homozygous (Figure 3.4B). \emph{Trp53\textsuperscript{R172H/R172H}} mice have a median survival of 120 days, while \emph{Trp53\textsuperscript{fl/fl}} mice have a median survival of 136 days. Importantly, this observed difference in survival is statistically significant (Log-rank test p\textless{} 0.001) and is likely to reflect the worse diseased, characterized by enhanced tumor burden and size.
 
 \textbf{Mutant-p53 Accumulation is Associated with Dedifferentiation and p19 Induction}
-Increased malignancy in lung adenocarcinoma is often associated with altered states of tumor cell identity and dedifferentiation (Marjanovic et al., 2020; van Veen et al., 2019). Since LUADs often arise from AT2 cells, we surveyed the expression of AT2 cell identifiers, such as NKX2-1, a master regulator of AT2 transcriptional programs, and SPC, a marker of differentiated AT2 cells (Marjanovic et al., 2020). Quantification of over 50 tumors from \emph{Braf\textsuperscript{V600E/+}} mice with either \emph{Trp53\^{} flfl\^{}}, \emph{Trp53\textsuperscript{R172H/R172H}}, and \emph{Trp53\textsuperscript{R245W/R245W}} revealed that \emph{Trp53\textsuperscript{R172H/R1722H}} mice had significantly more tumors that stained negative for NKX2-1 and SPC (Figure \ref{fig:3.5} A, B). This finding strongly indicates that mutant-p53 tumors are dedifferentiated. Since HMGA2 expression is associated with LUAD dedifferentiation and worse patient prognosis, we performed IHC for HMGA2(Di Cello et al., 2008; Gao et al., 2017; Winslow et al., 2011). We noted an increase in HMGA2-positive tumors in \emph{Trp53\textsuperscript{R172H/R172H}}, and \emph{Trp53\textsuperscript{R245W/R245W}} tumors compared to \emph{Trp53\textsuperscript{fl/fl}} (Figure \ref{fig:3.5} A, B). Thus, this data reveals that Trp53R172H/R172H mice exhibit a higher tumor burden and worse overall survival than \emph{Trp53\textsuperscript{fl/fl}}. However, the tumors developed in these mice are more likely to exhibit malignant progression and dedifferentiation.
+Increased malignancy in lung adenocarcinoma is often associated with altered states of tumor cell identity and dedifferentiation (Marjanovic et al., 2020; van Veen et al., 2019). Since LUADs often arise from AT2 cells, we surveyed the expression of AT2 cell identifiers, such as NKX2-1, a master regulator of AT2 transcriptional programs, and SPC, a marker of differentiated AT2 cells (Marjanovic et al., 2020). Quantification of over 50 tumors from \emph{Braf\textsuperscript{V600E/+}} mice with either \emph{Trp53\^{} flfl\^{}}, \emph{Trp53\textsuperscript{R172H/R172H}}, and \emph{Trp53\textsuperscript{R245W/R245W}} revealed that \emph{Trp53\textsuperscript{R172H/R1722H}} mice had significantly more tumors that stained negative for NKX2-1 and SPC (Figure 3.5 A and B). This finding strongly indicates that mutant-p53 tumors are dedifferentiated. Since HMGA2 expression is associated with LUAD dedifferentiation and worse patient prognosis, we performed IHC for HMGA2(Di Cello et al., 2008; Gao et al., 2017; Winslow et al., 2011). We noted an increase in HMGA2-positive tumors in \emph{Trp53\textsuperscript{R172H/R172H}}, and \emph{Trp53\textsuperscript{R245W/R245W}} tumors compared to \emph{Trp53\textsuperscript{fl/fl}} (Figure 3.5A and B). Thus, this data reveals that Trp53R172H/R172H mice exhibit a higher tumor burden and worse overall survival than \emph{Trp53\textsuperscript{fl/fl}}. However, the tumors developed in these mice are more likely to exhibit malignant progression and dedifferentiation.
 
-One striking feature of lung tumors in mice, either heterozygous or homozygous for \emph{Trp53 \textsuperscript{R172H}} or \emph{Trp53\textsuperscript{R245W}} is how few tumors and tumor cells have detectable levels of mutant-p53 protein as measured by Immunohistochemistry. One critical aspect of normal p53 function is self-regulation through transcriptional activation of its negative regulator MDM2 (Wu et al., 1993). Thus, we predicted that homozygous p53 mutant cells would exhibit increased mutant-p53 protein. In our models, we observed that mutant p53 protein accumulation is restricted to malignant cells exhibited by a lack of papillary architecture and nuclear atypia (Figure \ref{fig:3.6} A). Indeed, p53 immunostaining is correlated with increased phosphorylated-ERK1/2 detection (Figure \ref{fig:3.6} B).
-Moreover, immunofluorescence of p53 and its positive regulator, p19/ARF, reveal that cells with high p19/ARF are also high in p53 accumulation (Figure \ref{fig:3.6} C). This result suggests that even in homozygous mutant\_Trp53\_ mice, there is still a barrier to mutant-p53 accumulation. Our data suggest that elevated levels of p19/ARF are necessary for mutant-p53 accumulation, even with homozygous p53 mutations. Collectively, these data indicate that \emph{Trp53\textsuperscript{R172H}} drives more aggressive lung adenocarcinoma formation in BRAF(V600E) driven mouse models of lung cancer.
+One striking feature of lung tumors in mice, either heterozygous or homozygous for \emph{Trp53 \textsuperscript{R172H}} or \emph{Trp53\textsuperscript{R245W}} is how few tumors and tumor cells have detectable levels of mutant-p53 protein as measured by Immunohistochemistry. One critical aspect of normal p53 function is self-regulation through transcriptional activation of its negative regulator MDM2 (Wu et al., 1993). Thus, we predicted that homozygous p53 mutant cells would exhibit increased mutant-p53 protein. In our models, we observed that mutant p53 protein accumulation is restricted to malignant cells exhibited by a lack of papillary architecture and nuclear atypia (Figure 3.6A). Indeed, p53 immunostaining is correlated with increased phosphorylated-ERK1/2 detection (Figure 3.6B).
+Moreover, immunofluorescence of p53 and its positive regulator, p19/ARF, reveal that cells with high p19/ARF are also high in p53 accumulation (Figure 3.6C). This result suggests that even in homozygous mutant\_Trp53\_ mice, there is still a barrier to mutant-p53 accumulation. Our data suggest that elevated levels of p19/ARF are necessary for mutant-p53 accumulation, even with homozygous p53 mutations. Collectively, these data indicate that \emph{Trp53\textsuperscript{R172H}} drives more aggressive lung adenocarcinoma formation in BRAF(V600E) driven mouse models of lung cancer.
 
 \textbf{P53\textsuperscript{R172H} and P53\textsuperscript{R245W} cell lines are refractory to BRAF/MEK inhibition}
-Given that previous research has determined that p53 mutations can confer resistance to both chemotherapies and pathway-targeted therapies (Huang et al., 2011; Rusch et al., 1995), we next questioned whether our p53 alterations would be sufficient to drive therapeutic resistance in BRAF\textsuperscript{V600E}-driven genetically engineered mice(Planchard et al., 2016). Interstingly, \emph{Trp53\textsuperscript{R172H/R172H}} mice retain a more considerable tumor burden after a week four treatment of MAPK blockade \emph{in vivo} (Figure \ref{fig:3.7} A).
+Given that previous research has determined that p53 mutations can confer resistance to both chemotherapies and pathway-targeted therapies (Huang et al., 2011; Rusch et al., 1995), we next questioned whether our p53 alterations would be sufficient to drive therapeutic resistance in BRAF\textsuperscript{V600E}-driven genetically engineered mice(Planchard et al., 2016). Interstingly, \emph{Trp53\textsuperscript{R172H/R172H}} mice retain a more considerable tumor burden after a week four treatment of MAPK blockade \emph{in vivo} (Figure 3.7A).
 
-To further investigate the effects of p53-mutants on \emph{BRAF\textsuperscript{V600E}} driven lung cancers,we derived cell lines from \emph{Braf\textsuperscript{CAT/+}} murine tumors expressing either \emph{Trp53\textsuperscript{flfl}}, \emph{Trp53\textsuperscript{R172H/R172H}}, or \emph{Trp53\textsuperscript{R245W/R245W}}) 14 weeks after infection with ad5-Spc-Cre. Cell lines expressing either \emph{Trp53\textsuperscript{R172H/R172H}} or \emph{Trp53\textsuperscript{R245W/R245W}} were resistant to single-agent dabrafenib (Figure \ref{fig:3.7} B). Of note, \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} cell lines express increased ERK1/2 activity, as evidenced by increased phosphorylated ERK1/2, both with and without MAPK-blockade (Figure \ref{fig:3.7} C). Furthermore, \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} were more resistant to the combination of dabrafenib plus trametinib, than \emph{Trp53\textsuperscript{fl/fl}} cell lines(Figure \ref{fig:3.8} A-C). Not only are resistant cells still proliferative in the face of MAPK-blockade, they are resistant to cell death imparted by MAPK-inhibtion{[}Figure \ref{fig:3.8} C{]}.
+To further investigate the effects of p53-mutants on \emph{BRAF\textsuperscript{V600E}} driven lung cancers,we derived cell lines from \emph{Braf\textsuperscript{CAT/+}} murine tumors expressing either \emph{Trp53\textsuperscript{flfl}}, \emph{Trp53\textsuperscript{R172H/R172H}}, or \emph{Trp53\textsuperscript{R245W/R245W}}) 14 weeks after infection with ad5-Spc-Cre. Cell lines expressing either \emph{Trp53\textsuperscript{R172H/R172H}} or \emph{Trp53\textsuperscript{R245W/R245W}} were resistant to single-agent dabrafenib (Figure 3.7B). Of note, \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} cell lines express increased ERK1/2 activity, as evidenced by increased phosphorylated ERK1/2, both with and without MAPK-blockade (Figure 3.7C). Furthermore, \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} were more resistant to the combination of dabrafenib plus trametinib, than \emph{Trp53\textsuperscript{fl/fl}} cell lines(Figure 3.8A-C). Not only are resistant cells still proliferative in the face of MAPK-blockade, they are resistant to cell death imparted by MAPK-inhibtion(Figure 3.8C).
 
-Next, we reasoned if mutant-p53 expression is the cause differential cancer phenotypes such as increase proliferation and drug resistance, then eliminating mutant-p53 expression would have a growth inhibitory effect and sensitize cells to MAPK-pathway inhibition. We cloned a short-hairpin RNA plasmid that induces GFP expression and knockdown of mutant-p53 with supplementation of doxycycline(Figure \ref{fig:3.9} A). Despite sucessful p53 knockdown, observed no change in \emph{in vitro} proliferation or \emph{in vivo} tumor outgrowth(Figure \ref{fig:3.9} B and C). Therefore, mutant-p53 cells are not addicted to mutant-p53 expression.
+Next, we reasoned if mutant-p53 expression is the cause differential cancer phenotypes such as increase proliferation and drug resistance, then eliminating mutant-p53 expression would have a growth inhibitory effect and sensitize cells to MAPK-pathway inhibition. We cloned a short-hairpin RNA plasmid that induces GFP expression and knockdown of mutant-p53 with supplementation of doxycycline(Figure 3.9A). Despite sucessful p53 knockdown, observed no change in \emph{in vitro} proliferation or \emph{in vivo} tumor outgrowth(Figure 3.9B and C). Therefore, mutant-p53 cells are not addicted to mutant-p53 expression.
 
-To gain relevance to human lung cancer, we infected BRAF(V600E) mutant HCC364 cells with lentivirus expressing human cancer hotspot mutant p53\textsuperscript{R175H}. p53\textsuperscript{R175H} expressing cells were more proliferative and refractory than parental HCC364 cells (Figure \ref{fig:3.10} A and B). Collectively, these \emph{in vitro} and \emph{in vivo} data suggest that missense mutant p53\textsuperscript{R175H} and its murine homolog p53\textsuperscript{R172H}, as well as p53\textsuperscript{R245W} can support cancer cell viability in the face of BRAF+MEK blockade that p53-null mutations cannot achieve.
+To gain relevance to human lung cancer, we infected BRAF(V600E) mutant HCC364 cells with lentivirus expressing human cancer hotspot mutant p53\textsuperscript{R175H}. p53\textsuperscript{R175H} expressing cells were more proliferative and refractory than parental HCC364 cells (Figure 3.10A and B). Collectively, these \emph{in vitro} and \emph{in vivo} data suggest that missense mutant p53\textsuperscript{R175H} and its murine homolog p53\textsuperscript{R172H}, as well as p53\textsuperscript{R245W} can support cancer cell viability in the face of BRAF+MEK blockade that p53-null mutations cannot achieve.
 
 \textbf{P53\textsuperscript{R172H} and P53\textsuperscript{R245W} alter the transcriptome of BRAF(V600E) lung tumor cell lines}
-Due to our observations that mutant p53\textsuperscript{R172H} drives more aggressive cancer phenotypes such as increased growth, dedifferentiation, and resistance to FDA-approved therapeutics, we reasoned that this would be reflected in a change in the transcriptional landscape. This is due in part to the transcriptional trans-activation potential by mutant p53. RNA sequencing of cell lines generated from p53-mutant mouse lung tumors does reveal transcriptomic differences between both p53\textsuperscript{R172H} and p53\textsuperscript{R245W} cells compared to p53-null cell lines (Figure \ref{fig:3.11} 4 A and B). Interestingly, genes involved in cell cycle regulation and MYC pathway are upregulated in both p53\textsuperscript{R172H} and p53\textsuperscript{R2245W} cell lines (Figure 4 \ref{fig:3.11} B). These results suggest that mutant-p53 affects the transcription of genes involved in pro-growth signaling pathways. We also observed transcriptional differences between \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} cell lines(Figure \ref{fig:3.12} A and B). Thus, we hypothesize that \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} have similarities in their function, but they also have some clear differences.
+Due to our observations that mutant p53\textsuperscript{R172H} drives more aggressive cancer phenotypes such as increased growth, dedifferentiation, and resistance to FDA-approved therapeutics, we reasoned that this would be reflected in a change in the transcriptional landscape. This is due in part to the transcriptional trans-activation potential by mutant p53. RNA sequencing of cell lines generated from p53-mutant mouse lung tumors does reveal transcriptomic differences between both p53\textsuperscript{R172H} and p53\textsuperscript{R245W} cells compared to p53-null cell lines (Figure 3.11A and B). Interestingly, genes involved in cell cycle regulation and MYC pathway are upregulated in both p53\textsuperscript{R172H} and p53\textsuperscript{R2245W} cell lines (Figure 3.11B). These results suggest that mutant-p53 affects the transcription of genes involved in pro-growth signaling pathways. We also observed transcriptional differences between \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} cell lines(Figure (\textbf{3.12A?}) and B). Thus, we hypothesize that \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} have similarities in their function, but they also have some clear differences.
 
 \textbf{PDGFR expression is increased in mutant-p53 cells}
-Our \emph{in vitro} RNA analysis revealed an upregulation of the platelet-derived growth factor recepter(PDGFR) in \emph{Trp53\textsuperscript{R172H/R172H}} cell lines(Figure \ref{fig:3.13} A). Since PDGFR is a known regulator of the MAPK pathway, we sought to validate its expression and determine its important in \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} cell lines. Indeed PDGFRB is more highly expressed and can be activated by recombinant PDGF stimulation(Figure \ref{fig:3.14} B). Although \emph{Trp53\textsuperscript{fl/fl}} cells do not have any detectable levels of PDGFR or Phospohorylated-PDFRB, they still upregulated MAPK-pathway activation in response to ligand stimulation(Figure \ref{fig:3.14} B). Furthermore, expression of PDGFRB is evident in malignant \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} tumors, but not \emph{Trp53\textsuperscript{fl/fl}} tumors(Figure \ref{fig:3.14} C). We next sought to determine the sensitivity to PDGFR-signaling blockade with Imatinib, a known PDGFRB inhibitor. Neither PDGFR stimulation or PDGFR inhibition had any effect on the proliferation of mutant-p53 cell lines(Figure \ref{fig:3.15} A an B). Therefore, PDGFR is a validated differentially expressed gene in \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} cell lines, but is not important for its growth.
+Our \emph{in vitro} RNA analysis revealed an upregulation of the platelet-derived growth factor recepter(PDGFR) in \emph{Trp53\textsuperscript{R172H/R172H}} cell lines(Figure 3.13A). Since PDGFR is a known regulator of the MAPK pathway, we sought to validate its expression and determine its important in \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} cell lines. Indeed PDGFRB is more highly expressed and can be activated by recombinant PDGF stimulation(Figure 3.14B). Although \emph{Trp53\textsuperscript{fl/fl}} cells do not have any detectable levels of PDGFR or Phospohorylated-PDFRB, they still upregulated MAPK-pathway activation in response to ligand stimulation(Figure 3.14B). Furthermore, expression of PDGFRB is evident in malignant \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} tumors, but not \emph{Trp53\textsuperscript{fl/fl}} tumors(Figure 3.14C). We next sought to determine the sensitivity to PDGFR-signaling blockade with Imatinib, a known PDGFRB inhibitor. Neither PDGFR stimulation or PDGFR inhibition had any effect on the proliferation of mutant-p53 cell lines(Figure 3.15A and B). Therefore, PDGFR is a validated differentially expressed gene in \emph{Trp53\textsuperscript{R172H/R172H}} and \emph{Trp53\textsuperscript{R245W/R245W}} cell lines, but is not important for its growth.
 
 \hypertarget{discussion-1}{%
 \subsection{Discussion}\label{discussion-1}}
@@ -318,7 +320,7 @@ While lung adenocarcinomas primarily contain missense mutations in p53, most stu
 
 Although point mutations in the \emph{TP53} gene can poison the natural tumor suppressive mechanisms of p53 protein, not all point mutations are equivalent in executing these functions. Mutations in the DNA-binding domain are most common and potent at ablating normal p53 function. Taking advantage of a conditional BRAF\textsuperscript{V600E} lung tumor model where BRAF\textsuperscript{V600E} expression in AT2 cells drives benign tumor formation, we show that either p53\textsuperscript{R172H} or p53\textsuperscript{R245W} can bypass growth arrest and influence tumor progression and therapeutic sensitivity beyond how p53 loss can. Specifically, P53\textsuperscript{R172H} reduces survival and sensitivity to dabrafenib plus trametinib \emph{in vivo}. Interestingly, a single allele of p53\textsuperscript{R172H} has a more robust tumor-promoting phenotype than P53\textsuperscript{R245W}. These findings further support a hierarchy model of p53 missense mutations, where conformation mutants such as p53\textsuperscript{R175H} have a more substantial dominant-negative effect on wild-type p53, while mice with a single \emph{trp53\textsuperscript{fl}} allele can still suppress tumorigenesis with one copy of wild-type but are prone to loss of heterozygosity (Muzumdar et al., 2016; Olive et al., 2004; Zhang et al., 2018).
 
-In BRAF-driven lung adenocarcinoma, the repressive role of wild-type p53 is initiated by oncogenic stress brought about by increasing levels of MAPK-pathway activation(Dankort et al., 2007) . Hyperactivation of the MAPK pathway triggers p19/ARF to block MDM2, leading to p53 accumulation(Christophorou et al., 2006; Feldser et al., 2010; Junttila et al., 2010). Therefore, p53 acts late in lung adenocarcinoma, unlike pancreatic adenocarcinoma, where p53 is triggered early, likely through PDAC-specific increases in p19/ARF through increased PI3K, STAT3, or DMP1 (Muzumdar et al., 2016). Our studies in BRAF(V600E) mutant lung adenocarcinomas reinforce this concept, as mutant-p53 does not accelerate growth in early tumors (supplemental figure). Furthermore, p53 is not detected until later stage tumor development and correlates with p19/ARF expression and increased phosphorylated-ERK1/2 levels. Our studies indicate that mutant-p53 levels are associated with increased expression of p19/ARF. Therefore, any gain-of-function phenotype manifested by mutant-p53 must depend on accumulated p19/ARF. Thus, ablating the ARF tumor suppressor in human cancers with GOF \emph{TP53} mutants may paradoxically lead to tumor regression.
+In BRAF-driven lung adenocarcinoma, the repressive role of wild-type p53 is initiated by oncogenic stress brought about by increasing levels of MAPK-pathway activation(Dankort et al., 2007) . Hyperactivation of the MAPK pathway triggers p19/ARF to block MDM2, leading to p53 accumulation(Christophorou et al., 2006; Feldser et al., 2010; Junttila et al., 2010). Therefore, p53 acts late in lung adenocarcinoma, unlike pancreatic adenocarcinoma, where p53 is triggered early, likely through PDAC-specific increases in p19/ARF through increased PI3K, STAT3, or DMP1 (Muzumdar et al., 2016). Our studies in BRAF(V600E) mutant lung adenocarcinomas reinforce this concept, as mutant-p53 does not accelerate growth in early tumors. Furthermore, p53 is not detected until later stage tumor development and correlates with p19/ARF expression and increased phosphorylated-ERK1/2 levels. Our studies indicate that mutant-p53 levels are associated with increased expression of p19/ARF. Therefore, any gain-of-function phenotype manifested by mutant-p53 must depend on accumulated p19/ARF. Thus, ablating the ARF tumor suppressor in human cancers with GOF \emph{TP53} mutants may paradoxically lead to tumor regression.
 
 While most \emph{TP53} mutations in cancer result in an inability to bind DNA, they are often stable and preserve functional oligomerization and transcriptional transactivation domains(Garcia and Attardi, 2014). Thus, mutant-p53 can still interact with and affect the function of cellular processes. Supporting this rationale, we observe altered transcriptomes with both p53\textsuperscript{R172H} and p53\^{}R245W cell lines compared to p53-null. Consistent with previous mutant-p53 GOF studies, we observed enriched genes associated with EMT and cell-cycle entry with p53\textsuperscript{R172H} and p53\textsuperscript{R245W}.
 
@@ -330,7 +332,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.1}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p53_1.png}
-\caption{Cre-mediated wildtype-to-mutant alleles used in study. (A) Priot to Cre-mediated recombination, normal \emph{Braf} and \emph{Trp53} are expressed from their endogenous loci. (B) After Cre-mediated recombination, the indicated mutant proteins are expressed, in addition to a TdTomato fluorescent protein to mark expression of BRAF\textsuperscript{V600E}.}\label{fig:3.1}
+\caption{\textbf{Figure 3.1.Cre-mediated wildtype-to-mutant alleles used in study.} (A) Priot to Cre-mediated recombination, normal \emph{Braf} and \emph{Trp53} are expressed from their endogenous loci. (B) After Cre-mediated recombination, the indicated mutant proteins are expressed, in addition to a TdTomato fluorescent protein to mark expression of BRAF\textsuperscript{V600E}.}\label{fig:3.1}
 }
 \end{figure}
 
@@ -338,7 +340,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.2}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p53_2.png}
-\caption{Mutant-p53 alleles differentially alter BRAF\textsuperscript{V600E} driven lung tumorigenesis. (A) Tumor burden analysis 14-weeks post Cre-recombinase. (B) Tumor size 14 weeks post Cre-Recombinase. (C) Representative histological images 14 weeks post Cre-Recombinase. *** = \emph{p-value\textless.01}}\label{fig:3.2}
+\caption{\textbf{Figure 3.2. Mutant-p53 alleles differentially alter BRAF\textsuperscript{V600E} driven lung tumorigenesis.} (A) Tumor burden analysis 14-weeks post Cre-recombinase. (B) Tumor size 14 weeks post Cre-Recombinase. (C) Representative histological images 14 weeks post Cre-Recombinase. *** = \emph{p-value\textless.01}}\label{fig:3.2}
 }
 \end{figure}
 
@@ -346,7 +348,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.3}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p5313.png}
-\caption{Mutant-p53 does not alter the growth of early stage tumors (A) Tumor burden calculation after 6 weeks of tumor growth (B) Representative images of H\&E stained lung sections.}\label{fig:3.3}
+\caption{Figure 3.3. Mutant-p53 does not alter the growth of early stage tumors** (A) Tumor burden calculation after 6 weeks of tumor growth (B) Representative images of H\&E stained lung sections.}\label{fig:3.3}
 }
 \end{figure}
 
@@ -354,7 +356,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.4}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p53_3.png}
-\caption{Mutant-p53 alleles differentially affect the survival of mice due to progressive lung adenocarcinoma. (A) Kaplan-Meier plot of \emph{Braf\textsuperscript{CAT/+}} mice with p53-mutant alleles. (B) Kaplan-Meier plot of \emph{Braf\textsuperscript{CAT/+}} mice with homozygous p53-mutant alleles.* = \emph{p-value\textless.05}}\label{fig:3.4}
+\caption{\textbf{Figure 3.4. Mutant-p53 alleles differentially affect the survival of mice due to progressive lung adenocarcinoma.} (A) Kaplan-Meier plot of \emph{Braf\textsuperscript{CAT/+}} mice with p53-mutant alleles. (B) Kaplan-Meier plot of \emph{Braf\textsuperscript{CAT/+}} mice with homozygous p53-mutant alleles.* = \emph{p-value\textless.05}}\label{fig:3.4}
 }
 \end{figure}
 
@@ -362,7 +364,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.5}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p53_4.png}
-\caption{Missense mutant-p53 alters lung adenocarcinoma differentiation status. (A)Representative IHC images of tumors stained with antibodies targeting p53, NKX2-1, SPC, and HMGA2. (B) Quantification of immunostaing in (A) based on H-Score. *** = \emph{p-value\textless.01} ; **** = \emph{p-value\textless.001}.}\label{fig:3.5}
+\caption{\textbf{Figure 3.5. Missense mutant-p53 alters lung adenocarcinoma differentiation status.} (A)Representative IHC images of tumors stained with antibodies targeting p53, NKX2-1, SPC, and HMGA2. (B) Quantification of immunostaing in (A) based on H-Score. *** = \emph{p-value\textless.01} ; **** = \emph{p-value\textless.001}.}\label{fig:3.5}
 }
 \end{figure}
 
@@ -370,7 +372,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.6}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p53_5.png}
-\caption{p53-accumulation occurs in high grade tumors and correlates with p19/ARF expression. (A) Representative images of mutant-p53 accumulation in high grade tumors. the tumor area encased by the dashed line exhibit nuclear atypia and enlarged nuclei.(B) Mutant-p53 immunostaining correlates with phospho-ERK1/2 accumulation. (C) p53 immunostaining correlates with loss of SPC expression. (D) mutant-p53 is co-expressed with p19/ARF in p53-mutant tumors.}\label{fig:3.6}
+\caption{\textbf{Figure 3.6. p53-accumulation occurs in high grade tumors and correlates with p19/ARF expression.} (A) Representative images of mutant-p53 accumulation in high grade tumors. the tumor area encased by the dashed line exhibit nuclear atypia and enlarged nuclei.(B) Mutant-p53 immunostaining correlates with phospho-ERK1/2 accumulation. (C) p53 immunostaining correlates with loss of SPC expression. (D) mutant-p53 is co-expressed with p19/ARF in p53-mutant tumors.}\label{fig:3.6}
 }
 \end{figure}
 
@@ -378,7 +380,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.7}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p536.png}
-\caption{Mouse tumors and cell lines that expression P53-R172H and p53-R245W are refractory to MAPK blockade. (A) Tumor burden analysis of GEMMs treated with MAPKi chow for four weeks. (B) \emph{n vitro} dose response to dabrafenib for 48 hours. (C) Western blots of timecourse of cell lines treated with dabrafenib plus trametinib.}\label{fig:3.7}
+\caption{\textbf{Figure 3.7. Mouse tumors and cell lines that expression P53-R172H and p53-R245W are refractory to MAPK blockade.} (A) Tumor burden analysis of GEMMs treated with MAPKi chow for four weeks. (B) \emph{n vitro} dose response to dabrafenib for 48 hours. (C) Western blots of timecourse of cell lines treated with dabrafenib plus trametinib.}\label{fig:3.7}
 }
 \end{figure}
 
@@ -386,7 +388,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.8}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p537.png}
-\caption{p53-R172H and p53-R245W cell lines are insensitive to MAPKi-induced cell death (A-C) Incucyte analysis of cell lines treated with the combination of dabrafinib plus trametinib for 96 hours. (D) Accumulation of dead cells in response to dabrafinib plus trametinib. Dead cells were quantified by CytoTox Red Dye.}\label{fig:3.8}
+\caption{\textbf{Figure 3.8. p53-R172H and p53-R245W cell lines are insensitive to MAPKi-induced cell death.} (A-C) Incucyte analysis of cell lines treated with the combination of dabrafinib plus trametinib for 96 hours. (D) Accumulation of dead cells in response to dabrafinib plus trametinib. Dead cells were quantified by CytoTox Red Dye.}\label{fig:3.8}
 }
 \end{figure}
 
@@ -394,7 +396,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.9}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/shp53.png}
-\caption{Mutant-p53 knockdown has no effect on cell proliferation or tumor growth. (A) Western blot of increasing Doxycycline concentration to silence mutant-p53 using a short-hairpin RNA (B) Cell proliferation assay with 4ug/mL doxycycline concentration. (C) \emph{In vivo} response to mutant-p53 knockdown.}\label{fig:3.9}
+\caption{\textbf{Figure 3.9. Mutant-p53 knockdown has no effect on cell proliferation or tumor growth.} (A) Western blot of increasing Doxycycline concentration to silence mutant-p53 using a short-hairpin RNA (B) Cell proliferation assay with 4ug/mL doxycycline concentration. (C) \emph{In vivo} response to mutant-p53 knockdown.}\label{fig:3.9}
 }
 \end{figure}
 
@@ -402,7 +404,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.10}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p538.png}
-\caption{HCC-364 cells that express p53-R175H are refractory to MAPKi. (A) Western blot showing successful ectopic expression of p53-R175H. (B) Incucyte analysis of HCC364 parental and HCC364+p53-R175H in response to dabrafenib plus trametenib.}\label{fig:3.10}
+\caption{\textbf{Figure 3.10. HCC-364 cells that express p53-R175H are refractory to MAPKi. (A) Western blot showing successful ectopic expression of p53-R175H.} (B) Incucyte analysis of HCC364 parental and HCC364+p53-R175H in response to dabrafenib plus trametenib.}\label{fig:3.10}
 }
 \end{figure}
 
@@ -410,7 +412,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.11}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p539.png}
-\caption{P53-R172H and p53-R245W cell lines have altered transcriptome compared to p53-null cell lines. (A) Volcano plot showing up- and down- regulated genes compared to p53-null cells. (B) Pathway analysis of Differentially expressed genes of p53-R172H and p53-R245W cell lines compared to p53-null cell lines.}\label{fig:3.11}
+\caption{\textbf{Figure 3.11. P53-R172H and p53-R245W cell lines have altered transcriptome compared to p53-null cell lines.} (A) Volcano plot showing up- and down- regulated genes compared to p53-null cells. (B) Pathway analysis of Differentially expressed genes of p53-R172H and p53-R245W cell lines compared to p53-null cell lines.}\label{fig:3.11}
 }
 \end{figure}
 
@@ -418,7 +420,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.12}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p5310.png}
-\caption{Comparison of differentially-expressed genes between p53-R172H and p53-R245W cell lines. (A) Volcano plot of differntially expressed gene between p53-R172H and p53-R245W tumor-derived cell lines. (B) Pathway analysis of differentially expressed genes between p53-R172H and p53-R245W tumor-derived cell lines.}\label{fig:3.12}
+\caption{\textbf{Figure 3.12. Comparison of differentially-expressed genes between p53-R172H and p53-R245W cell lines.} (A) Volcano plot of differntially expressed gene between p53-R172H and p53-R245W tumor-derived cell lines. (B) Pathway analysis of differentially expressed genes between p53-R172H and p53-R245W tumor-derived cell lines.}\label{fig:3.12}
 }
 \end{figure}
 
@@ -426,7 +428,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.13}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p5311.png}
-\caption{PDGFRB is upregulated and expressed in mutant-p53 tumors and cell lines. (A) Log-normalized counts of \emph{Pdgfrb} RNA reads from p53-mutant cell lines. (B) Western blot analysis of basal and PDGF-BB stimulated cells. (C) IHC of PDGFRB in p53-mutant GEMM tumors.}\label{fig:3.13}
+\caption{\textbf{Figure 3.13. PDGFRB is upregulated and expressed in mutant-p53 tumors and cell lines.} (A) Log-normalized counts of \emph{Pdgfrb} RNA reads from p53-mutant cell lines. (B) Western blot analysis of basal and PDGF-BB stimulated cells. (C) IHC of PDGFRB in p53-mutant GEMM tumors.}\label{fig:3.13}
 }
 \end{figure}
 
@@ -434,7 +436,7 @@ In summary, we have compared the tumorigenic potential of three \emph{\textsuper
 \hypertarget{fig:3.14}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/p5312.png}
-\caption{PDGF-stimulation or PDGF patway blockade has no effect on cell proliferation. (A) Growth response to PDGF stimulation. (B) Growth response to Imatinib treatment.}\label{fig:3.14}
+\caption{\textbf{Figure 3.14. PDGF-stimulation or PDGF patway blockade has no effect on cell proliferation. (A) Growth response to PDGF stimulation.} (B) Growth response to Imatinib treatment.}\label{fig:3.14}
 }
 \end{figure}
 
@@ -451,7 +453,7 @@ The mammalian lung is a vast and intricate labyrinth that is responsible that is
 
 Pathology of the alveoli is a steadfast threat to an organism's life due to the importance of gas exchange. Diseases such as lung adenocarcinoma, pulmonary fibrosis, and emphysema are the most common dysfunctions of the distal lung epithelium(Desai et al., 2014). Lung adenocarcinoma is also the most common type of human lung cancers in both men and women. A large body of literature has suggested that lung adenocarcinomas arise in the alveolar and are descendants of AT2 cells (Ferone et al., 2020; Jackson et al., 2001). Therefore, there is great interest in understanding how AT2 cells develop, maintain cell identity, as well as how they renew themselves during aging or in response to injury (2020; Alanis et al., 2014, 2014; Treutlein et al., 2014).
 
-Recent advances in profiling of single-cell transcriptomes during homeostasis conditions and diseases states have greatly improved our understanding of AT2 cell, and lung adenocarcinoma cell biology(LaFave et al., 2020; Marjanovic et al., 2020; Treutlein et al., 2014).Single-cell profiling of human lung cancers have revealed the drastic intra-tumoral heterogeneity that exists in a single tumor(Gerlinger et al., 2012; Xue et al., 2016). Since transcriptional heterogeneity can be considered a source of therapeutic resistance, there is great interest in understanding the evolution of lung adenocarcinoma and how it changes with response to pathway targeted therapy(Maynard et al., 2020).Since GEMMs are an important pre-clinical model for testing out potential therapeutic strategies for lung adenocarcinoma, it is important to understand single-cell heterogeneity in popular GEMM models.
+Recent advances in profiling of single-cell transcriptomes (scRNA Seq) during homeostasis conditions and diseases states have greatly improved our understanding of AT2 cell, and lung adenocarcinoma cell biology(LaFave et al., 2020; Marjanovic et al., 2020; Treutlein et al., 2014).Single-cell profiling of human lung cancers have revealed the drastic intra-tumoral heterogeneity that exists in a single tumor(Gerlinger et al., 2012; Xue et al., 2016). Since transcriptional heterogeneity can be considered a source of therapeutic resistance, there is great interest in understanding the evolution of lung adenocarcinoma and how it changes with response to pathway targeted therapy(Maynard et al., 2020).Since GEMMs are an important pre-clinical model for testing out potential therapeutic strategies for lung adenocarcinoma, it is important to understand single-cell heterogeneity in popular GEMM models.
 
 Although GEMMs are a great way to model human lung adenocarcinomas, there are several drawbacks worth mentioning. Human lung adenocarcinomas typically develop from a single tumor-initiating cell and is a consequence of an accumulation of mutations in certain cell types and a weakened immune system across a lifetime. In GEMMs, tumorigenesis is often initiated in many cells at once and is the consequence of an engineered mutation. In contrast to human lung adenocarcinomas that have a high mutational burden, murine lung adenocarcinomas do not have a high mutational burden and instead display high copy number variation(Westcott et al., 2014). Therefore, we set out to profile the single-cell transcriptomes of various BRAF\textsuperscript{V600E}-driven lung cancer GEMMs in order to determine genotype-specific heterogeneity and response to pathway-targeted therapy.
 
@@ -461,25 +463,13 @@ Although GEMMs are a great way to model human lung adenocarcinomas, there are se
 \textbf{ScRNA Sequencing of benign and malignant BRAF\textsuperscript{V600E} mouse lung tumors}
 We profiled the single-cell transcriptome of six different BRAF\textsuperscript{V600E} mouse lung tumor models including BRAF\textsuperscript{V600E} on its own, BRAF\textsuperscript{V600E} plus either mutant \emph{Pik3ca\textsuperscript{H1047R/+}}, \emph{Cdkn2a\textsuperscript{fl/fl}}, \emph{Trp53\textsuperscript{fl/fl}}, \emph{Trp53\textsuperscript{R172H/R172H}}, or \emph{Trp53\textsuperscript{R245W/R245W}}. We also treated each genotype with dabrafenib (100mg/kg) plus trametinib(2mg/kg) once daily for four days prior to tissue harvesting and 10X genomics library preperation.Importantly, we kept dabrafenib and trametinib throughout all stages of processing to prevent altered transcription in response to drug cessation. Using fluorescently-activated cell sorting (FACS), we purified tumor cells based on Td-Tomato expression 8 weeks after tumor initiation using adenoviral Spc-Cre. In sum, we were able to identify 71,110 cells that passed standard 10X genomics and Seuratbased quality control and filtering (Figure 4.1).
 
-Although we sought to purify tumor cells based on TdTomato-positivity, we did unintentionally collect and analyze stromal cells, such as immune, mesenchymal, and endothelial cell, which are also present in the murine distal lung epithelium (Figure 4.2). Therefore, we removed these cells based on their expression of \emph{Ptprc}(immune), \emph{Pecam1} (endothelial), \emph{and Pdgfra} (mesenchymal) for downstream analysis (Figure 4.3).
+Although we sought to purify tumor cells based on TdTomato-positivity, we did unintentionally collect and analyze stromal cells, such as immune, mesenchymal, and endothelial cell, which are also present in the murine distal lung epithelium (Figure 4.2). We next determined tumor cells by previously identified tumor cell transcriptional programs in KRAS(G12D) mouse lung cancer(Marjanovic et al., 2020). We succesfully identified AT2-like, AT1/AT2 bipotent progenitor, Cycling, mixed, and Hepatic-Gastric cellular programs in our dataset(Figure 4.3). We used these programs to purify tumor cells for downstream differential gene expression analysis. Reclustering of tumor cell revealed significant tumor cell heterogeneity(Figure 4.4). Next we sought to determine cluster specific markers using DESeq2 analysis (Figure 4.4B). Thus, we have successfully documented the tumor heterogenity in various models of BRAF\textsuperscript{V600E} lung tumorigenesis.
 
-Reclustering of only tumor cells(based on their expression of TdTomato and AT2 identity) revealed significant tumor cell heterogeneity(Figure 4.4). Next we sought to determine cluster specific markers using DESEQ2 analysis (Figure 4.5). strong markers of each cluster include
+We next sought to determine the effect of dabrafenib plus trametinib on transcriptional heterogeneity (Figure 4.5). There is a MAPK specific gene expression program that is decreased in response to MAPKi(Figure 4.5A). Clearly, all genotypes respond similary to MAPK-pathway inhibition(Figure 4.5B). Therefore, we hypothesize that although there is transcriptional heterogeneity, there is a uniform response to MAPK-blockade.
 
-We next sought to determine the effect of dabrafenib plus trametinib on transcriptional heterogeneity (Figure 4.6). Clearly, there is a MAPK specific gene expression program that is decreased in most if not all clusters and genotpes (Figre 4.7).
+Since there is great interest in p53-mediated tumor supression, we wondered if we could detect a p53-gene signature in our data set. Indeed, we did detect the reduction of transcripts that are often associated with p53 transcriptional activation in reponse to p53-mutation, such as downregulation of \emph{Cdkn1a}, \emph{Zmat3}, and \emph{CCng1}(Figure 4.6A). Furthermore, P53-target gene expression is maintained only in p53 wildtpype samples, including \emph{Cdkn2a} loss (Figure 4.6B). Therefore we have successful identified a p53-gene signature in \_BRAF\textsuperscript{V600E} expressing lung tumors using scRNA sequncing.
 
-We were also interested in genotype-specific differences. therefore, we performed DESEQ2 between vehicle-treated mice of each genotype (Figure 4.8).
-
-\textbf{table of genotypes/treatment/and cells collected}
-Pre-sort
-pre-batch correction
-batch correction
-cell types
-tumor cells only
-Feature plots of AT2 markers
-feature plots of AT1 markers
-Feature plots of P53 target genes
-heatmap of P53 target genes
-heatmap/violin plot of MAPK score
+We were also interested in genotype-specific differences. therefore, we performed DESEQ2 between vehicle-treated mice of each genotype (Figure 4.7). Although we did find differentially expressed genes between genotypes, there appears to be significant batch effects, as samples cluster based on their 10X genomic chip runs. Therefore, more careful analysis is needed in order to determine suble genotype-specific gene expression changes. For instance, there are a variety of batch-correcting pipelines we could utilize to negate batch effects.
 
 \hypertarget{discussion-2}{%
 \subsection{Discussion}\label{discussion-2}}
@@ -491,20 +481,15 @@ We determined that there is transcriptional heterogenity and that it is reporduc
 We also failed to detect robust differences between genotypes that are known to cause malignant transformation, such as p53 loss, p53 missense mutation, CDKN2A loss, or mutant PI3K\textsuperscript{H1047R} (Dankort et al., 2007; Trejo et al., 2013; van Veen et al., 2019). This is likely a result from a combination of factors, such as time of collection and library capture/sequencing depth. One straightforward hypothesis is that we did not allow for full transcriptomic changes to take effect that is imparted by tumor suppressor or oncogene mutation. Therefore, a timecourse analysis that spans early timepoints (4-6 weeks) and late timepoints (\textgreater16 weeks) will likely reveal more informative transcriptional heterogeneity. Indeed, our previous studies have indicated that there is no tumor growth advantage at early time points as late as 6 weeks post tumor initiation. One other possibility that could explain our lack of genotype-specific gene expression programs is that we did not capture enough unique transcripts in order to reveal the full extent of tumor heterogeneity. This is likely because there are known limitations to 10X genomic library preperation. Specifically, there is gene-dropout effects where only the most highly expressed genes are captured by the droplet-based technique. Indeed, 10X genomics technologies have been shown not to detect genes with lower expression(Wang et al., 2021). However, 10X genomics allows you to profile more cells than similiar scRNA-seq techniques. Genes with lower expression can be just as important as highly expressed genes for a cell's identity. Actually, transcription factors that determine cell states have been shown to have modest expression{[}Wang et al. (2021); (\textbf{pmid?});30205475{]}.
 Therefore, we hypothesis that using plate-based scRNA-seq approaches, such as Smart-Seq2, would allow for more gene capture. Thus, Smart-seq2 will enable us to more precisely determine transcirptional heterogenity and genotype-specific gene expression changes.
 
-Although our analysis was lacking with regards to transcriptional differences between genotypes, we did detect a robust transcriptional change with MAPK blockade(figure4.). Since human lung cancer patients treated with MAPK-pathway inhibitors exhibit a heterogeneity in response, one might hypothesize that each cell responds differently to MAPK-pathway inhibition. In our analysis, we determine that there is generally a homogenous response to MAPK inhibition. One straightforward explanation is that our short term treatment (four days) did not allow for cells to respond to pathway blockade. Perhaps there is an intial response to MAPK-pathway inhibition that is dampened over time that is dependant on transcriptional heterogeneity.
+Although our analysis was lacking with regards to transcriptional differences between genotypes, we did detect a robust transcriptional change with MAPK blockade (figure4.5). Since human lung cancer patients treated with MAPK-pathway inhibitors exhibit a heterogeneity in response, one might hypothesize that each cell responds differently to MAPK-pathway inhibition. In our analysis, we determine that there is generally a homogenous response to MAPK inhibition. One straightforward explanation is that our short term treatment (four days) did not allow for cells to respond to pathway blockade. Perhaps there is an intial response to MAPK-pathway inhibition that is dampened over time that is dependant on transcriptional heterogeneity.
 
 In conclusion, we used 10X genomics to determine the transcriptional heterogeneity of BRAF\textsuperscript{V600E} lung tumors with a five seperate cooperating alterations and treatments. We did identify transciprtional heterogeneity that is stereotypic and reproducible acorss genotypes. However, we failed to identify robust differences between genotypes. Our works highlights the importance of capturing full transcriptomes across multiple timepoints in order to accurately determine cell states throughout BRAF\textsuperscript{V600E}-driven lung tumor evolution.
-
-talk about the batch effects
-talk about the times
-similarity to other studies with KRAS
-talk about homogenous response to D+T
 
 \begin{figure}
 \hypertarget{fig:04}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/scrna_1.png}
-\caption{71,110 cells collected from different genotypes.}\label{fig:04}
+\caption{\textbf{Figure 4.1. 71,110 cells collected from different genotypes.}}\label{fig:04}
 }
 \end{figure}
 
@@ -512,7 +497,7 @@ talk about homogenous response to D+T
 \hypertarget{fig:04}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/scrna_2.png}
-\caption{Single cells broadly cluster into epithelial-, immune-, endothelial-, or mesenchymal- like cells.}\label{fig:04}
+\caption{\textbf{Figure 4.2. Single cells broadly cluster into epithelial-, immune-, endothelial-, or mesenchymal- like cells.}}\label{fig:04}
 }
 \end{figure}
 
@@ -520,7 +505,7 @@ talk about homogenous response to D+T
 \hypertarget{fig:04}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/scrna_3.png}
-\caption{Murine lung adenocarcinoma transcripional programs in BRAF\textsuperscript{V600E} tumorigenesis}\label{fig:04}
+\caption{\textbf{Figure 4.3. Murine lung adenocarcinoma transcripional programs in BRAF\textsuperscript{V600E} tumorigenesis}}\label{fig:04}
 }
 \end{figure}
 
@@ -528,7 +513,15 @@ talk about homogenous response to D+T
 \hypertarget{fig:04}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/scrna_4.png}
-\caption{Transcriptional heterogeneity of tumor cells}\label{fig:04}
+\caption{\textbf{Figure 4.4. Transcriptional heterogeneity of tumor cells.}(A) UMAP plot showing different tumor cluster. (B) Heatmap of top 3 differentially expressed genes in each cluster}\label{fig:04}
+}
+\end{figure}
+
+\begin{figure}
+\hypertarget{fig:04}{%
+\centering
+\includegraphics[width=1\textwidth,height=\textheight]{images/scrna_4.png}
+\caption{\textbf{Figure 4.5. MAPK pathway transcriptional sigure is identifed in BRAV\textsuperscript{V600E} tumor models.} (A) Heatmap of top differentially expressed genes. (B) Program score of MAPK pathway activation}\label{fig:04}
 }
 \end{figure}
 
@@ -536,15 +529,7 @@ talk about homogenous response to D+T
 \hypertarget{fig:04}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/scrna_5.png}
-\caption{P53 transcriptional signature is identified in BRAV\textsuperscript{V600E}, p53-wildtype tumor cells}\label{fig:04}
-}
-\end{figure}
-
-\begin{figure}
-\hypertarget{fig:04}{%
-\centering
-\includegraphics[width=1\textwidth,height=\textheight]{images/scrna_5.png}
-\caption{P53 transcriptional signature is identified in BRAV\textsuperscript{V600E}, p53-wildtype tumor cells}\label{fig:04}
+\caption{\textbf{Figure 4.6. P53 transcriptional signature is identified in BRAV\textsuperscript{V600E}, p53-wildtype tumor cells.} (A) Heatmap of top differentially expressed genes in p53 pathway. (B) P53 program score is revealed to be upregulated in only p53-wildtype mice.}\label{fig:04}
 }
 \end{figure}
 
@@ -552,7 +537,7 @@ talk about homogenous response to D+T
 \hypertarget{fig:04}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/scrna_6.png}
-\caption{Genotpye-specific gene expression changes.}\label{fig:04}
+\caption{\textbf{Figure 4.7. Genotpye-specific gene expression changes.}}\label{fig:04}
 }
 \end{figure}
 
@@ -672,6 +657,9 @@ Overall, lung adenocarcinoma is a disease that is characterized by a high mutati
 \begin{CSLReferences}{0}{0}
 \leavevmode\vadjust pre{\hypertarget{ref-8Gf0ScB2}{}}%
 (2014). Comprehensive molecular profiling of lung adenocarcinoma. Nature \emph{511}, 543--550. \url{https://doi.org/10.1038/nature13385}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-1CW3EbE5O}{}}%
+(2017). AACR Project GENIE: Powering Precision Medicine through an International Consortium. Cancer Discov \emph{7}, 818--831. \url{https://doi.org/10.1158/2159-8290.cd-17-0151}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-179MWicwA}{}}%
 (2020). A single-cell transcriptomic atlas characterizes ageing tissues in the mouse. Nature \emph{583}, 590--595. \url{https://doi.org/10.1038/s41586-020-2496-1}.
