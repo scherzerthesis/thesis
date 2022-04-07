@@ -3,7 +3,7 @@ Adeno
 adenocarcinomas
 adenoma
 adenomas
-adenoviral
+Adenoviral
 adenovirus
 adenoviruses
 ALK
@@ -19,7 +19,7 @@ atypia
 autophagy
 avaiable
 barcode
-Barcoded
+barcoded
 BCA
 BD
 Biosafety
@@ -33,7 +33,7 @@ CAAX
 Carboplatin
 CAS
 Caseviewer
-catenin
+Catenin
 cBio
 cBioPortal
 CCng
@@ -159,12 +159,12 @@ Keap
 kinases
 KMplotter
 Kor
-Kras
+KRAS
 latencies
 Lenti
 lentiiral
 lentiviral
-lentivirus
+Lentivirus
 lentiviruses
 leukemias
 Licor
@@ -224,11 +224,11 @@ PDAC
 PDFRB
 PDGF
 PDGFR
-Pdgfrb
+PDGFRB
 Pemetrexed
 penetrance
 perfused
-PFU
+pfu
 phenotypes
 phenotypic
 phosphatase
@@ -263,7 +263,7 @@ rcode
 recepter
 Reclustering
 recombinant
-recombinase
+Recombinase
 reponse
 resuspended
 RIPA
@@ -287,7 +287,7 @@ Siegel
 sigure
 simuletaneously
 siRNAs
-Smad
+SMAD
 SOX
 Spc
 statiscically
@@ -307,7 +307,7 @@ Surfactant
 SV
 syngenetic
 TCGA
-tdTomato
+TdTomato
 tetramer
 tetramerization
 TGCA
@@ -322,7 +322,7 @@ trametenib
 trametinib
 transactivation
 transcripional
-transcriptional
+Transcriptional
 transcriptome
 transcriptomes
 transcriptomic
@@ -331,11 +331,11 @@ transgenes
 trimethylation
 tris
 TRK
-TRp
+trp
 TruSeq
 trypsinization
 tumoral
-tumorigenesis
+Tumorigenesis
 tumorigenic
 Tyrosine
 UDI
@@ -352,7 +352,7 @@ vivo
 wildtype
 Winslow
 wmR
-Wnt
+WNT
 XXXX
 XXXXXXXX
 Zmat
