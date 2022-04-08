@@ -31,13 +31,13 @@ BRAV
 BRCA
 CAAX
 Carboplatin
-Cas
+CAS
 Caseviewer
 catenin
 cBio
 cBioPortal
 CCng
-CDKN
+Cdkn
 cDNA
 chemoresistance
 chemotherapeutics
@@ -57,13 +57,13 @@ cuboidal
 cytometer
 cytometry
 CytoTox
-Dabrafenib
+dabrafenib
 dabrafinib
 dataset
 decameric
 dedifferentiated
-dedifferentiation
-DESeq
+Dedifferentiation
+DESEQ
 differentially
 differntially
 dispase
@@ -71,7 +71,7 @@ DMEM
 DMP
 doublings
 downregulation
-Doxycycline
+doxycycline
 DUSP
 dysregulation
 ectopic
@@ -113,7 +113,7 @@ HCC
 HCI
 Heatmap
 HEK
-Hematoxylin
+hematoxylin
 hemizygosity
 heterozygosity
 heterozygous
@@ -130,7 +130,7 @@ homologs
 homozygous
 hotspot
 hotspots
-hyperactivation
+Hyperactivation
 iBlot
 identifed
 IHC
@@ -156,10 +156,10 @@ Jitter
 johndoe
 Kaplan
 Keap
-kinases
+Kinases
 KMplotter
 Kor
-Kras
+KRAS
 latencies
 Lenti
 lentiiral
@@ -175,7 +175,7 @@ LOH
 LoxP
 Lozano
 LSL
-luad
+LUAD
 LUADs
 lysate
 lysed
@@ -211,7 +211,7 @@ occured
 ocurring
 ofmale
 oligomerization
-oncogenic
+Oncogenic
 oncogenicity
 oncoprotein
 oncoproteins
@@ -228,7 +228,7 @@ Pdgfrb
 Pemetrexed
 penetrance
 perfused
-pfu
+PFU
 phenotypes
 phenotypic
 phosphatase
@@ -263,7 +263,7 @@ rcode
 recepter
 Reclustering
 recombinant
-recombinase
+Recombinase
 reponse
 resuspended
 RIPA
@@ -289,7 +289,7 @@ simuletaneously
 siRNAs
 SMAD
 SOX
-Spc
+SPC
 statiscically
 stereotypic
 stereotypically
@@ -317,7 +317,7 @@ titer
 titered
 titrated
 TNMplot
-Tp
+TP
 trametenib
 trametinib
 transactivation
@@ -331,7 +331,7 @@ transgenes
 trimethylation
 tris
 TRK
-Trp
+TRp
 TruSeq
 trypsinization
 tumoral
@@ -352,7 +352,7 @@ vivo
 wildtype
 Winslow
 wmR
-wnt
+WNT
 XXXX
 XXXXXXXX
 Zmat
