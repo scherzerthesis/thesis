@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/8fec467e841dcc3635a7c267f4d9f98ccfd8224c/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/8fec467e841dcc3635a7c267f4d9f98ccfd8224c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/8fec467e841dcc3635a7c267f4d9f98ccfd8224c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9/))
+([permalink](https://scherzerthesis.github.io/thesis/v/8fec467e841dcc3635a7c267f4d9f98ccfd8224c/))
 was automatically generated
-from [scherzerthesis/thesis@2f23247](https://github.com/scherzerthesis/thesis/tree/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9)
+from [scherzerthesis/thesis@8fec467](https://github.com/scherzerthesis/thesis/tree/8fec467e841dcc3635a7c267f4d9f98ccfd8224c)
 on April 8, 2022.
 </em></small>
 
