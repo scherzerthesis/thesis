@@ -31,13 +31,13 @@ BRAV
 BRCA
 CAAX
 Carboplatin
-CAS
+Cas
 Caseviewer
 Catenin
 cBio
 cBioPortal
 CCng
-Cdkn
+CdkN
 cDNA
 chemoresistance
 chemotherapeutics
@@ -71,7 +71,7 @@ DMEM
 DMP
 doublings
 downregulation
-doxycycline
+Doxycycline
 DUSP
 dysregulation
 ectopic
@@ -130,7 +130,7 @@ homologs
 homozygous
 hotspot
 hotspots
-Hyperactivation
+hyperactivation
 iBlot
 identifed
 IHC
@@ -139,7 +139,7 @@ Imatinib
 Immunoblotting
 immunofluorescence
 Immunofluoresence
-immunohistochemistry
+Immunohistochemistry
 immunostaing
 immunostaining
 immunotherapy
@@ -211,7 +211,7 @@ occured
 ocurring
 ofmale
 oligomerization
-oncogenic
+Oncogenic
 oncogenicity
 oncoprotein
 oncoproteins
@@ -228,7 +228,7 @@ PDGFRB
 Pemetrexed
 penetrance
 perfused
-PFU
+pfu
 phenotypes
 phenotypic
 phosphatase
@@ -263,7 +263,7 @@ rcode
 recepter
 Reclustering
 recombinant
-Recombinase
+recombinase
 reponse
 resuspended
 RIPA
@@ -276,7 +276,7 @@ SCLC
 scRNA
 SDS
 seperated
-setd
+SETD
 Seuratbased
 sgID
 sgNT
@@ -317,12 +317,12 @@ titer
 titered
 titrated
 TNMplot
-TP
+Tp
 trametenib
-trametinib
+Trametinib
 transactivation
 transcripional
-Transcriptional
+transcriptional
 transcriptome
 transcriptomes
 transcriptomic
@@ -331,7 +331,7 @@ transgenes
 trimethylation
 tris
 TRK
-Trp
+TRp
 TruSeq
 trypsinization
 tumoral
@@ -352,7 +352,7 @@ vivo
 wildtype
 Winslow
 wmR
-WNT
+wnt
 XXXX
 XXXXXXXX
 Zmat

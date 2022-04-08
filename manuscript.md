@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/bd0e4c0d29a553d0a2e15f89b42a89cd700418db/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/bd0e4c0d29a553d0a2e15f89b42a89cd700418db/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/bd0e4c0d29a553d0a2e15f89b42a89cd700418db/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/bd0e4c0d29a553d0a2e15f89b42a89cd700418db/))
+([permalink](https://scherzerthesis.github.io/thesis/v/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9/))
 was automatically generated
-from [scherzerthesis/thesis@bd0e4c0](https://github.com/scherzerthesis/thesis/tree/bd0e4c0d29a553d0a2e15f89b42a89cd700418db)
+from [scherzerthesis/thesis@2f23247](https://github.com/scherzerthesis/thesis/tree/2f23247bfc2eab5c45c9690621aa3a1e3a7242e9)
 on April 8, 2022.
 </em></small>
 
@@ -478,12 +478,12 @@ In conclusion, we used 10X genomics to determine the transcriptional heterogenei
 
 ![**Figure 4.4. Transcriptional heterogeneity of tumor cells.**(A) UMAP plot showing different tumor cluster. (B) Heatmap of top 3 differentially expressed genes in each cluster](images/scrna_4.png){#fig:04 .white width="100%"}
 
-![**Figure 4.5. MAPK pathway transcriptional sigure is identifed in BRAV^V600E^ tumor models.** (A) Heatmap of top differentially expressed genes. (B) Program score of MAPK pathway activation](images/scrna_4.png){#fig:04 .white width="100%"}
+![**Figure 4.5. MAPK pathway transcriptional sigure is identifed in BRAV^V600E^ tumor models.** (A) Heatmap of top differentially expressed genes. (B) Program score of MAPK pathway activation](images/scrna_5.png){#fig:04 .white width="100%"}
 
 
-![**Figure 4.6. P53 transcriptional signature is identified in BRAV^V600E^, p53-wildtype tumor cells.** (A) Heatmap of top differentially expressed genes in p53 pathway. (B) P53 program score is revealed to be upregulated in only p53-wildtype mice.](images/scrna_5.png){#fig:04 .white width="100%"}
+![**Figure 4.6. P53 transcriptional signature is identified in BRAV^V600E^, p53-wildtype tumor cells.** (A) Heatmap of top differentially expressed genes in p53 pathway. (B) P53 program score is revealed to be upregulated in only p53-wildtype mice.](images/scrna_6.png){#fig:04 .white width="100%"}
 
-![**Figure 4.7. Heatmap of top Genotpye-specific gene expression changes.**](images/scrna_6.png){#fig:04 .white width="100%"}
+![**Figure 4.7. Heatmap of top Genotpye-specific gene expression changes.**](images/scrna_7.png){#fig:04 .white width="100%"}
 
 
 
