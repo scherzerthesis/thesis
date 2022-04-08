@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/e0977775368cdf68ea6d2822abaadc5364aa0e6b/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/e0977775368cdf68ea6d2822abaadc5364aa0e6b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/e0977775368cdf68ea6d2822abaadc5364aa0e6b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/e0977775368cdf68ea6d2822abaadc5364aa0e6b/))
+([permalink](https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/))
 was automatically generated
-from [scherzerthesis/thesis@e097777](https://github.com/scherzerthesis/thesis/tree/e0977775368cdf68ea6d2822abaadc5364aa0e6b)
+from [scherzerthesis/thesis@7a02dfb](https://github.com/scherzerthesis/thesis/tree/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5)
 on April 8, 2022.
 </em></small>
 
@@ -494,7 +494,7 @@ In conclusion, we used 10X genomics to determine the transcriptional heterogenei
 
 This work's general purpose was to understand better how BRAF^V600E^ tumors form and progress to lung adenocarcinoma. Our strategy was (1) to determine additional tumor suppressor genes in BRAF^V600E^ lung tumorigenesis, (2) to evaluate the effects of different mutant-p53 alleles, and (3)  to profile the tumor cell heterogeneity using scRNA-seq. To achieve these goals, we heavily relied on genetically engineered mouse models of B_BRAF^V600E^ lung tumors to characterize and compare the contribution of candidate-based tumor suppressors. This chapter will examine the exciting possibilities that arose due to our work.
 
-Every year in the United States, approximately 4000 patients succumb to _BRAF_-mutant lung cancer. Unlike melanoma or thyroid cancer, _BRAF^V600E^_ is not the most common _BRAF_ alteration. Less potent MAPK activating mutations such as _BRAF^G469A_ are more common[@omid:30770389; @pmid:31533235]. It is likely that less potent MAPK activators serve as support signaling molecules for oncogenes like _KRAS(G12D)_, which fine-tune pathway activation. However, little is known about how vital non-V600E _BRAF_ mutations are in the evolution of lung adenocarcinoma. Therefore, preclinical models such as genetically engineered mice will be vital to determine the role of non-_BRAF^V600E^_ mutations in lung adenocarcinoma. Previous work from our lab has established that _BRAF^V600E^_ plays a substantial role in the early formation of lung benign lung tumors but fails to form lung adenocarcinoma. Rather, benign to malignant lung cancer progression depends on additional genetic alterations[@pmid:24019382]. 
+Every year in the United States, approximately 4000 patients succumb to _BRAF_-mutant lung cancer. Unlike melanoma or thyroid cancer, _BRAF^V600E^_ is not the most common _BRAF_ alteration. Less potent MAPK activating mutations such as _BRAF^G469A^_ are more common[@pmid:30770389; @pmid:31533235]. It is likely that less potent MAPK activators serve as support signaling molecules for oncogenes like _KRAS(G12D)_, which fine-tune pathway activation. However, little is known about how vital non-V600E _BRAF_ mutations are in the evolution of lung adenocarcinoma. Therefore, preclinical models such as genetically engineered mice will be vital to determine the role of non-_BRAF^V600E^_ mutations in lung adenocarcinoma. Previous work from our lab has established that _BRAF^V600E^_ plays a substantial role in the early formation of lung benign lung tumors but fails to form lung adenocarcinoma. Rather, benign to malignant lung cancer progression depends on additional genetic alterations[@pmid:24019382]. 
 
 The mechanisms by which the mutationally activated MAPK-pathway promotes lung tumorigenesis remain incompletely understood. However, recent work suggests that the levels of MAPK-pathway activation correlate with tumor initiation and progression[@pmid:21107428; @pmid:28228261]. Therefore, there must be secondary events after mutational activation of KRAS or BRAF that alter the tone of the MAPK pathway. Recent work has highlighted potential mechanisms tumor cells adapt to increase pathway activation. Amplification of the KRAS locus occurs during early murine tumorigenesis initiated by KRAS-G12D[@pmid:21807965]. During late tumorigenesis, MAPK-pathway hyperactivation can occur through loss of DUSP6 regulation by NKX2-1[@pmid:34689179]. However, NKX2-1 loss is also known to affect tumor cell identity and is associated with dedifferentiation[@pmid:33821796; @pmid:30332632]; @pmid:23523371]. For increased MAPK pathway activation to drive tumor progression, p53 function needs to be inhibited. Therefore, there are two main barriers to tumor progression in lung adenocarcinoma: (1) MAPK pathway activation and (2) subversion of p53-mediated tumor suppression. 
 
