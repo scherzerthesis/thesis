@@ -7,11 +7,11 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2022-04-08",
+    "date-meta": "2022-04-09",
     "author-meta": [
       "Michael"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Dissertation\" />\n<meta name=\"citation_title\" content=\"Dissertation\" />\n<meta property=\"og:title\" content=\"Dissertation\" />\n<meta property=\"twitter:title\" content=\"Dissertation\" />\n<meta name=\"dc.date\" content=\"2022-04-08\" />\n<meta name=\"citation_publication_date\" content=\"2022-04-08\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Michael\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<link rel=\"canonical\" href=\"https://scherzerthesis.github.io/thesis/\" />\n<meta property=\"og:url\" content=\"https://scherzerthesis.github.io/thesis/\" />\n<meta property=\"twitter:url\" content=\"https://scherzerthesis.github.io/thesis/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://scherzerthesis.github.io/thesis/\" />\n<meta name=\"citation_pdf_url\" content=\"https://scherzerthesis.github.io/thesis/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://scherzerthesis.github.io/thesis/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Dissertation\" />\n<meta name=\"citation_title\" content=\"Dissertation\" />\n<meta property=\"og:title\" content=\"Dissertation\" />\n<meta property=\"twitter:title\" content=\"Dissertation\" />\n<meta name=\"dc.date\" content=\"2022-04-09\" />\n<meta name=\"citation_publication_date\" content=\"2022-04-09\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Michael\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<link rel=\"canonical\" href=\"https://scherzerthesis.github.io/thesis/\" />\n<meta property=\"og:url\" content=\"https://scherzerthesis.github.io/thesis/\" />\n<meta property=\"twitter:url\" content=\"https://scherzerthesis.github.io/thesis/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://scherzerthesis.github.io/thesis/\" />\n<meta name=\"citation_pdf_url\" content=\"https://scherzerthesis.github.io/thesis/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://scherzerthesis.github.io/thesis/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -21,7 +21,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "April 8, 2022",
+    "date": "April 9, 2022",
     "randomize_author_order": false,
     "authors": [
       {
@@ -53,15 +53,15 @@
       "repo_slug": "scherzerthesis/thesis",
       "repo_owner": "scherzerthesis",
       "repo_name": "thesis",
-      "commit": "7a02dfb8a9274d8e9859aa2cf500dd7720d847a5",
-      "triggering_commit": "7a02dfb8a9274d8e9859aa2cf500dd7720d847a5",
-      "build_url": "https://github.com/scherzerthesis/thesis/commit/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/checks",
-      "job_url": "https://github.com/scherzerthesis/thesis/actions/runs/2117218579"
+      "commit": "a8b484c207053ab9518e450fd19345960cfa9065",
+      "triggering_commit": "a8b484c207053ab9518e450fd19345960cfa9065",
+      "build_url": "https://github.com/scherzerthesis/thesis/commit/a8b484c207053ab9518e450fd19345960cfa9065/checks",
+      "job_url": "https://github.com/scherzerthesis/thesis/actions/runs/2140984476"
     },
     "html_url": "https://scherzerthesis.github.io/thesis/",
     "pdf_url": "https://scherzerthesis.github.io/thesis/manuscript.pdf",
-    "html_url_versioned": "https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/",
-    "pdf_url_versioned": "https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/manuscript.pdf",
+    "html_url_versioned": "https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/",
+    "pdf_url_versioned": "https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/manuscript.pdf",
     "manubot_version": "0.5.2",
     "rootstock_commit": "9a22fab4497f80f501ea361d028f26888ad9d5a0",
     "manuscript_stats": {

@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-04-08'
+date-meta: '2022-04-09'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-04-08" />
-  <meta name="citation_publication_date" content="2022-04-08" />
+  <meta name="dc.date" content="2022-04-09" />
+  <meta name="citation_publication_date" content="2022-04-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5/))
+([permalink](https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/))
 was automatically generated
-from [scherzerthesis/thesis@7a02dfb](https://github.com/scherzerthesis/thesis/tree/7a02dfb8a9274d8e9859aa2cf500dd7720d847a5)
-on April 8, 2022.
+from [scherzerthesis/thesis@a8b484c](https://github.com/scherzerthesis/thesis/tree/a8b484c207053ab9518e450fd19345960cfa9065)
+on April 9, 2022.
 </em></small>
 
 ## Authors
@@ -233,7 +233,7 @@ Clearly, there is a strong selective advantage given to tumors that have lost _S
 
 
 # Discussion
-The mutational landscape of lung adenocarcinoma is complex due to the lifelong bombardment of DNA by carcinogens ingested into the distal lung epithelium[23770567].
+The mutational landscape of lung adenocarcinoma is complex due to the lifelong bombardment of DNA by carcinogens ingested into the distal lung epithelium[@pmid:23770567].
 While understanding which altered genes play causal roles in tumor formation and progression is required for personalized medicine, the noisy mutation profiles in lung adenocarcinoma make it hard to do so.
 However, there is a central role for the MAPK pathway during the initiation and progression of lung adenocarcinoma [@pmid:28228261].
 Oncogenic BRAF^V600E^ is a significant driver of lung adenocarcinoma.
