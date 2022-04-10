@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-04-09'
+date-meta: '2022-04-10'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-04-09" />
-  <meta name="citation_publication_date" content="2022-04-09" />
+  <meta name="dc.date" content="2022-04-10" />
+  <meta name="citation_publication_date" content="2022-04-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/eaf13b4469216af1bafbda0b8626cd110d0b56cf/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/eaf13b4469216af1bafbda0b8626cd110d0b56cf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/eaf13b4469216af1bafbda0b8626cd110d0b56cf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/a8b484c207053ab9518e450fd19345960cfa9065/))
+([permalink](https://scherzerthesis.github.io/thesis/v/eaf13b4469216af1bafbda0b8626cd110d0b56cf/))
 was automatically generated
-from [scherzerthesis/thesis@a8b484c](https://github.com/scherzerthesis/thesis/tree/a8b484c207053ab9518e450fd19345960cfa9065)
-on April 9, 2022.
+from [scherzerthesis/thesis@eaf13b4](https://github.com/scherzerthesis/thesis/tree/eaf13b4469216af1bafbda0b8626cd110d0b56cf)
+on April 10, 2022.
 </em></small>
 
 ## Authors
@@ -518,6 +518,59 @@ Since reactivation of the MAPK is a common mechanism of dabrafenib plus trametin
 In parallel to my efforts to characterize three p53-mutations in BRAF^V600E^ lung cancer, we determined the contribution of a broad range of tumor suppressor proteins to tumor progression. Our work has highlighted the role SETD2 plays in suppressing lung tumorigenesis. However, we currently do not understand the mechanism behind SETD2 tumor suppression. One hypothesis is that SETD2 prevents spurious gene transcription. Thus when SETD2 function is lost, tumor cells adopt multiple cell states due to altered gene expression. The more cell states a tumor cell can access increases the odds of adopting pro-growth characteristics best for the tumor environment. In order to test this hypothesis, we can profile the transcriptomes of single cells that have intact SETD2 and SETD2 deficient tumor cells. Importantly, we must consider alternative transcriptional start sites and alternative splicing. Since p53 dysregulation is at the heart of tumor progression, we would like to know if SETD2 affects p53-stability and target-gene expression. Alternatively, SETD2 loss might circumvent p53 activation through some undescribed mechanism. 
 
 Overall, lung adenocarcinoma is a disease that is characterized by a high mutational burden that results in mutational activation of the MAPK pathway and tumorigenesis. Large-scale genomic studies have provided great insight into the molecular underpinning of lung adenocarcinoma. However, due to the complex interactions between gene products, the future of personalized medicine still relies on rigorous testing in preclinical models like genetically-engineered mice. These efforts of this work will aid in the ultimate understanding of cooperating genetic events in lung adenocarcinoma. Ultimately, this dissertation has helped answer several questions regarding BRAF^V600E^ tumorigenesis and cooperating events for tumor progression. Additionally, this work has also generated new questions that need to be answered to fully understand how BRAF^V600E^ and p53 mutations cooperate to form deadly lung cancers.
+
+## Materials and Methods
+**Animal Husbandry** All mice were housed in an environmentally controlled room, and all animal care and experimental procedures were approved by (and in accordance with) the Institutional Animal Care and Use Committee Office of the Huntsman Cancer Institute at the University of Utah. Genetically engineered mouse breeding and genotyping was conducted as previously described [@pmid:31452510]. The BRAF^CAT^ and _Trp53^fl/fl^_ mice were previously described [@pmid:11694875; @pmid:31452510; @pmid:17299132; @pmid:26001956]. All viruses were administered in a Biosafety Level 2+ room, as is regulated by the Institutional Biosafety Committee Guidelines. Adeno-SPC-CRE virus (University of Iowa) was delivered through nasal instillation. The _Trp53^wmR172H^_ and _Trp53^wmR245W^_ mice and respective genotyping protocols were gifted by Gigi Lozano and her laboratory and previously published [@pmid:30262850; @pmid:33839689].
+
+**Tuba-Seq** _Braf^CAT/+^_ and _H11b^LSL-CAS9/+^_ mice have been described[@pmid:31452510; @pmid:26178787] and maintained on a mixed background. approximetley equal numbers ofmale and female mice were used in the study. lung tumors were initiated by intratracheal intubation of lentiviral Cre vectors as previously described[@pmid:19561589]. Barcoded lentiviral vectors were supplied by Monte Winslow as previously described[@pmid:29233960]. Briefly, Lentiviral vectors that contain an eight nucleotide sequence that defines the CRISPR-targeted followed by a 15 nucleotide sequence that is unique only to each initiated tumor. Lentivirus was generated in HEK 293T cells in DMEM supplemented with 10% FBS by standard lentiiral generation and titered as previously described[@pmid:29233960]. Genomic DNA was isolated from bulk lung tissue after weighing. Briefly, benchmark control cell lines were spiked-in to enable calculation of the absolute number of tumor cells from the number of barcode reads. After tissue homogenization and 12-hour proteinase-K digestion, genomic DNA isolation was extracted using standard Phenol-Chloroform and precipitated by ethanol. Suquencing libraries were prepared by PCR amlifying the sgRNA-BC sequencing in eight reactions in parallel with Q5 master mix and purified with AMPure beads and quantified with the Qubit instrument. Computational analysis was performed in house by the Monte Winslow laboratory.
+
+**Cell Line Generation**Tumor bearing mice were euthanized and lungs dissected. Lungs were then minced and incubated in digestive enzymes Collagenase I, dispase, elastase,  for 30 minutes at 37 degrees. Single-cell suspensions were then resuspended in complete DMEM medium and filtered through a 100 micron filter and centrifuged at 300 x g for 5 minutes. Single-cell suspensions were then incubated in red blood cell lysis buffer for 5 minutes at room temperature, then resuspended in complete RPMI and placed in a tissue culture incubator. Cells were then passaged once a week with differential trypsinization to purify tumors cells from viable stromal cells. p53 status and BRAF^V600E^ status (tdTomato+) were assessed by western blot and flow cytometry.
+
+**Tissue Culture**Murine tumor derived cell lines and HCC-3564 cells were routinely cultured in DMEM supplemented with 10% heat-inactivated FBS and 1% penicillin/streptomycin. Cells were routinely tested for mycoplasma.
+
+**Immunoblotting**Cells destined for western blot were scraped in ice cold PBS then centrifuged to pellet cells. After supernatant aspiration, cells were lysed with RIPA buffer supplemented with a protease/phosphatase inhibitor cocktail (Halt). Cell lysate protein concentration was determined with BCA assay. 40 microgram/lane was mixed with 4X SDS buffer and 10X sample buffer. Samples were run through a 4-12% Bis-tris gel at 200V for approximately 75 minutes then transferred to a PVDF membrane using the iBlot2 transfer apparatus. Membranes were then incubated in Odyssey blocking buffer for 30 minutes before being incubated overnight with primary antibody. Membranes were then washed 3X with TBS-T and incubated in secondary antibody for 2 hours before being washed 3X and imaged on the Licor Odyssey clX.
+
+**RNA Sequencing**Cells lines were routinely cultured for approximately 10 passages before RNA purification using Qiagen Mini kit from one million cells. Libraries were generated with Illumina TruSeq Stranded mRNA Library Prep with UDI kit and sequenced on a Nova-Seq targeting 25 million reads per sample. fastq files were processed on Galazy.org using FastQC, HISAT2, MultiQC, FeatureCounts, and DESeq2.
+
+**Immunohistochemistry and Immunofluoresence**Immunohistochemistry was performed as previously described, with the rabbit primary antibody against P53, SPC, phospho-ERK1/2, NKX2-1, HMGA2, p19/ARF [@pmid:28089889; @pmid:31452510]. 
+
+
+**Slide Imaging and Quantification**Hematoxylin and eosin (H&E) and IHC stained slides 1 were scanned automatically by the 3D Histech Pannoramic MIDI scanner (Thermo Fisher). Slides were imaged and analyzed using Caseviewer Software or QuantCenter analytical center provided on the 3D Histech Slide Scanner at the indicated magnification. Tumor burden was manually calculated on each lung lobe and total tumor area was compared to total lung area. Tumor diameters were measured using QuantCenter software from 3D Histech.
+
+**Single Cell RNA-Seq analysis** Mice were initiated as described previusly using ad5-Spc-Cre. Four days prior to tissue harvesting, mice were either treated with corn oil control or corn oil with dabrafenib (150mg/kg) and trametenib(2mg/kg) once daily and again two hours prior to tissue harvest. single cell suspensions were made using enzymatic digestion, as previously detailed in cell line generation. Single-cell suspensions were then sorted with the BD ARIA II flow cytometer. 10X genomics library prep and sequencing was performed by HCI high throughput genomics core. Seurat objects where then created for downstream differential gene expression analysis and visualization with ggplots2.
+
+**Reagents List**| Reagent Type      | Name               | Source                    | Catalog number | Additional Information            |
+|-------------------|--------------------|---------------------------|----------------|-----------------------------------|
+| antibody          | beta-Actin         | CST                       | 3700T          | wb: 1:10,000                      |
+| antibody          | Phospho ERK1/2     | CST                       | 4370           | wb:1:2000, IHC:1:1000             |
+| antibody          | ERK1/2             | CST                       | 4696           | wb: 1:2000                        |
+| antibody          | P53                | Leica                     | cm-5           | wb: 1:2000, IHC: 1:1000, IF:1:250 |
+| antibody          | NKX2-1             | Abcam                     | ab76013        | IHC: 1:1000                       |
+| antibody          | Pro-SPC            | Millipore                 | Cat# AB3786    | IHC: 1:2000                       |
+| antibody          | HMGA2              | CST                       | 8179S          | IHC 1:2000                        |
+| antibody          | p19/ARF            | Chuck Sherr               |[@pmid:15672607]|                                   |
+| Cell Line         | 293T               | ATCC                      | CRL-3216       |                                   |
+| Cell Line         | HCC-364            | Bivona lab                |[@pmid:24550319]|                                   |
+| Recombinant DNA   | Pmd2.g             | Addgene                   | #12259         |                                   |
+| Recombinant DNA   | pspax2             | Addgene                   | #12260         |                                   |
+| Recombinant DNA   | P53-R175H          | Addgene                   | #22936         |                                   |
+| Chemical Compound | dabrafenib         | Selleck                   | S2807          |                                   |
+| Chemical Compound | PLX4720            | Plexxikon/ Research Diets |                |                                   |
+| Chemical Compound | trametinib         | Selleck                   | S2673          |                                   |
+| Other             | Collagenase type 1 | Thermo Fischer Scientific | 17100017       |                                   |
+| Other             | Dispase            | Corning                   | 354235         |                                   |
+| other             | Elastase           | Worthington Biochem       | LS006365       |                                   |
+| other             | ad5spc-Cre         | university of Iowa        | VVC-Berns1168  |                                   |
+Table: **Critical reagents** {#tbl:reagents}
+
+
+
+
+
+
+
+
+
 
 ## References {.page_break_before}
 
