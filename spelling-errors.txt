@@ -23,7 +23,7 @@ atypia
 autophagy
 avaiable
 barcode
-barcoded
+Barcoded
 BCA
 BD
 Berns
@@ -38,13 +38,13 @@ BRAV
 BRCA
 CAAX
 Carboplatin
-CAS
+Cas
 Caseviewer
-catenin
+Catenin
 cBio
 cBioPortal
 CCng
-CdkN
+Cdkn
 cDNA
 chemoresistance
 chemotherapeutics
@@ -72,7 +72,7 @@ decameric
 dedifferentiated
 dedifferentiation
 DESEQ
-Differentially
+differentially
 differntially
 Dispase
 DMEM
@@ -84,8 +84,8 @@ DUSP
 dysregulation
 ectopic
 EGF
-egfr
-Elastase
+EGFR
+elastase
 eosin
 ERK
 ERKi
@@ -164,7 +164,7 @@ Jitter
 johndoe
 Kaplan
 Keap
-kinases
+Kinases
 KMplotter
 Kor
 KRAS
@@ -172,8 +172,8 @@ latencies
 Leica
 Lenti
 lentiiral
-lentiviral
-lentivirus
+Lentiviral
+Lentivirus
 lentiviruses
 leukemias
 Licor
@@ -184,7 +184,7 @@ LOH
 LoxP
 Lozano
 LSL
-luad
+LUAD
 LUADs
 lysate
 lysed
@@ -221,7 +221,7 @@ occured
 ocurring
 ofmale
 oligomerization
-Oncogenic
+oncogenic
 oncogenicity
 oncoprotein
 oncoproteins
@@ -238,11 +238,11 @@ Pdgfrb
 Pemetrexed
 penetrance
 perfused
-PFU
+pfu
 phenotypes
 phenotypic
 phosphatase
-phospho
+Phospho
 phosphorylated
 phosphorylates
 Phospohorylated
@@ -277,7 +277,7 @@ rcode
 recepter
 Reclustering
 Recombinant
-recombinase
+Recombinase
 reponse
 resuspended
 RIPA
@@ -291,7 +291,7 @@ scRNA
 SDS
 Selleck
 seperated
-Setd
+setd
 Seuratbased
 sgID
 sgNT
@@ -319,7 +319,7 @@ supernatant
 supression
 supressors
 Suquencing
-Surfactant
+surfactant
 SV
 syngenetic
 TCGA
@@ -333,7 +333,7 @@ titer
 titered
 titrated
 TNMplot
-Tp
+TP
 trametenib
 trametinib
 transactivation
@@ -370,7 +370,7 @@ wb
 wildtype
 Winslow
 wmR
-Wnt
+WNT
 Worthington
 XXXX
 XXXXXXXX

@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-04-10'
+date-meta: '2022-04-27'
 author-meta:
 - Michael
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Dissertation" />
   <meta property="og:title" content="Dissertation" />
   <meta property="twitter:title" content="Dissertation" />
-  <meta name="dc.date" content="2022-04-10" />
-  <meta name="citation_publication_date" content="2022-04-10" />
+  <meta name="dc.date" content="2022-04-27" />
+  <meta name="citation_publication_date" content="2022-04-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://scherzerthesis.github.io/thesis/" />
   <meta name="citation_pdf_url" content="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://scherzerthesis.github.io/thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/eaf13b4469216af1bafbda0b8626cd110d0b56cf/" />
-  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/eaf13b4469216af1bafbda0b8626cd110d0b56cf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/eaf13b4469216af1bafbda0b8626cd110d0b56cf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://scherzerthesis.github.io/thesis/v/42d00d9da7916e425b089dedafe60ffe6cc10173/" />
+  <meta name="manubot_html_url_versioned" content="https://scherzerthesis.github.io/thesis/v/42d00d9da7916e425b089dedafe60ffe6cc10173/" />
+  <meta name="manubot_pdf_url_versioned" content="https://scherzerthesis.github.io/thesis/v/42d00d9da7916e425b089dedafe60ffe6cc10173/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://scherzerthesis.github.io/thesis/v/eaf13b4469216af1bafbda0b8626cd110d0b56cf/))
+([permalink](https://scherzerthesis.github.io/thesis/v/42d00d9da7916e425b089dedafe60ffe6cc10173/))
 was automatically generated
-from [scherzerthesis/thesis@eaf13b4](https://github.com/scherzerthesis/thesis/tree/eaf13b4469216af1bafbda0b8626cd110d0b56cf)
-on April 10, 2022.
+from [scherzerthesis/thesis@42d00d9](https://github.com/scherzerthesis/thesis/tree/42d00d9da7916e425b089dedafe60ffe6cc10173)
+on April 27, 2022.
 </em></small>
 
 ## Authors
@@ -114,7 +114,7 @@ The importance of this pathway is reflected in the strong anti-tumor responses t
 
 Great effort has elucidated the proto-oncogenes that drive cancer formation when mutated, such as _MYC_, _RAS_, _PI3K_, and others. Nevertheless, we still do not fully understand the mechanistic details that determine how genes cooperate to drive cancer.
 
-**Genetically engineered mouse models** Genetically-Engineered mouse models (GEMMs) of human cancer have allowed for the reproducible analysis of cancer biology driven by specific mutations frequently found in cancer patients. These models are helpful in understanding the molecular mechanisms that drive tumor formation and testing tumor responses to targeted or immune therapies. Early mouse models were not engineered but instead selected inbred mouse strains that were natural hosts of tumor transplantation[@pmid:692142]. However, these models suffer from long latencies, incomplete penetrance, and are often not genetically similar to human cancers. Therefore, carcinogen-induced models such as UV, Urethane, radiation, cigarette consumption, or MNU treatment models were developed to resemble carcinogen-induced human cancers[@pmid:7987394; @pmid:25363767]. After techniques were developed to genetically manipulate embryonic stem cells came the ability to engineer mice with specific mutations that could drive tumor formation. Since genes involved in cancer are also crucial for normal mouse development, conditional gene manipulation was developed to allow for temporal control.
+**Genetically engineered mouse models** Genetically-Engineered mouse models (GEMMs) of human cancer have allowed for the reproducible analysis of cancer biology driven by specific mutations frequently found in cancer patients. These models are helpful in understanding the molecular mechanisms that drive tumor formation and testing tumor responses to targeted or immune therapies. Early mouse models were not engineered but instead selected inbred mouse strains that were natural hosts of tumor transplantation[@pmid:692142]. However, these models suffer from long latencies, incomplete penetrance, and are often not genetically similar to human cancers. Therefore, carcinogen-induced models such as UV, Urethane, radiation, cigarette consumption, or MNU treatment models were developed to resemble carcinogen-induced human cancers[@pmid:7987394; @pmid:25363767]. After techniques were developed to genetically manipulate embryonic stem cells using the came the ability to engineer mice with specific mutations that could drive tumor formation[@pmid:3002636]. Since genes involved in cancer are also crucial for normal mouse development, conditional gene manipulation was developed to allow for temporal control.
 
 The most commonly used conditional gene expression system relies on inducible transcription factors, such as the tetracycline-dependent regulatory system, where the treatment of mice with doxycycline toggles gene transcription levels of transgenes. More recently, Cre-lox recombination strategies have been utilized to get more cell-type-specific control. In this system, genes of interest are constructed to contain LoxP-sites that flank a particular genetic element. Upon delivery of Cre-recombinase, the DNA sequence in between LoxP sites is excised. With this approach, one can knock out a gene by engineering LoxP sites around critical exons or induce gene transcription by flanking a strong stop signal such as a polyadenylation sequence upstream of a gene-of-interest sequence such as KRAS(G12D)[@pmid:11751630].
 
